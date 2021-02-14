@@ -1,4 +1,5 @@
-![](./static/21_02_14_1742_2.png)
+<img src="https://github.com/brave-people/Dev-Event-Subscribe/blob/main/static/21_02_14_1742_2.png?raw=true">
+
 
 <br />
 <div align=center>
@@ -10,11 +11,11 @@
 
 -------------
 
-![](https://github.com/brave-people/Dev-Event-Subscribe/blob/main/static/static/faq_white.png?raw=true)
+<img src="https://github.com/brave-people/Dev-Event-Subscribe/blob/main/static/faq_white.png?raw=true">
 
 ### Q. 어떤 메일을 보내주나요?
 
-![](./static/email.png)
+<img src="https://github.com/brave-people/Dev-Event-Subscribe/blob/main/static/email.png?raw=true">
 
 - [Dev Event](https://github.com/brave-people/Dev-Event)에 등록된 4주 개발자 행사를 보내줍니다!
 

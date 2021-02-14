@@ -13,6 +13,8 @@
 
 <img src="https://github.com/brave-people/Dev-Event-Subscribe/blob/main/static/faq_white.png?raw=true">
 
+-------------
+
 ### Q. 어떤 메일을 보내주나요?
 
 <img src="https://github.com/brave-people/Dev-Event-Subscribe/blob/main/static/email.png?raw=true">

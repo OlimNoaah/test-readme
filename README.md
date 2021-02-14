@@ -37,3 +37,12 @@
 ### Q. 문의는 어디로 보내면 되나요?!
 
 - 개선사항 기타 의견은 [21300035@handong.edu](https://github.com/KoEonYack)로 보내주세요!
+
+
+--------
+
+<div align=center>
+
+<h3> 용감한 친구들 with 남송리 삼번지 </h3>
+
+</div>

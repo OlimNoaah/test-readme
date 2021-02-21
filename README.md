@@ -402,7 +402,7 @@
 더 많은 모임을 만나고 싶다면? [meetup.com](https://www.meetup.com/ko-KR/find/tech/)
 
 <br />
-
+<hr />
 <div align=center>
   <img src="https://github.com/brave-people/Dev-Event/blob/master/static/bottom.png?raw=true" width="80%">
 

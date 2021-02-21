@@ -403,6 +403,14 @@
 
 <br />
 
+<div align=center>
+  <img src="https://github.com/brave-people/Dev-Event/blob/master/static/bottom.png?raw=true" width="80%">
+
+  <hr />
+    <h2> 용감한 친구들 with 남송리 삼번지 </h2>
+  <hr />
+</div>
+
 |<p align="center"> <img src="./static/bottom.png" alt="text" width="1000" /></p>|
 |:--:|
 | 용감한 친구들 with 남송리 3번지 |

@@ -36,7 +36,9 @@
 
 
 > Ref. 
+
 > [SOLID 원칙. Tistory dev-momo](https://dev-momo.tistory.com/entry/SOLID-%EC%9B%90%EC%B9%99)
+
 > [Link](https://gurumee92.tistory.com/95)
 
 <br />

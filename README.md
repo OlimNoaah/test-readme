@@ -1,54 +1,217 @@
-# 객체지향
+  <div align=center>
 
--------
+<p align="center">
+  <img src="./img/11st-bootcamp-v2.png?raw=true" style="border:1px; solid #eaeaea;" width="70%"/>
+</p>
+<p align="center">
+
+  11st Boot Course (01. 11 ~ 02. 16)
+
+  <br />
+  <a href="https://github.com/KoEonYack/11st-main-clone-vue"> Repo. 11sᴛʀᴇᴇᴛ 메인페이지 클론</a>  <br />
+  <a href="https://github.com/KoEonYack/introduce-myself-spring"> Repo. 안녕 나야 넌 누규니</a>  <br />
+  <a href="https://github.com/KoEonYack/java-baseball"> Repo. next-step: 숫자 야구게임  </a>
+</p>
+<br />
+</div>
+
+------------------
+
+### ⏰Timeline
 
 
-### 디자인 패턴이란?
+<details>
+  <summary>[21. 01. 02] 11st </summary>
 
-```
+## 11st
 
-```
+<div align=center>
+
+![img](./img/11-logo-v2.png)
+
+Join 21. 01. 04 ~
+
+-----------
+
+  </div>
+</details>
+
+<details>
+  <summary>[20. 12. 21] Dev Event Web + Whale App(Beta) 공개 </summary>
+
+## 🎈 Dev Event Web + Whale App(Beta) 공개~
+
+<div align=center>
+
+![img](./img/dev-event-whale-2.png)
+
+Dev Event를 웨일 브라우저 확장앱으로 만나보세요!
+
+[Whale Store Link](https://store.whale.naver.com/detail/peoakdpkgaaddnccepdmgnjghelkdein)
+
+-------------
+
+![img](./img/dev-event-web.png)
+
+[Dev event 바로가기](https://brave-people.github.io/Dev-Event-Client/)
+
+"용감한 친구들"의 프로젝트 Dev event의 Web 버전이 공개되었습니다! <br />
+멋진 프로젝트를 발전시켜준 [@Woohwahwa](https://github.com/Woohwahwa) 감사합니다!
+
+👀[용감한 친구들 맴버 보러가기](https://brave-people.github.io/BRAVE-Member/)👀
+
+-----------
+
+</div>
+
+</details>
+
+<details>
+  <summary>[20. 11. 29] "용감한 친구들" 용감이를 소개합니다. </summary>
+
+  ## " 용감한 친구들 " 용감이를 소개합니다. 
+
+  <div align=center>
+
+  ![img](./img/brave-member2.png)
+
+  [용감한 친구들 맴버 페이지](https://github.com/brave-people/BRAVE-Member)
+
+  "용감한 친구들"은 20년 07월 HGU(남송리 삼번지) 출신 개발자들의 모임으로 시작했습니다. <br />
+  현재 [데브 이벤트](https://github.com/brave-people/Dev-Event)를 관리중이며 데브이벤트 Client, Server를 개발중에 있습니다.
+
+-----------
+
+</div>
+
+</details>
+
+<details>
+  <summary>[20. 11. 21] Dev Event 150+ 스타 달성</summary>
+
+  ## 🎉 Dev Event 150+ 스타 달성
+
+  <div align=center>
+
+  ![img](./img/dev-event-150-v3.png)
+
+  [Dev Event](https://github.com/brave-people/Dev-Event)가 150스타를 달성했습니다. <br />
+  방문, PR 그리고 스타 눌러주신 분들 감사합니다. 🙏
+
+--------------
+
+  </div>
+</details>
+
+
+<details>
+  <summary>[20. 09. 30] 2020 컨트리뷰톤 가비아 후원상</summary>
+
+  ## 2020 컨트리뷰톤 가비아 후원상
+
+  <div align=center>
+
+  ![img](./img/contributon.png)
+
+  NexClipper Open Source Edition으로 참가하여 가비아 후원상을 받았습니다. <br />
+  멘토님들, 함께하신 분들 감사합니다!
+
+  [Blog. 2020 컨트리뷰톤 교육 후기](https://covenant.tistory.com/199)
+
+  ------------
+
+  </div>
+</details>
+
+<details>
+  <summary>[20. 07. 31] 드라마 바이블 웨일브라우저 확장앱 출시
+  </summary>
+
+## 📣 드라마 바이블 웨일 확장앱 출시
+
+<p align="center">
+  <img src="https://github.com/whale-lab/drama-bible/blob/master/images/readme_cover.png?raw=true" width="60%"/>
+</p>
+<p align="center">
+  <a href="https://store.whale.naver.com/detail/nifdgfjcbdoidcipoeolgfjafcjoljli"> 웨일 스토어 - 드라마바이블</a> 👈 바로가기!
+</p>
+
+--------
+
+</details>
+
+
+--------
+
+<h3> 🏃   I'm Covenant!  </h3>
+
+[![Gmail Badge](https://img.shields.io/badge/-21300035@handong.edu-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:covenant.ko)](mailto:21300035@handong.edu) <a href="https://github.com/KoEonYack"> <a href="https://www.linkedin.com/in/%EC%96%B8%EC%95%BD-%EA%B3%A0-6823901b5/">
+<img src="https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=LinkedIn"/></a><a href="https://covenant.tistory.com/">
+<img src="https://img.shields.io/badge/Tistoy_Blog-black?style=flat&logo=Blogger"/></a> <a href="https://github.com/KoEonYack">
+<img src="https://img.shields.io/badge/Github-black?style=flat&logo=GitHub"/></a> 
+
+<!--
+[![naverblog](https://img.shields.io/badge/Tistory-blog-badge)](https://covenant.tistory.com/)
+<a href="https://www.linkedin.com/in/%EC%96%B8%EC%95%BD-%EA%B3%A0-6823901b5/">
+<img src="https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=LinkedIn"/></a> 
+-->
+
+👨‍🎓 School of Computer Science at Handong Global Univㅤ<br />
+👨‍💻 11st Server Developer <br />
+🦸‍♂️ Member of 용감한 친구들([@brave-people](https://github.com/brave-people)) <br />
+🦄 Open source maintainer
+- [Dev Event](https://github.com/brave-people/Dev-Event): 아낌없이 개발자 행사를 알려드립니다.
+- [Awesome Dev Contents](https://github.com/brave-people/Awesome-Dev-Contents): 멋진 개발 자료 여기서 찾아요.
+- [Brave Tech Interview](https://github.com/brave-people/brave-tech-interview) 국내 IT기업부터 실리콘벨리까지 기술면접 문제를 현직자가 해설해줍니다.
 
 <br />
-<br />
 
-### 싱글톤이란?
-
-어떤 클래스의 인스턴스 개수가 최대 한 개를 넘지 않도록 하는 패턴 
-
-<br />
-<br />
-
-
-### SOLID원칙에 대해서 설명하세요
-
-- SRP(Single Responsibility Principle) : 단일 책임 원칙, 저의 개인 답변과 같습니다.
-
-- OCP(Open Clos Principle) : 개방 폐쇄의 원칙, 클래스는 확장에는 열려있고, 변경에는 닫혀 있어야 한다는 원칙입니다.
-  - 확장에 대해서 열려있다 : 코드 동작을 확장할 수 있다.
-  - 수정에 대해서 닫혀있다 : 코드 동작을 확장하더라도 그 밖의 코드는 전혀 영향을 받지 않는다. 
-
-- LSP(Liskov Substitution Principle) : 리스코프 치환의 원칙, 서브 타입은 언제나 기반 타입으로 교체할 수 있어야 한다라는 원칙입니다. 쉽게 설명하면 부모가 동작하는 기능은 자식도 동일하게 동작해야 한다는 것입니다.
-
-- ISP(Interface Segregation Principle) : 인터페이스 분리의 원칙, 자신이 사용하지 않는 인터페이스는 구현하지 말아야 한다는 원칙입니다. 바꿔 말하면, 하나의 큰 인터페이스보다는 여러개의 작은 인터페이스를 구현하는 것이 낫다라고도 할 수 있습니다.
-
-- DIP(Dependency Inversion Principle) : 의존 관계 역전의 원칙입니다. 구조적 디자인에서 발생하던 하위 레벨 모듈의 변경이 상위 레벨 모듈의 변경을 요구하는 위계관계를 끊는 의미의 역전입니다. 쉽게 말하면 코드에서는 인터페이스에서 구현하는 클래스로 그 의존 관계가 흐르지만 실행시에는 역전된다 정도로 생각하시면 되겠습니다.
-
-
-> Ref. 
-
-> [SOLID 원칙. Tistory dev-momo](https://dev-momo.tistory.com/entry/SOLID-%EC%9B%90%EC%B9%99)
-
-> [Link](https://gurumee92.tistory.com/95)
+<!--
+📄 [Resume](https://koeonyack.github.io/resume/) 
+-->
 
 <br />
-<br />
+
+---------------
+
+<!-- 
+
+### 🧰 Languages and Tools
+
+<p align="center">
+<code>
+<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" alt="Python" height="30" style="vertical-align:top; margin:4px">
+<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/django/django.png" alt="django" height="30" style="vertical-align:top; margin:4px">
+<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" alt="Javascript" height="30" style="vertical-align:top; margin:4px">
+<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/go/go.png" alt="go" height="30" style="vertical-align:top; margin:4px">
+<img src="https://raw.githubusercontent.com/github/explore/51ecd5df4fcd5cd5377e6b2b00a330368b7b5f21/topics/gin/gin.png" alt="go" height="30" style="vertical-align:top; margin:4px">
+<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/docker/docker.png" alt="VS Code" height="30" style="vertical-align:top; margin:4px">
+<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" alt="VS Code" height="30" style="vertical-align:top; margin:4px">
+<a href="https://sourcerer.io/koeonyack"><img src="https://sourcerer.io/icons/logo-sharing.svg"height="32px" alt="Sourcerer"></a>
   
-### MVC 패턴이란?
+</code>
+</p>
+-->
 
-#사용시 장점 #언제 사용하는지
+### :octocat: My Github Stats
+
+<!--
+[![Covenant github stats](https://github-readme-stats.vercel.app/api?username=koeonyack&theme=vue&show_icons=true&hide=stars)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=koeonyack&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+-->
+
+<table id="stats"><tr><td valign="top" width="50%">
+<img src="https://github-readme-stats.vercel.app/api?username=koeonyack&show_icons=true&count_private=true&hide_border=true" align="left" style="width: 100%" />
+</td>
+<td valign="top" width="50%">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=koeonyack&hide_border=true&layout=compact" align="left" style="width: 100%" />
+</td></tr>
+</table>  
 
 
-<br />
-<br />
-
+<!--
+<p align="center">
+[![Tech Blog Badge](https://img.shields.io/badge/-Tech%20blog-black?style=flat-square&logo=github&link=https://ooeunz.tistory.com/)](http://covenant.tistory.com/)
+[![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=yuns994@gmail.com)](21300035@handong.edu)
+</p>
+-->

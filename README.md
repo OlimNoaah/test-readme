@@ -76,7 +76,7 @@
 MD-1, MD-5 해쉬 알고리즘을 언급하면 안됨. 
 단 모바일 실시간 게임 과 같이 연산량과 처리량, 실시간이 중요한 경우 MD-5를 사용할 수 있다고 언급 
 
-- [Link](https://brownbears.tistory.com/73)
+>  Ref. [AES와 SHA차이. Tistory brownbears](https://brownbears.tistory.com/73)
 
 <br />
 <br />

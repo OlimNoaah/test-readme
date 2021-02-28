@@ -156,13 +156,13 @@ Dev Event를 웨일 브라우저 확장앱으로 만나보세요!
 <img src="https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=LinkedIn"/></a> 
 -->
 
-👨‍🎓 School of Computer Science at Handong Global Univㅤ<br />
-👨‍💻 11st Server Developer <br />
-🦸‍♂️ Member of 용감한 친구들([@brave-people](https://github.com/brave-people)) <br />
-🦄 Open source maintainer
-- [Dev Event](https://github.com/brave-people/Dev-Event): 아낌없이 개발자 행사를 알려드립니다.
-- [Awesome Dev Contents](https://github.com/brave-people/Awesome-Dev-Contents): 멋진 개발 자료 여기서 찾아요.
-- [Brave Tech Interview](https://github.com/brave-people/brave-tech-interview) 국내 IT기업부터 실리콘벨리까지 기술면접 문제를 현직자가 해설해줍니다.
+- 👨‍🎓 School of Computer Science at Handong Global Univㅤ<br />
+- 👨‍💻 11st Server Developer <br />
+- 🦸‍♂️ Member of 용감한 친구들([@brave-people](https://github.com/brave-people)) <br />
+- 🦄 Open source maintainer
+  - [Dev Event](https://github.com/brave-people/Dev-Event): 아낌없이 개발자 행사를 알려드립니다.
+  - [Awesome Dev Contents](https://github.com/brave-people/Awesome-Dev-Contents): 멋진 개발 자료 여기서 찾아요.
+  - [Brave Tech Interview](https://github.com/brave-people/brave-tech-interview) 국내 IT기업부터 실리콘벨리까지 기술면접 문제를 현직자가 해설해줍니다.
 
 <br />
 

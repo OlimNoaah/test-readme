@@ -169,7 +169,7 @@ Dev Event를 웨일 브라우저 확장앱으로 만나보세요!
   - [Klevry / klevr](https://github.com/Klevry/klevr)
 
 <details>
-  <summary> TA History (👈  Click)</summary>
+  <summary> 2017~2020 TA History (👈  Click)</summary>
   <ul>
     <li> <b> 01. </b> 17년 08월 - 17년 12월: 한동대학교 파이썬 프로그래밍 17-2학기 Tutor </li>
     <li> <b> 02. </b> 17년 12월 - 18년 01월: 한동대학교 C 프로그래밍 겨울계절학기 TA </li>

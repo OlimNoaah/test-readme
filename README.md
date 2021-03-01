@@ -167,7 +167,7 @@ Dev Event를 웨일 브라우저 확장앱으로 만나보세요!
 - 🧚 Open source contribution
   - [nhn / tui.editor. fix: typo](https://github.com/nhn/tui.editor/pull/1189)
   - [Klevry / klevr](https://github.com/Klevry/klevr)
-  
+
 <details>
   <summary> TA History (👈  Click)</summary>
   <ul>
@@ -175,7 +175,7 @@ Dev Event를 웨일 브라우저 확장앱으로 만나보세요!
     <li> <b> 02. </b> 17년 12월 - 18년 01월: 한동대학교 C 프로그래밍 겨울계절학기 TA </li>
     <li> <b> 03. </b> 18년 08월 - 18년 12월: 한동대학교 C 프로그래밍 18-2학기 TA </li>
     <li> <b> 04. </b> 18년 12월 - 19년 01월: 한동대학교 C 프로그래밍 겨울계절학기 TA </li>
-    <li> <b> 05. </b> 18년 12월 - 19년 01월: 한동대학교 모두를 위한 인공지능의 활용 교재 제작 </li>
+    <li> <b> 05. </b> <a href="https://github.com/idebtor/JoyAI">18년 12월 - 19년 01월: 한동대학교 모두를 위한 인공지능의 활용 교재 제작</a> </li>
     <li> <b> 06. </b> 18년 12월 - 19년 02월: 포항 오*고등학교 사회봉사 파이썬 강의 </li>
     <li> <b> 07. </b> 19년 01월 - 19년 01월: 한동대학교 소프트웨어 입문 예비대학 TA </li>
     <li> <b> 08. </b> 19년 03월 - 19년 06월: 한동대학교 소프트웨어 입문 19-1학기 TA </li>

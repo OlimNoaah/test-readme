@@ -4,6 +4,8 @@
 </div>
 
 ## 목차
+
+<div align=center>
  
 | Section | 강의 | 학습 |
 |------|---|---|
@@ -29,6 +31,9 @@
 |  | 배열 병렬 정렬 | ![Date](https://img.shields.io/badge/-03/08-DFFD26) |
 |  | Metaspace | ![Date](https://img.shields.io/badge/-03/08-DFFD26) |
 | Section 8. 마무리 | 요약 | - |
+
+</div>
+
 
 ## Link
 

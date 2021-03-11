@@ -1,1 +1,1 @@
-[![HitCount](http://hits.dwyl.io/OlimNoaah/test-readme.svg?style=popout)](http://hits.dwyl.io/OlimNoaah/test-readme)
+[![HitCount](http://hits.dwyl.io/OlimNoaah/test-readme.svg)](http://hits.dwyl.io/OlimNoaah/test-readme)

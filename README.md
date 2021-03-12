@@ -6,10 +6,9 @@
 </div>
 
 <hr>
-<details>
-  <summary> History </summary>
-
 <h2> History </h2>
+<details>
+  <summary> 펼쳐보기 (👈 Clink) </summary>
 
 ![500](/img/500.PNG)
 
@@ -25,13 +24,11 @@
 
 <hr>
 
-
 <br />
 
-## 뼈대 문제
-
+<h2> 뼈대 문제 </h2>
 <details>
-  <summary> History </summary>
+  <summary> 펼쳐보기 (👈 Clink) </summary>
 
 - 튼튼한 기본기를 위해서라면
     - 배열

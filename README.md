@@ -24,6 +24,18 @@
 
 <hr>
 
+<h2> 알고리즘 공부 후기 </h2>
+<details>
+  <summary> 펼쳐보기 (👈 Clink) </summary>
+
+- [코딩테스트 대비를 위한 백준 문제 추천](https://covenant.tistory.com/224)
+- [취업을 위한 코딩테스트 공부방법](https://covenant.tistory.com/220)
+- [백준 500문제 풀이 후기](https://covenant.tistory.com/211)
+- [백준 300문제 풀이 후기](https://covenant.tistory.com/136)
+
+</details>
+
+<hr>
 <br />
 
 <h2> 뼈대 문제 </h2>

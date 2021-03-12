@@ -34,9 +34,7 @@
 - [백준 300문제 풀이 후기](https://covenant.tistory.com/136)
 
 </details>
-
 <hr>
-<br />
 
 <h2> 뼈대 문제 </h2>
 <details>

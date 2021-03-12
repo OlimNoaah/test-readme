@@ -6,7 +6,7 @@
 </div>
 
 <hr>
-<h2> 500 History </h2>
+<h2> 👨‍💻 500 History </h2>
 <details>
   <summary> 펼쳐보기 (👈 Clink) </summary>
 
@@ -24,7 +24,7 @@
 
 <hr>
 
-<h2> 알고리즘 공부 후기 </h2>
+<h2> 💬 알고리즘 공부 후기 </h2>
 <details>
   <summary> 펼쳐보기 (👈 Clink) </summary>
 
@@ -36,7 +36,7 @@
 </details>
 <hr>
 
-<h2> 뼈대 문제 </h2>
+<h2> ✏ 뼈대 문제 기록 </h2>
 <details>
   <summary> 펼쳐보기 (👈 Clink) </summary>
 

@@ -7,7 +7,7 @@
 
 <hr>
 <details>
-  <summary>[20. 12. 21] Dev Event Web + Whale App(Beta) 공개 </summary>
+  <summary> History </summary>
 
 <h2> History </h2>
 
@@ -29,6 +29,9 @@
 <br />
 
 ## 뼈대 문제
+
+<details>
+  <summary> History </summary>
 
 - 튼튼한 기본기를 위해서라면
     - 배열
@@ -52,3 +55,6 @@
     - Baek_1916_2: Bellman-Ford 풀이
   - [백준 11657번: 최소비용 구하기](https://www.acmicpc.net/problem/11657)
     - Baek_11657_2: Bellman-Ford 풀이 연습
+
+</details>
+<hr>

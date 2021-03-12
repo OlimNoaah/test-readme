@@ -269,40 +269,32 @@
 
 ## 개발자 모임
 
-- __스프린트 서울__
-  - 홈페이지: [www.sprintseoul.org](https://www.sprintseoul.org/)
-  - 수다방: [gitter.im/sprintseoul/community](https://gitter.im/sprintseoul/community)
-- __우아한 테크의 밤__
-  - 최근 모임: 19. 12. 18
-- __DevOps Korea__
-  - 홈페이지: [Facebook DevOps](https://www.facebook.com/groups/TeAnE/)
-- __IT인프라 엔지니어 그룹 밋업__
-  - 최근 모임: 19. 12. 19.
-  - 홈페이지: [Facebook. IT 인프라 엔지니어 그룹](https://www.facebook.com/groups/InfraEngineer/)
-- __GDG DevFest Seoul__
-  - 최근 모임: 19. 10. 20.
-  - 홈페이지: [Facebook. GDG DevFest Korea](https://www.facebook.com/devfest.seoul.2019/)
-- __OSS 개발자 포럼 2020__
-  - 홈페이지: [Facebook. OSS Dev Forum](https://www.facebook.com/groups/ossdevforum)
-- __Google Developers Experts__
-  - 홈페이지: [developers.google.com](https://developers.google.com/community/experts)
-- __오픈 인프라 2020__
-	- 링크: [Link](http://oidc.co.kr/)
-- __CNCG Seoul 2020__ 
-  - 링크: [Link](https://cncg-kr.net/)
-- __TeamH4C__
-  - 링크: [Link](https://www.facebook.com/teamh4c/)
-- __Angel Hack Seoul__
-  - 링크: [Link](https://angelhackseoul.kr/)
-- __Google HashCode__
-  - 링크: [Link](https://codingcompetitions.withgoogle.com/hashcode/)
-- __Codeengn__
-  - 링크: [Link](https://codeengn.com/conference/)
-- __CTF Time__
-  - 링크: [Link][http://ctftime.org/?fbclid=IwAR26fXW5aM0YTfSYOdVE34LJuQZnUQSJry54ORvkB5XZGAbi3_LdC-ACOaU]
-- __스프링 캠프__
-  - 최근 모임: 2019 스프링 캠프(19. 04. 27.)
-  - 홈페이지: [springcamp.io/2019](https://www.springcamp.io/2019/)
+| 이름 | 링크 | 
+|------------|-----------|
+| 스프린트 서울 | [www.sprintseoul.org](https://www.sprintseoul.org/), [채팅방](https://gitter.im/sprintseoul/community) | 
+| DevOps Korea | [facebook](https://www.facebook.com/groups/TeAnE/) | 
+| IT인프라 엔지니어 그룹 | [facebook](https://www.facebook.com/groups/InfraEngineer/) | 
+| GDG DevFest Seoul | [facebook](https://www.facebook.com/devfest.seoul.2019/) | 
+| OSS 개발자 포럼 | [facebook](https://www.facebook.com/groups/ossdevforum) | 
+| Google Developers Experts | [developers.google.com](https://developers.google.com/community/experts) | 
+| 오픈 인프라 | [oidc.co.kr](http://oidc.co.kr/) | 
+| CNCG Seoul | [Link](https://cncg-kr.net/) | 
+
+<br />
+
+## 기타
+
+> 정규적으로 열리는 개발자 행사입니다.
+
+| 이름 | 링크 | 
+|------------|-----------|
+| TeamH4C | [facebook](https://www.facebook.com/teamh4c/) | 
+| Angel Hack Seoul | [angelhackseoul.kr](https://angelhackseoul.kr/) | 
+| Google HashCode | [codingcompetitions.withgoogle.com](https://codingcompetitions.withgoogle.com/hashcode/) | 
+| Codeengn | [codeengn.com](https://codeengn.com/conference/) | 
+| CTF Time | [ctftime.org](http://ctftime.org/?fbclid=IwAR26fXW5aM0YTfSYOdVE34LJuQZnUQSJry54ORvkB5XZGAbi3_LdC-ACOaU) |
+| 스프링 캠프 | [springcamp.io/2019](https://www.springcamp.io/2019/) | 
+| DACON | [dacon.io/](https://dacon.io/) | 
 
 <br />
 <br />

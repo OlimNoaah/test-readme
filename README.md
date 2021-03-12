@@ -237,16 +237,12 @@
 
 ## 개발 교육
 
-- __양재동 코드랩__
-  - 홈페이지: [www.codelabs.kr](https://www.codelabs.kr/)
-  - 유튜브: [Link](https://www.youtube.com/channel/UC7SGsu80wfuTyQWo-PKatvg?view_as=subscriber)
-- __스프링 캠프__
-  - 최근 모임: 2019 스프링 캠프(19. 04. 27.)
-  - 홈페이지: [springcamp.io/2019](https://www.springcamp.io/2019/)
-- __CCCR 아카데미__
-  - 홈페이지: [cccr-edu](https://www.cccr-edu.or.kr/main/index.jsp)
-- __모두의 연구소__
-  - 홈페이지: [modulabs.co.kr](https://modulabs.co.kr/)
+| 이름 | 링크 | 
+|------------|-----------|
+| 양재동 코드랩 | [www.codelabs.kr](https://www.codelabs.kr/), [Youtube](https://www.youtube.com/channel/UC7SGsu80wfuTyQWo-PKatvg) | 
+| 모두의 연구소 | [modulabs.co.kr](https://modulabs.co.kr/) | 
+| CCCR 아카데미 | [cccr-edu.or.kr](https://www.cccr-edu.or.kr/main/index.jsp) | 
+
 
 <br />
 
@@ -283,6 +279,9 @@
   - 링크: [Link](https://codeengn.com/conference/)
 - __CTF Time__
   - 링크: [Link][http://ctftime.org/?fbclid=IwAR26fXW5aM0YTfSYOdVE34LJuQZnUQSJry54ORvkB5XZGAbi3_LdC-ACOaU]
+- __스프링 캠프__
+  - 최근 모임: 2019 스프링 캠프(19. 04. 27.)
+  - 홈페이지: [springcamp.io/2019](https://www.springcamp.io/2019/)
 
 <br />
 
@@ -290,7 +289,7 @@
 
 | 이름 | 활동 | 링크 | 
 |------------|---------|-----------|
-| DDD IT 연합 동아리 | - | [facebook](https://www.facebook.com/dddstudy/)  | 
+| DDD | 개발자와 디자이너가 함께하는 사이드 프로젝트 | [facebook](https://www.facebook.com/dddstudy/)  | 
 | 한이음 |대학생 멘티와 지도교수, 기업전문가 ICT멘토가 팀을 이루어 실무 프로젝트를 수행 |[www.hanium.or.kr](https://www.hanium.or.kr/portal/hanium/businessOverview.do) |  
 | 넥스터즈 | 개발자와 디자이너 연합 동아리 | [teamnexters.com](http://teamnexters.com/) |
 | YAPP | 대학생 연합 기업형 IT 동아리 | [yapp.co.kr](http://yapp.co.kr/) |

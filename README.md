@@ -9,6 +9,6 @@
 | D&D | 서울거주 현직자들의 기술공유와 프로젝트를 진행하는 비영리단체 | [dnd.ac](https://dnd.ac/) |
 | SOPT | 대학생 연합 IT벤처 창업 동아리 | [sopt.org](http://sopt.org/wp/), [facebook](https://www.facebook.com/clubsopt) |
 | 멋쟁이사자처럼 | 대학생 연합 동아리 | [likelion.net](https://likelion.net/), [facebook](https://www.facebook.com/likelion.net/) |
-| Google Developer Student <br /> Clubs Korea | Google Developers 에서 후원하는 대학생 개발자 동아리 | [Link](https://developers.google.com/community/dsc) |
+| Google Developer Student Clubs Korea | Google Developers 에서 후원하는 대학생 개발자 동아리 | [Link](https://developers.google.com/community/dsc) |
 |  |  |  |
 |  |  |  |

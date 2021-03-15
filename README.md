@@ -25,7 +25,7 @@
 - [운영체제](./contents/os.md)
 - [보안](./contents/security.md)
 
-### PART 2. 용감한 당신을 위한 선물
+## PART 2. 용감한 당신을 위한 선물
 - [코딩테스트 후기](./contents/codingTest.md)
 - [면접 전 체크리스트](./contents/before30mins.md)
 - [머리 식히기 위한 글](./contents/source.md)

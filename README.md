@@ -16,8 +16,7 @@
 <br />
 <br />
 
-# PART1. 용감한 질문
-
+## PART1. 용감한 질문
 ### [1. 알고리즘](./contents/algorithm.md)
 ### [2. 프로그래밍언어](./contents/language.md)
 ### [3. 객체지향](./contents/oop.md)
@@ -28,7 +27,7 @@
 
 <br />
 
-# PART 2. 용감한 당신을 위한 선물
+## PART 2. 용감한 당신을 위한 선물
 ### [1. 코딩테스트 후기](./contents/codingTest.md)
 ### [2. 면접 전 체크리스트](./contents/before30mins.md)
 ### [3. 머리 식히기 위한 글](./contents/source.md)
@@ -36,7 +35,7 @@
 <br />
 <br />
 <div align=center>
-  <hr />
-    <h3> 용감한 친구들 with 남송리 삼번지 </h3>
-  <hr />
+<hr />
+  <h3> 용감한 친구들 with 남송리 삼번지 </h3>
+<hr />
 </div>

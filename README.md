@@ -2,7 +2,7 @@
 
 <img src="_raw/google-flat.png" />
 
-# BRAVE Tech Interview
+# Brave Tech Interview
 
 [![author](https://img.shields.io/badge/author-covenant-brightgreen.svg?style=flat-square)](https://covenant.tistory.com/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/brave-people/Dev-Event/pulls)

@@ -8,7 +8,7 @@
 
 *새로운 용감이 영입시 제가 추가하며, 수정할 부분이 있다면 직접 커밋하여 수정하면 됩니다!  <br />
 <br />
-[brave-people.github.io/BRAVE-Member](https://brave-people.github.io/BRAVE-Member/)
+ 👀 [brave-people.github.io/BRAVE-Member](https://brave-people.github.io/BRAVE-Member/)
 
 </div>
 

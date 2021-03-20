@@ -11,6 +11,7 @@
 </div>
 
 <br />
+<br />
 <details>
   <summary> (Archive) 예전 방식 </summary>
 
@@ -124,9 +125,6 @@ PR은 `master` 쪽으로 제출해주시면 됩니다.
 
 </details>
 
-<br />
-<br />
-<br />
 <br />
 <br />
 <br />

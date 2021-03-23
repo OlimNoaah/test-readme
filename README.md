@@ -117,6 +117,20 @@ a instanceof b
 
 <br />
 
+### Array vs List vs Vector 차이점
+
+<details>
+   <summary> 예비 답안 보기 (👈 Click)</summary>
+
+- [array vs list](https://wayhome25.github.io/cs/2017/04/17/cs-18-1/)
+- [list vs vector](https://theemeraldtablet.tistory.com/entry/list%EC%99%80-vector-%EC%B0%A8%EC%9D%B4%EC%A0%90) 
+
+</details>
+
+----------------------------------------
+
+<br />
+
 ### interface와 abstract에 대해서 설명하세요.
 
 ```
@@ -204,9 +218,7 @@ a instanceof b
 
 ### 메모리 동기화를 사용해본 적이 있는가? 
 
-- 꼬리질문
-	- 부작용이 뭐가 있는가
-	- 정책 데이터에 수시로 접근이 이루어지는 상황에 락을 걸지 않고 정책을 수정할 수 있는 방법은?
+- 꼬리질문(부작용? 정책 데이터에 수시로 접근이 이루어지는 상황에 락을 걸지 않고 정책을 수정할 수 있는 방법은?)
 
 ### 다형성이란? 
 
@@ -216,12 +228,6 @@ a instanceof b
 
 <br />
 <br />
-
-### Array vs List vs Vector 차이점
-
-- [array vs list](https://wayhome25.github.io/cs/2017/04/17/cs-18-1/)
-- [list vs vector](https://theemeraldtablet.tistory.com/entry/list%EC%99%80-vector-%EC%B0%A8%EC%9D%B4%EC%A0%90) 
-
 
 ### 주소를 검색할때 사용하는 자료구조
 

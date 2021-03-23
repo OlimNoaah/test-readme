@@ -1,137 +1,244 @@
-# 🦸‍♂🦸‍♀용감한 친구들을 소개합니다
+# 프로그래밍 언어
 
-![member](./images/member_2.png)
+---------------
+
+### interface와 abstract에 대해서 설명하세요.
+
+```
+
+```
 
 <br />
+<br />
+
+### 쓰레드세이프란?
+
+```
+
+```
+
+<br />
+<br />
+
+
+### Garbage Collection이란, 동작 방식에 대해서 설명하세요.
+
+```
+
+```
+
+<br />
+<br />
+
+### 함수형 언어에대해서 설명하고 함수형 언어를 사용했을 때 장점을 설명하세요
+
+- 추가질문: 메모리의 어느 영역에 저장되나요?
+- TODO
+
+### Garbage Collection이란?
+
+```
+
+```
+
+<br />
+<br />
+
+
+### Memory Leak의 대처방법
+
+```
+
+```
+
+<br />
+<br />
+
+
+### 스크립트 언어의 특징
+
+#컴파일 필요없다 #리버싱에 취약
+
+```
+
+```
+
+<br />
+<br />
+
+
+
+### [Java] 추상클래스와 인터페이스와의 차이
+
+```
+
+```
+
+<br />
+<br />
+
+
+### [C++] STL map이 어떻게 구현되어있는가? 
+
+```
+
+```
+
+<br />
+<br />
+
+### 메모리 동기화를 사용해본 적이 있는가? 
+
+- 꼬리질문
+	- 부작용이 뭐가 있는가
+	- 정책 데이터에 수시로 접근이 이루어지는 상황에 락을 걸지 않고 정책을 수정할 수 있는 방법은?
+
+### 다형성이란? 
+
+```
+
+```
+
+<br />
+<br />
+
+### Array vs List vs Vector 차이점
+
+- [array vs list](https://wayhome25.github.io/cs/2017/04/17/cs-18-1/)
+- [list vs vector](https://theemeraldtablet.tistory.com/entry/list%EC%99%80-vector-%EC%B0%A8%EC%9D%B4%EC%A0%90) 
+
+
+### 주소를 검색할때 사용하는 자료구조
+
+```
+
+```
+
+<br />
+<br />
+
+### 동기, 비동기에 대해 설명하고 장단점을 각각 설명 해보세요.
+
+- 동기 : call하고 응답이 올 때까지 기다렸다가 다음 로직을 실행한다.
+ * 장점 : 안전성이 보장된다. 순서가 보장된다.
+ * 단점 : 느리다.
+- 비동기 : call하고 응답이 오지 않아도 다음 로직을 실행한다.
+ * 장점 : 빠르다
+ * 단점 : 처리 하기가 까다롭다. 순서가 보장이 되지 않는다.
+
+
+### P NP 문제에대해서 설명하세요
+
+- [설명](https://ratsgo.github.io/data%20structure&algorithm/2017/11/30/NP/)
+
+
+### 객체지향언어가 절차지향언어와 다르게 가지는 장점은 무엇인가요?
+
+```
+
+```
+
+<br />
+<br />
+
+
+### 언제 Singleton패턴을 쓰면 유용한지 설명하세요. 
+
+```
+
+```
+
+<br />
+<br />
+
+
+### HashMap 동작 방식에 대해서 설명하세요.
+
+<details>
+   <summary> 예비 답안 보기 (👈 Click)</summary>
+
+
+HashMap이란 객체를 Map에 넣는 것이다. 
+
+`key-value쌍` 하나만 넣는 것이 가장 기본적이며, __배열의 한 요소를 `bucket` 이라고 한다.__ (자바에서는, 키와 값의 타입은  `클래스  ` 및 `인터페이스` 타입만 가능하다. `기본 타입`  은 사용할 수 없음.)
+
+또한, HashMap에서의 key는 unique해야합니다. (key는 중복 불가, value는 중복 가능))
+
 
 <div align=center>
-
-*새로운 용감이 영입시 제가 추가하며, 수정할 부분이 있다면 직접 커밋하여 수정하면 됩니다!  <br />
-<br />
- 👀 [brave-people.github.io/BRAVE-Member](https://brave-people.github.io/BRAVE-Member/)
+  <img src="../_raw/hashmap-1.png">
 
 </div>
 
-<br />
-<br />
-<details>
-  <summary> (Archive) 예전 방식 </summary>
+`key-value쌍` 이 들어가는 위치는, `key` 의 `Hash값 (HashCode)` 이며, 이로 인해 데이터를 탐색하는데 `O(1)` 로 가능하다. 
+
+이 때, 동일하지 않은 두 객체가 같은 위치에 들어가려고 하는 경우를 `Collision` 이라고 하는데,  `Collision` 은 Map의 성능에 큰 영향을 미치므로, 어떤 `Hash 함수` 를 사용하는 가에 따라서 더 나은 Map이 될 수 있다. 
 
 <br />
 
-용감한 친구들을 소개합니다! 용감한 친구들 맴버들은 다음과 같은 방법으로 용감한 친구들 프로필을 등록할 수 있습니다. 
+이 때, Map에 더 들어갈 공간이 없을때 다음 두 가지 방법을 선택합니다.
 
-아래 설명을 차근차근 따라오시다보면 PR(Pull Request)도 어렵지 않아요!<br />여러분이 작성한 PR이 `merge` 되면, 용감한 친구들 Github pages에 인사말이 등록됩니다.
+1. 리스트로 넣는다.
+2. size를 늘린다.
 
-------
+size를 늘리는 방식에 대해서 살펴보겠다. `Load factor` 는 Map의 `capacity` 를 몇 %로 할지를 정하는 값이다. 가령, Map의 사이즈가 4이고, load factor가 0.75라고 해보자.
 
-## 프로필 양식 양식
-
-- 프로필 url이 없을 경우 https://avatar.tobi.sh/tobiaslins.svg?text=BP 좌측 text parameter에 본인의 이니셜로 변경해주세요.
-  - 예시)`https://avatar.tobi.sh/tobiaslins.svg?text=BP`
-- emoji 필드는 여기에서 찾아 복사 붙여넣기 해주세요 (키보드의 기본 이모지를 사용하셔도 됩니다.) 👉 [emojipedia.org](https://emojipedia.org/)
-- SNS 계정은 아이디(@이하 메일 제외)만 적어주시면 됩니다. 예시) brave-people
-
-```
----
-name: {{이름}}
-image: {{프로필 사진 url}}
-emoji: 🦸‍♂
-message: {{인사말}}
-facebook: {{계정 아이디 / 없으면 해당 라인 삭제하셔도 됩니다.}}
-twitter: {{계정 아이디 / 없으면 해당 라인 삭제하셔도 됩니다.}}
-github: {{계정 아이디 / 없으면 해당 라인 삭제하셔도 됩니다.}}
----
+```java
+Map<String, String> map = new HashMap<>(4, 0.75f);
 ```
 
-------
+주의) 반복문 돌릴 때, Iterator 바로 못 쓰고, `keySet()` 하고 써야함.
 
-## 1. Fork 하기
+그러면, Map의 공간은 다음과 같이 동작한다.
 
-우선 PR을 하기 위해 현재 repository(이하 저장소)를 자신의 계정으로 포크 해주세요. Fork는 현재 저장소를 자신의 저장소로 전체 복사하는 것을 의미합니다. Fork한 저장소는 본인 계정의 저장소가 되어 직접 소스를 관리할 수 있습니다. 이를 통해 원래 저장소에 직접 액세스 할 필요 없이 프로젝트에 기능을 추가 할 수 있습니다.
+<div align=center>
+  <img src="../_raw/hashmap-2.png">
 
-그럼, 이 저장소를 Fork하는 것으로 시작해볼까요?
+</div>
 
-![fork](.github/images/fork.gif)
 
-저장소 상단의 fork 버튼을 클릭합니다.
+### 파생질문. HashMap의 `HashCode()`, `equals()` 에 대해서 설명하세요.
 
-------
+1. hashCode()
+   : 객체 고유의 해시코드를 반환한다.
+   : 두 객체가 같은 객체인지 확인할 때 사용한다.
 
-## 2. 프로필 추가하기
+2. equals()
+   : `==` 와 같은 결과를 반환한다.
+   : 두 객체의 내용이 같은지 확인할 때 사용한다.
 
-저장소는 이제 GitHub 프로필 아래에 별도의 저장소로 존재합니다.
+<div align=center>
+  <img src="../_raw/hashmap-3.png">
+</div>
 
-포크에서 `/ _guestbook` 폴더로 가서 **Create new file**을 클릭해 새 파일을 만들어주세요.
-이 파일 이름을 **{yourname}.yaml**로 해주세요. 그런 다음 아래 양식을 파일에 붙여 넣고 자신의 정보로 바꿉니다. *name* 및 *image*를 제외하고 필요하지 않은 필드는 삭제할 수 있습니다.
 
-```
----
-name: 김용감
-image: https://avatar.tobi.sh/tobiaslins.svg?text=YG
-emoji: 🦸‍♂
-message: 서버 개발에 관심있는 김용감합니다. 현재 "용감한 사람들 코리아"에서 근무하고 있습니다.
-facebook: brave-people
-twitter: 
-github: brave-people
----
+참고) instanceof 사용
+
+```java
+a instanceof b
 ```
 
-![fork](.github/images/createfile.gif)
-
-> 자신의 사진을 사용하지 않으려면 https://avatar.tobi.sh/tobiaslins.svg 에 parameter로 이니셜을 추가해주세요. `?text=YG` 프로필 사진대신 이니셜이 나옵니다.
-
-> 이모지 필드는 여기에서 찾아 복사 붙여넣기 해주세요! (키보드의 기본 이모지를 사용하셔도 됩니다.) 👉 [emojipedia.org](https://emojipedia.org/) 
-
-
-------
-
-### 3. Commit하기
-
-새 파일 만들기 페이지에서 이제 수정된 내용을 `commit`할 수 있습니다. 페이지 하단에서 커밋 세부 내용을 채워주시고, **Commit new file** 버튼을 클릭해주세요.
+=> a는 b로 형 변환이 가능한지
+=> return : true / false
 
 <br />
 
-Summary(작은 박스)에는 `[Add] young-gam.yml file` Description(큰 박스) `김용감 프로필 추가` 라고 작성하시면 됩니다.
+### 파생질문. HashTable과 HashMap에 대해서 설명하세요.
 
+- 공통점
+  -  `key-value 쌍` 으로 데이터를 저장한다는 면에서는 동일하다.
+- 차이점
+   - HashTable: 멀티 스레드 환경에서 안전(thread safe)하게 객체를 추가, 삭제할 수 있다. 
+   -  HashMap: 빠른 대신에 동기화의 문제가 있으며 이를 해결하기 위한 두 가지 방법이 있다.
+      - `ConcurrentHashMap` 사용
+      - `Collections.synchronizedMap` 사용
 
-![commit](.github/images/commit.gif)
-
-------
-
-### 4. PR(Pull request) 제출하기
-
-원하는 내용을 변경 했으므로 **upstream** (원래 저장소)에 PR을 제출할 수 있습니다. [GitHub Flow](https://guides.github.com/introduction/flow/)
-upstream에 PR을 제출하면 내 코드를 반영할 수 있습니다. (upstream이란, 내가 fork했던 원래 저장소를 의미합니다.)
-
-내 저장소 페이지에서 저장소 이름 아래를 보면 **forked from :** 으로 표시됩니다.<br />PR을 제출하려면 **Pull request** 탭을 누르고, **New pull request** 버튼을 누르세요.
-
-GitHub가 자동으로 감지하지 못하는 경우 *compare across forks*를 클릭해주세요. 그 다음 PR을 생성하세요.
-
-base repository는 brave-member의 저장소가 될 것이고, head repository는 자신이 수정한 저장소의 브랜치가 될 것입니다.
-PR은 `master` 쪽으로 제출해주시면 됩니다.
-
-![pull request](.github/images/pullrequest.gif)
-
-------
-
-### 5. 축하합니다!! :tada:
-
-여러분은 성공적으로 PR을 제출하셨습니다!! 
-담당자가 PR을 승인하면 [brave-people.github.io/brave-member](https://brave-people.github.io/brave-member/)에 반영됩니다.
-
---------
-
-- Cover image from [freepik.com](https://www.freepik.com/free-psd/set-two-badge-identity-cards-mockup_8950656.htm#page=1&query=employee%20card&position=14). - Free img
- - Readme Inspired by [DevFest-Seoul-2019-guestbook](https://github.com/GDG-Seoul/DevFest-Seoul-2019-guestbook)
+   ```java
+   Map m = Collections.synchronizedMap(new HashMap(...));
+   ```
 
 </details>
 
-<br />
-<br />
-<br />
-<div align=center>
-  <hr />
-    <h3> 용감한 친구들 with 남송리 삼번지 </h3>
-  <hr />
-</div>
+
+
+   

@@ -9,6 +9,8 @@
 <details>
    <summary> 예비 답안 보기 (👈 Click)</summary>
 
+<br />
+
 - 동기 : call하고 응답이 올 때까지 기다렸다가 다음 로직을 실행한다.
   - 장점 : 안전성이 보장된다. 순서가 보장된다.
   - 단점 : 느리다.
@@ -100,6 +102,8 @@ a instanceof b
 
 ### 파생질문. HashTable과 HashMap에 대해서 설명하세요.
 
+<br />
+
 - 공통점
   -  `key-value 쌍` 으로 데이터를 저장한다는 면에서는 동일하다.
 - 차이점
@@ -124,6 +128,8 @@ a instanceof b
 
 <details>
    <summary> 예비 답안 보기 (👈 Click)</summary>
+
+<br />
 
 - [array vs list](https://wayhome25.github.io/cs/2017/04/17/cs-18-1/)
 - [list vs vector](https://theemeraldtablet.tistory.com/entry/list%EC%99%80-vector-%EC%B0%A8%EC%9D%B4%EC%A0%90) 
@@ -232,6 +238,10 @@ a instanceof b
 ### 메모리 동기화를 사용해본 적이 있는가? 
 
 - 꼬리질문(부작용? 정책 데이터에 수시로 접근이 이루어지는 상황에 락을 걸지 않고 정책을 수정할 수 있는 방법은?)
+
+<br />
+<br />
+
 
 ### 다형성이란? 
 

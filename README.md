@@ -1,11 +1,10 @@
 # 프로그래밍 언어
 
-
 <br />
 
 ----------------------------------------
 
-### Q. 동기, 비동기에 대해 설명하고 장단점을 각각 설명 해보세요.
+### 동기, 비동기에 대해 설명하고 장단점을 각각 설명 해보세요.
 
 <details>
    <summary> 예비 답안 보기 (👈 Click)</summary>
@@ -25,7 +24,7 @@
 
 ----------------------------------------
 
-### Q. HashMap 동작 방식에 대해서 설명하세요.
+### HashMap 동작 방식에 대해서 설명하세요.
 
 <details>
    <summary> 예비 답안 보기 (👈 Click)</summary>
@@ -71,7 +70,7 @@ Map<String, String> map = new HashMap<>(4, 0.75f);
 </div>
 
 
-### Q. 파생질문. HashMap의 `HashCode()`, `equals()` 에 대해서 설명하세요.
+### 파생질문. HashMap의 `HashCode()`, `equals()` 에 대해서 설명하세요.
 
 1. hashCode()
    : 객체 고유의 해시코드를 반환한다.
@@ -99,7 +98,7 @@ a instanceof b
 
 ----------------------------------------
 
-### Q. 파생질문. HashTable과 HashMap에 대해서 설명하세요.
+### 파생질문. HashTable과 HashMap에 대해서 설명하세요.
 
 - 공통점
   -  `key-value 쌍` 으로 데이터를 저장한다는 면에서는 동일하다.
@@ -130,6 +129,16 @@ a instanceof b
 - [list vs vector](https://theemeraldtablet.tistory.com/entry/list%EC%99%80-vector-%EC%B0%A8%EC%9D%B4%EC%A0%90) 
 
 </details>
+
+----------------------------------------
+
+<br />
+
+----------------------------------------
+
+### P NP 문제에대해서 설명하세요
+
+- [설명](https://ratsgo.github.io/data%20structure&algorithm/2017/11/30/NP/)
 
 ----------------------------------------
 
@@ -244,9 +253,6 @@ a instanceof b
 
 
 
-### P NP 문제에대해서 설명하세요
-
-- [설명](https://ratsgo.github.io/data%20structure&algorithm/2017/11/30/NP/)
 
 
 ### 객체지향언어가 절차지향언어와 다르게 가지는 장점은 무엇인가요?

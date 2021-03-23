@@ -5,7 +5,7 @@
 
 ----------------------------------------
 
-### 동기, 비동기에 대해 설명하고 장단점을 각각 설명 해보세요.
+### Q. 동기, 비동기에 대해 설명하고 장단점을 각각 설명 해보세요.
 
 <details>
    <summary> 예비 답안 보기 (👈 Click)</summary>
@@ -25,7 +25,7 @@
 
 ----------------------------------------
 
-### HashMap 동작 방식에 대해서 설명하세요.
+### Q. HashMap 동작 방식에 대해서 설명하세요.
 
 <details>
    <summary> 예비 답안 보기 (👈 Click)</summary>
@@ -71,7 +71,7 @@ Map<String, String> map = new HashMap<>(4, 0.75f);
 </div>
 
 
-### 파생질문. HashMap의 `HashCode()`, `equals()` 에 대해서 설명하세요.
+### Q. 파생질문. HashMap의 `HashCode()`, `equals()` 에 대해서 설명하세요.
 
 1. hashCode()
    : 객체 고유의 해시코드를 반환한다.
@@ -99,7 +99,7 @@ a instanceof b
 
 ----------------------------------------
 
-### 파생질문. HashTable과 HashMap에 대해서 설명하세요.
+### Q. 파생질문. HashTable과 HashMap에 대해서 설명하세요.
 
 - 공통점
   -  `key-value 쌍` 으로 데이터를 저장한다는 면에서는 동일하다.

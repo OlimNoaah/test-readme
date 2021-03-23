@@ -110,6 +110,8 @@ a instanceof b
 
 </details>
 
+<br />
+
 ----------------------------------------
 
 ### interface와 abstract에 대해서 설명하세요.

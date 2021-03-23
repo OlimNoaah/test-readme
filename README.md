@@ -119,6 +119,8 @@ a instanceof b
 
 <br />
 
+----------------------------------------
+
 ### Array vs List vs Vector 차이점
 
 <details>

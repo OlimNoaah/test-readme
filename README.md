@@ -99,9 +99,7 @@ a instanceof b
 
 ----------------------------------------
 
-### 파생질문. HashTable과 HashMap에 대해서 설명하세요.
-
-<br />
+#### 파생질문. HashTable과 HashMap에 대해서 설명하세요.
 
 - 공통점
   -  `key-value 쌍` 으로 데이터를 저장한다는 면에서는 동일하다.
@@ -111,9 +109,9 @@ a instanceof b
       - `ConcurrentHashMap` 사용
       - `Collections.synchronizedMap` 사용
 
-      ```java
-      Map m = Collections.synchronizedMap(new HashMap(...));
-      ```
+```java
+Map m = Collections.synchronizedMap(new HashMap(...));
+```
 
 </details>
 
@@ -148,7 +146,7 @@ HashMap이란 객체를 Map에 넣는 것이다.
 
 <br />
 
-이 때, Map에 더 들어갈 공간이 없을때 다음 두 가지 방법을 선택합니다.
+이 때, Map에 더 들어갈 공간이 없을때 다음 두 가지 방법을 선택한다.
 
 1. 리스트로 넣는다.
 2. size를 늘린다.
@@ -189,8 +187,8 @@ Map<String, String> map = new HashMap<>(4, 0.75f);
 a instanceof b
 ```
 
-=> a는 b로 형 변환이 가능한지
-=> return : true / false
+- a는 b로 형 변환이 가능한지
+- 반환값: true or false
 
 <br />
 

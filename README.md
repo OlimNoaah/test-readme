@@ -159,7 +159,7 @@ a instanceof b
 <br />
 
 - ArrayList와 LinkedList에 공통적으로 List라는 단어가 있다. 즉 선형자료구조라는 공통점이 있다.
-- __Array__ List의 이름 처럼 Array(배열) 입니다.  __Linked__ List는 이름처럼 Linked(doubly linked list)로 링크드리스트입니다.
+- __Array__ List의 이름대로 Array(배열) 입니다.  __Linked__ List는 이름대로 Linked(doubly linked list)입니다. 그렇기에 조회, 삽입, 삭제에 대한 시간복잡도는 배열, 링크드 리스트의 시간복잡도를 그대로 따릅니다.
 
 | ArrayList | LinkedList |
 |---|---|

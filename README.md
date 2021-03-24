@@ -111,9 +111,9 @@ a instanceof b
       - `ConcurrentHashMap` 사용
       - `Collections.synchronizedMap` 사용
 
-   ```java
-   Map m = Collections.synchronizedMap(new HashMap(...));
-   ```
+      ```java
+      Map m = Collections.synchronizedMap(new HashMap(...));
+      ```
 
 </details>
 

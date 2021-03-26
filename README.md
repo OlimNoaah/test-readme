@@ -23,8 +23,8 @@
 Github Traffic: Y축 UV(Unique Visitors)
 </div>
 
-생각하지 못하게 빠른시간 
-
+빠른시간 많은 분들이 방문 및 스타를 눌러주셨습니다. 감사합니다.
+Brave Tech Interview는 매주 국내 IT기업 면접문제 및 실리콘 벨리 문제와 해설을 업데이트 중입니다.
 
 <br />
 <br />

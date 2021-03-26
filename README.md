@@ -18,13 +18,12 @@
 ## 🙏 감사합니다. 
 
 <div align=center>
-  <img src="https://github.com/brave-people/brave-tech-interview/blob/main/_raw/uv.png?raw=true" width="70%">
+  <img src="./_raw/uv.png">
 <br />
-Github Traffic (Y축 녹색: Views, Y축 파랑색: UV(Unique Visitors) <br />
+Github Traffic: Y축 UV(Unique Visitors) <br />
 <br />
-
-저장소 공개 이후 짧은 시간 동안 많은 분이 방문 및 스타를 눌러주셨습니다. 감사합니다. <br />
-Brave Tech Interview는 매주 국내 IT기업 면접문제 및 실리콘 밸리 문제와 해설을 업데이트 중입니다. <br />
+빠른시간 많은 분들이 방문 및 스타를 눌러주셨습니다. 감사합니다. <br />
+Brave Tech Interview는 매주 국내 IT기업 면접문제 및 실리콘 벨리 문제와 해설을 업데이트 중입니다. <br />
 PR 및 리뷰 환영합니다 :)
 
 </div>

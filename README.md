@@ -145,6 +145,8 @@ class Solution {
 
 - [Link](https://gompangs.tistory.com/entry/HashMap-%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC?category=537219)
 
+</details>
+
 <br />
 
 -----------------------

@@ -44,6 +44,16 @@ Brave Tech Interview는 매주 국내 IT기업 면접문제 및 실리콘 벨리
 
 </details>
 
+------------------------
+
+<details>
+   <summary> FAQ. 현직자가 왜 운영하나요? 저장소의 목적이 무엇인가요? </summary>
+<br />
+
+</details>
+
+------------------------
+
 <br />
 <br />
 

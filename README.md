@@ -38,11 +38,9 @@ print(D[N])
    <summary> 예비 답안 보기 (👈 Click)</summary>
 <br />
 
-#### 문제 풀어보기: [LeetCode 268: Missing Number](https://leetcode.com/problems/missing-number/)
-
+<!-- #### 문제 풀어보기: [LeetCode 268: Missing Number](https://leetcode.com/problems/missing-number/) -->
 
 <br />
-
 
 #### 풀이1. HashSet
 
@@ -131,20 +129,23 @@ class Solution {
 ```
 
 <br />
-
-
-#### 풀이3. 가우스 공식
-
-
+</details>
 
 <br />
 
+-----------------------
 
-</details>
-
+<br />
 
 ### map, hashmap, set에 대해서 설명하세요
+
+<details>
+   <summary> 예비 답안 보기 (👈 Click)</summary>
+<br />
+
 - [Link](https://gompangs.tistory.com/entry/HashMap-%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC?category=537219)
+
+<br />
 
 
 ### 유전 알고리즘에 대해서 설명하세요.
@@ -154,7 +155,6 @@ class Solution {
 ### pivotal(대각선이 고정인 행렬) 3x3, 4x4를 뒤집는 로직을 짜보세요 재귀를 써야함.
 
 > 
-
 
 
 <br />

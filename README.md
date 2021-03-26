@@ -37,7 +37,7 @@ PR 및 리뷰 환영합니다 :)
    <summary> <b>FAQ.</b> 실제 면접문제인가요?  </summary>
 
 <div align=center>
-  <img src="https://github.com/brave-people/brave-tech-interview/blob/main/_raw/trello.png?raw=true" width="60%">
+  <img src="https://github.com/brave-people/brave-tech-interview/blob/main/_raw/trello.png?raw=true" width="60">
 </div>
 <br />
 

@@ -27,6 +27,23 @@ Github Traffic: Y축 UV(Unique Visitors)
 빠른시간 많은 분들이 방문 및 스타를 눌러주셨습니다. 감사합니다. <br />
 Brave Tech Interview는 매주 국내 IT기업 면접문제 및 실리콘 벨리 문제와 해설을 업데이트 중입니다.
 
+------------------------
+
+<details>
+   <summary> FAQ. 어디서 얻은 면접 기출문제인가요?  </summary>
+<br />
+
+<div align=center>
+  <img src="../_raw/trello.png">
+</div>
+<br />
+
+- 대기업 IT 면접 문제를 모아놓은 작년초 생활코딩 페이스북 페이지에 소개된 Trello에서 많이 참고하였습니다.
+- 블라인드 & 잡플래닛 면접 후기 & 블로그 합격 수기에서 문제를 참고하였습니다.
+- 실리콘벨리 문제의 경우 Reddit, LeetCode, Tech Interview Book을 참고하였습니다.
+
+</details>
+
 <br />
 <br />
 

@@ -18,7 +18,7 @@
 ## 🙏 감사합니다. 
 
 <div align=center>
-  <img src="https://github.com/brave-people/brave-tech-interview/blob/main/_raw/uv.png?raw=true" />
+  <img src="https://github.com/brave-people/brave-tech-interview/blob/main/_raw/uv.png?raw=true" width="70%"/>
 <br />
 Github Traffic (Y축 녹색: Views, Y축 파랑색: UV(Unique Visitors) <br />
 <br />

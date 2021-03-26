@@ -18,7 +18,7 @@
 ## 감사합니다.
 
 <div align=center>
-  <img src="https://github.com/brave-people/brave-tech-interview/blob/main/_raw/uv.png?raw=true">
+  <img src="https://github.com/brave-people/brave-tech-interview/blob/main/_raw/uv.png?raw=true" width="80%">
 <br />
 Github Traffic: Y축 UV(Unique Visitors) <br />
 <br />
@@ -37,7 +37,7 @@ PR 및 리뷰 환영합니다 :)
    <summary> <b>FAQ.</b> 실제 면접문제인가요?  </summary>
 
 <div align=center>
-  <img src="https://github.com/brave-people/brave-tech-interview/blob/main/_raw/trello.png?raw=true" width="60">
+  <img src="https://github.com/brave-people/brave-tech-interview/blob/main/_raw/trello.png?raw=true" />
 </div>
 <br />
 

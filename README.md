@@ -15,7 +15,7 @@
 <br />
 <br />
 
-## 감사합니다.
+## 🙏 감사합니다. 
 
 <div align=center>
   <img src="https://github.com/brave-people/brave-tech-interview/blob/main/_raw/uv.png?raw=true" width="70%">

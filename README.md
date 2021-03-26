@@ -28,11 +28,12 @@ Github Traffic: Y축 UV(Unique Visitors)
 Brave Tech Interview는 매주 국내 IT기업 면접문제 및 실리콘 벨리 문제와 해설을 업데이트 중입니다. <br />
 PR 및 리뷰 환영합니다 :)
 
+<br />
+
 ------------------------
 
 <details>
    <summary> FAQ. 어디서 얻은 면접 기출문제인가요?  </summary>
-<br />
 
 <div align=center>
   <img src="../_raw/trello.png">

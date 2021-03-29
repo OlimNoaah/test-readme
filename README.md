@@ -158,10 +158,11 @@ class Solution {
 <details>
    <summary> 예비 답안 보기 (👈 Click)</summary>
 <br />
+<br />
 
 <!-- <a href="https://leetcode.com/problems/largest-number/">LeetCode</a> -->
 
-본 문제는 전형적인 정렬문제를 살짝 비틀어서 새로운 정렬 기준을 주었습니다. 여기서 힘을 주어야할 것은 __새로운 정렬 기준__ 입니다. 그렇기에 내장함수에서 지원하는 Asc, Desc 정렬이 아닌 Custom Sort 즉 새로운 정렬 기준을 구현해야합니다. 
+본 문제는 전형적인 정렬문제를 살짝 비틀어서 새로운 정렬 기준을 주었습니다. 여기서 힘을 주어야할 것은 __'새로운 정렬 기준'__ 입니다. 그렇기에 내장함수의 오름차순, 내림차순 정렬이 아닌 Custom Sort 즉 새로운 정렬 기준을 구현해야합니다. 
 
 문제를 푸는 방법은 값을 비교하고 조건에 맞추어 swap을 하는 방식이 있겠지만 __정렬__ 문제답게 python의 sort 함수를 이용하여 풀어보겠습니다.
 
@@ -170,7 +171,7 @@ class Solution {
 #### 풀이: Custom Sort(Customized comparator)
 
 - 알고리즘 분석 
-    - 시간복잡도: `O(nlgn)` 
+    - 시간복잡도: `O(nlgn)` - 정렬하는데 소요되는 시간복잡도.
     - 공간복잡도: `O(n)`
 
 ```python
@@ -190,7 +191,8 @@ class Solution(object):
         else: return "".join(numsStr)
 ```
 
-python으로 구현할 수 있는 가장 낙후된 방법으로 구현해보았습니다. 우선 sort에 사용된 `cmp` 매개변수는 python3.0 이후로 지원하지 않습니다. [Python Doc](https://docs.python.org/ko/3/howto/sorting.html) 또한 함수안에서 int, 함수 밖에서 str형으로 왔다 갔다. 간단한 함수이지만 복잡합니다.
+긴장한 상태 + 면접이라는 압박의 자리에서 쉽게 나올 수 있으며 파이썬으로 구현할 수 있는 가장 낙후된 방법으로 구현해보았습니다. 만약 여러분들이 면접관 앞에서 이렇게 구현을 했다면 면접관은 `읭?`하고 여러분의 이력서를 다시 살펴볼 것입니다. 
+본 코드가 세련되지 못한 이유는 다음과 같습니다. sort에 사용된 `cmp` 매개변수는 python3.0 이후로 지원하지 않습니다. 참고 [Python Doc](https://docs.python.org/ko/3/howto/sorting.html) 또한 함수안에서 int, 함수 밖에서 str형으로 왔다 갔다하며 if가 불필요하게 남발되고 있습니다. 간단한 함수이지만 복잡합니다.
 
 이 풀이를 pythonic한 풀이로 바꾸어보겠습니다.
 

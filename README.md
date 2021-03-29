@@ -1,95 +1,280 @@
-<div align=center>
-<img src="https://github.com/brave-people/brave-tech-interview/blob/main/_raw/google-flat.png?raw=true" />
-
-# Brave Tech Interview
-
-[![author](https://img.shields.io/badge/author-covenant-brightgreen.svg?style=flat-square)](https://covenant.tistory.com/)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/brave-people/Dev-Event/pulls)
-![Last commit](https://img.shields.io/github/last-commit/brave-people/Dev-Event?style=flat-square)
-
-핵심을 질문하다. 그리고 용감하게 대답하다. <br />
-현직자가 국내 IT기업부터 실리콘벨리 기술면접 문제를 해설해드립니다.
-
-</div>
+# 알고리즘
 
 <br />
-<br />
 
-## 🙏 감사합니다. 
+-----------------------
 
-<div align=center>
-  <img src="https://github.com/brave-people/brave-tech-interview/blob/main/_raw/uv.png?raw=true" width="70%"/>
-<br />
-Github Traffic (Y축 녹색: Views, Y축 파랑색: UV(Unique Visitors) <br />
-<br />
-빠른시간 많은 분들이 방문 및 스타를 눌러주셨습니다. 감사합니다. <br />
-Brave Tech Interview는 매주 국내 IT기업 면접문제 및 실리콘 벨리 문제와 해설을 업데이트 중입니다. <br />
-PR 및 리뷰 환영합니다 :)
-
-</div>
-<br />
-<br />
-<br />
-
-------------------------
+### Dynamic Programming이란? 장점은?
 
 <details>
-   <summary> <b>FAQ.</b> 실제 면접문제인가요?  </summary>
-<br />
-<div align=center>
-  <img src="https://github.com/brave-people/brave-tech-interview/blob/main/_raw/trello.png?raw=true" />
-</div>
+   <summary> 예비 답안 보기 (👈 Click)</summary>
 <br />
 
-- 연습 문제도 있고, 실리콘밸리 문제의 경우 국내 실정에 맞게 변형된 문제도 있습니다. 다만 기출문제가 아닌 경우 (연습) 태그를 달 예정입니다. 특별한 태그가 없다면 실제 면접문제입니다.
-- 대기업 IT 면접 문제를 모아놓은 작년 초 생활코딩 페이스북 페이지에 소개된 Trello에서 많이 참고하였습니다.
-- 블라인드 & 잡플래닛 면접 후기 & 블로그 합격 수기에서 문제를 참고하였습니다.
-- 최근에는 프로그래머스 테크피드에 올라오는 면접 후기 글을 많이 참고합니다.
-- 실리콘밸리 문제의 경우 Reddit, LeetCode, Tech Interview Book을 참고하였습니다.
+피보나치를 통한 재귀와 DP 비교 설명
+
+```python 
+N = int(input())
+D = [0, 1]
+
+for i in range(2, N + 1):
+    D.append(D[i-2] + D[i-1])
+
+print(D[N])
+```
 
 </details>
 
-------------------------
+-----------------------
 
-<details>
-   <summary> <b>FAQ.</b> 왜 현직자분들이 maintainer인 기술면접 저장소을 만들어가시나요? </summary>
 <br />
 
-- 🧓 지식을 함께 공유하며 함께 성장하고 싶어서 참여합니다.
-- 🧒 중요한 개념을 정확하게 글로 표현하고 싶어서 참여합니다.
-- 👱 기술면접의 경우 밑천이 드러나는 핵심 질문이 많습니다. 이런 질문에 답을 해보면서 기술을 표면적으로만 알고있는지 점검하기 위함입니다.
+-----------------------
 
-> 시작은 용감한친구들에서 시작했지만 PR, Issue는 누구에게나 열려있습니다!
+`기초설계`, `화이트보드 면접`
+### 배열 nums에 [0, n]범위의 n개의 양의 정수가 담겨있습니다. [0, n]범위 수 중에서 배열에 빠져있는 수 하나를 반환하는 가장 효율적인 알고리즘을 작성하세요.
+
+<details>
+   <summary> 예비 답안 보기 (👈 Click)</summary>
+<br />
+
+<!-- #### 문제 풀어보기: [LeetCode 268: Missing Number](https://leetcode.com/problems/missing-number/) -->
+
+<br />
+
+#### 풀이1. HashSet
+
+- 알고리즘 소개
+    - HashSet에 주어진 배열의 값을 넣습니다.
+    - 다시 주어진 배열을 탐색하며 HashSet에 값이 있는지 찾습니다.
+    - Set은 O(1)으로 찾기에 `.contatins`의 시간복잡도는 O(1)입니다.
+- 알고리즘 분석 
+    - 시간복잡도: O(n)
+    - 공간복잡도: O(n)
+
+```java
+class Solution {
+    public int missingNumber(int[] nums) {
+        Set<Integer> numSet = new HashSet<Integer>();
+        for (int num : nums) {
+            numSet.add(num);
+        }
+
+        int expectedNumCount = nums.length + 1;
+        for (int number = 0; number < expectedNumCount; number++) {
+            if (!numSet.contains(number)) {
+                return number;
+            }
+        }
+        return -1;
+    }
+}
+```
+
+<br />
+
+#### 풀이2. 비트 연산
+
+- 알고리즘 소개
+    - 같은 숫자를 O(1)에 지워버리는 강력한 비트 연산이 있습니다. 
+    - XOR연산은 같은 수이면 0으로 바꿉니다.
+    - 배열을 순회하면서 idx와 배열의 값과 XOR연산을 수행합니다.
+    - 같은 수는 0으로 되므로 최종적으로 배열의 값에 누락된 수를 얻을 수 있습니다.
+
+```
+Index   0   1   2   3
+Value   0   1   3   4
+missing = 4^(0^0)^(1^1)^(2^3)^(3^4)  
+        = (4^4)^(0^0)^(1^1)^(3^3)^2   # 교환밥칙으로 같은 수끼리 묶어준다.
+        = 0^0^0^0^2                   # 같은 수 끼리 묶으면 배열에 빠진 숫자가 나오게된다.
+        = 2
+```
+
+- 알고리즘 분석 
+    - 시간복잡도: O(n)
+    - 공간복잡도: O(1)
+
+```java
+class Solution {
+    public int missingNumber(int[] nums) {
+        int missing = nums.length;
+        for (int i = 0; i < nums.length; i++) {
+            missing ^= i ^ nums[i];
+        }
+        return missing;
+    }
+}
+```
+
+<br />
+
+#### 풀이3. 가우스 공식
+
+- 연속된 양의정수의 합을 구하는 공식은 다음과 같습니다. `∑​ni=​n(n+1)/2`
+- `연속된 수 - 현재 배열의 수`를 빼면 배열에 누락된 한 개의 수를 구할 수 있습니다.
+- 시간복잡도: O(n)
+- 공간복잡도: O(1)
+
+```java
+class Solution {
+    public int missingNumber(int[] nums) {
+        int expectedSum = nums.length * (nums.length + 1) / 2;
+        int actualSum = 0;
+        for (int num : nums) {
+            actualSum += num;
+        }
+        return expectedSum - actualSum;
+    }
+}
+```
+
+<br />
+</details>
+
+-----------------------
+
+<br />
+
+-----------------------
+
+`기초설계`, `Joyful Pythonic` 
+#### 배열의 숫자를 활용해서 만들 수 있는 가장 큰 숫자를 반환하세요.
+
+<details>
+   <summary> 입력 출력 값 확인 (👈 Click)</summary>
+<br />
+
+`1 <= nums.length <= 100, 0 <= nums[i] <= 109`
+
+```
+입력: nums = [10,2]
+출력: "210"
+
+입력: nums = [3,30,34,5,9]
+출력: "9534330"
+```
+
+<br />
+<details>
+<details>
+   <summary> 예비 답안 보기 (👈 Click)</summary>
+<br />
+
+<!-- <a href="https://leetcode.com/problems/largest-number/">LeetCode</a> -->
+
+본 문제는 전형적인 정렬문제를 살짝 비틀어서 새로운 정렬 기준을 주었습니다. 여기서 힘을 주어야할 것은 __새로운 정렬 기준__ 입니다. 그렇기에 내장함수에서 지원하는 Asc, Desc 정렬이 아닌 Custom Sort 즉 새로운 정렬 기준을 구현해야합니다. 
+
+문제를 푸는 방법은 값을 비교하고 조건에 맞추어 swap을 하는 방식이 있겠지만 __정렬__ 문제답게 python의 sort 함수를 이용하여 풀어보겠습니다.
+
+<br />
+
+#### 풀이: Custom Sort(Customized comparator)
+
+- 알고리즘 분석 
+    - 시간복잡도: `O(nlgn)` 
+    - 공간복잡도: `O(n)`
+
+```python
+class Solution(object):
+    def largestNumber(self, nums):
+        def numOrder(x, y):
+            left = int(x + y)
+            right = int(y + x)
+            return left - right
+
+        if len(nums) == 0: return ""
+
+        numsStr = [str(n) for n in nums]
+        numsStr.sort(reverse=True, cmp=numOrder)
+
+        if numsStr[0] == '0': return "0"
+        else: return "".join(numsStr)
+```
+
+python으로 구현할 수 있는 가장 낙후된 방법으로 구현해보았습니다. 우선 sort에 사용된 `cmp` 매개변수는 python3.0 이후로 지원하지 않습니다. [Python Doc](https://docs.python.org/ko/3/howto/sorting.html) 또한 함수안에서 int, 함수 밖에서 str형으로 왔다 갔다. 간단한 함수이지만 복잡합니다.
+
+이 풀이를 pythonic한 풀이로 바꾸어보겠습니다.
+
+<br />
+
+```python
+class Solution:
+    def largestNumber(self, nums):
+        class Predicate(str):
+            def __lt__(self, other):
+                return self + other < other + self
+
+        res = ''.join(sorted(map(str, nums), key=Predicate, reverse=True))
+        return '0' if res[0] == '0' else res
+```
+
+<br />
+
+key를 이용하는 것은 백준 문제를 좀 풀어봤다면 낯설지 않을 것입니다. 
+
+```python
+>>> tuple_list = [('Covenant', 9),
+    	          ('Covenant', 1)]
+                  
+>>> tuple_list.sort(key=lambda x : (x[0], x[1])) 
+>>> print(tuple_list)
+[('Covenant', 1), ('Covenant', 9)]
+```
+
+정렬 조건으로 여러 요소를 갖는 경우 튜플로 사용해서 새로운 정렬 조건을 줄때 사용했습니다. 우리는 여기에 Predicate class의 `__lt__`(less than)라는 매직 메소드를 줄 것입니다. 
+
+a = ["10", "5"] 일때 `Predicate`의 `__lt__`의 정의된 값으로 계산하면 다음과 같이 정렬 될 것입니다.
+a[0] + a[1] = "105"
+a[1] + a[0] = "510"
+
+105보다 큰 510이 답으로 반환 될 것입니다.
+
+<br />
+<br />
 
 </details>
 
-------------------------
-
-<br />
-<br />
-
-## PART1. 용감한 질문
-### [1. 알고리즘](./contents/algorithm.md)
-### [2. 프로그래밍언어](./contents/language.md)
-### [3. 객체지향](./contents/oop.md)
-### [4. 데이터베이스](./contents/database.md)
-### [5. 네트워크](./contents/network.md)
-### [6. 운영체제](./contents/os.md)
-### [7. 보안](./contents/security.md)
-### [8. 소프트웨어공학](./contents/software_engineering.md)
+-----------------------
 
 <br />
 
-## PART 2. 용감한 당신을 위한 선물
-### [1. 면접 전 체크리스트](./contents/before30mins.md)
-### [2. 코딩테스트 후기](./contents/codingTest.md)
-### [3. 머리 식히기 위한 글](./contents/source.md)
+### map, hashmap, set에 대해서 설명하세요
+
+<details>
+   <summary> 예비 답안 보기 (👈 Click)</summary>
+<br />
+
+- [Link](https://gompangs.tistory.com/entry/HashMap-%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC?category=537219)
+
+</details>
+
+-----------------------
+
+<br />
+
+-----------------------
+
+### 유전 알고리즘에 대해서 설명하세요.
+
+> 답안 준비중입니다.
+
+-----------------------
+
+<br />
+
+-----------------------
+
+### pivotal(대각선이 고정인 행렬) 3x3, 4x4를 뒤집는 로직을 짜보세요 재귀를 써야함.
+
+> 답안 준비중입니다.
+
+-----------------------
 
 
 <br />
 <br />
 <div align=center>
-<hr />
-  <h3> 용감한 친구들 with 남송리 삼번지 </h3>
-<hr />
+  <hr />
+    <h3> 용감한 친구들 with 남송리 삼번지 </h3>
+  <hr />
 </div>
+   

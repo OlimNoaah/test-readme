@@ -154,7 +154,7 @@ class Solution {
 ```
 
 <br />
-<details>
+</details>
 <details>
    <summary> 예비 답안 보기 (👈 Click)</summary>
 <br />

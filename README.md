@@ -170,9 +170,14 @@ Topic
 
 ### 인터럽트와 시스템 콜의 차이에 대해서 설명하세요.
 
-Ref.
+<details>
+   <summary> 읽기자료 보기 (👈 Click)</summary>
+<br />
+
 - [Leetcode](https://leetcode.com/discuss/interview-question/operating-system/124838/Interrupt-Vs-System-Call)
 - [Topcoder](https://accounts.topcoder.com/member?retUrl=https:%2F%2Fwww.topcoder.com%2Fsettings%2Fprofile&utm_source=community-app-main)
+
+</details>
 
 -----------------------
 

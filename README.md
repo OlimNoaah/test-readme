@@ -31,7 +31,7 @@
 <tr><th colspan="2"> 섹션 01. JPA 소개 </th></tr>
 <tr><td> SQL 중심적인 개발의 문제점 </td><td> - </td></tr>
 <tr><td> JPA 소개 </td><td> - </td></tr>
-<tr><td colspan="2"> 섹션 02. JPA 시작하기 </td></tr>
+<tr><th colspan="2"> 섹션 02. JPA 시작하기 </th></tr>
 <tr>
 <tr><td> Hello JPA - 프로젝트 생성 </td><td> - </td></tr>
 <tr><td> Hello JPA - 애플리케이션 개발 </td><td> - </td></tr>
@@ -49,10 +49,10 @@
 <tr><td> 기본 키 매핑 </td><td> - </td></tr>
 <tr><td> 실전 예제 1 - 요구사항 분석과 기본 매핑 </td>
 <tr><th colspan="2"> 섹션 05. 연관관계 매핑 기초 </th></tr>
-<tr><td> 단방향 연관관계 </td> - </td></tr>
-<tr><td> 양방향 연관관계와 연관관계의 주인 1- 기본 </td> - </td></tr>
-<tr><td> 양방향 연관관계와 연관관계의 주인 2 - 주의점, 정리 </td> - </td></tr>
-<tr><td> 실전 예제 2 - 연관관계 매핑 시작 </td> - </td></tr>
+<tr><td> 단방향 연관관계 </td><td> - </td></tr>
+<tr><td> 양방향 연관관계와 연관관계의 주인 1- 기본 </td><td> - </td></tr>
+<tr><td> 양방향 연관관계와 연관관계의 주인 2 - 주의점, 정리 </td><td> - </td></tr>
+<tr><td> 실전 예제 2 - 연관관계 매핑 시작 </td><td> - </td></tr>
 <tr><th colspan="2"> 섹션 06. 다양한 연관관계 매핑 </th></tr>
 <tr><td>  </td> - </td></tr>
 <tr><td>  </td> - </td></tr>

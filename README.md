@@ -25,7 +25,7 @@
     <td>학습일</td>
 </tr>
 <tr>
-    <td rowspan="2"> 섹션 0. 강좌 소개 </td>
+    <td colspan="2"> 섹션 0. 강좌 소개 </td>
 </tr>
 <tr>
     <td>01강 프로젝트 생성</td>

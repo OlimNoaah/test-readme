@@ -1,21 +1,24 @@
+<div align=center>
 <h1> 자바 ORM 표준 JPA 프로그래밍 - 기본편 </h1>
-
+</div>
 <div align="center">
 <a href="https://www.inflearn.com/course/ORM-JPA-Basic"> 인프런 강의 링크 </a>
 </div>
 
+<br />
 
 ## 학습 목표
 - 객체와 테이블 설계 매핑
 - JPA 내부 동작 방식 이해
-- 
+
+<br/>
 
 ## 학습 방법
-
 - 6단계 실전 예제
 - 강의 메인, 책은 참고서 
 - 하루 1시간 30분, 2주 완성
 
+<br/>
 
 ## 목차
 

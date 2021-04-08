@@ -29,6 +29,9 @@
   <a href="https://github.com/KoEonYack/introduce-myself-spring"> Repo. 안녕 나야 넌 누규니</a>  <br />
   <a href="https://github.com/KoEonYack/java-baseball"> Repo. next-step: 숫자 야구게임  </a>
 </p>
+
+-------------
+
 <br />
 </details>
 <details>

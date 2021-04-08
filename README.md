@@ -34,15 +34,13 @@
     <td>01강 프로젝트 생성</td>
     <td> <img src="https://img.shields.io/badge/-21/04/08-DFFD26" /> </td>
 </tr>
+<tr><td colspan="2"> 섹션 01. JPA 소개 </td></tr>
+<tr><td> 프로젝트 생성 </td><td> - </td></tr>
+<tr><td> 프로젝트 생성 </td><td> - </td></tr>
+<tr><td colspan="2"> 섹션 02. JPA 시작하기 </td></tr>
 <tr>
-    <td colspan="2"> 섹션 01. JPA 소개 </td>
-</tr>
-<tr>
-    <td>01강 프로젝트 생성</td>
-    <td> - </td>
-</tr>
-<tr>
-    <td colspan="2"> 섹션 02. JPA 소개 </td>
+<tr><td> 프로젝트 생성 </td><td> - </td></tr>
+<tr><td> 프로젝트 생성 </td><td> - </td></tr>
 </tr>
 <tr>
     <td colspan="2"> 섹션 03. 영속성 관리 - 내부 동작 방식 </td>

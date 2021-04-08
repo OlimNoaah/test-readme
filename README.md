@@ -27,14 +27,12 @@
     <td>강의</td>
     <td>학습일</td>
 </tr>
-<tr>
-    <td colspan="2"> 섹션 00. 강좌 소개 </td>
-</tr>
+<tr><th colspan="2"> 섹션 00. 강좌 소개 </th></tr>
 <tr bgcolor="skybule">
     <td>01강 프로젝트 생성</td>
     <td> <img src="https://img.shields.io/badge/-21/04/08-DFFD26" /> </td>
 </tr>
-<tr><td colspan="2"> 섹션 01. JPA 소개 </td></tr>
+<tr><th colspan="2"> 섹션 01. JPA 소개 </th></tr>
 <tr><td> 프로젝트 생성 </td><td> - </td></tr>
 <tr><td> 프로젝트 생성 </td><td> - </td></tr>
 <tr><td colspan="2"> 섹션 02. JPA 시작하기 </td></tr>

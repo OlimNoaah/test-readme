@@ -22,11 +22,7 @@
 
 ## 목차
 
-<table>
-<tr align=center>
-    <td>강의</td>
-    <td>학습일</td>
-</tr>
+<table align=center>
 <tr><th colspan="2"> 섹션 00. 강좌 소개 </th></tr>
 <tr bgcolor="skybule">
     <td>01강 프로젝트 생성</td>

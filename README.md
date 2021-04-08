@@ -28,20 +28,50 @@
     <td>학습일</td>
 </tr>
 <tr>
-    <td colspan="2"> 섹션 0. 강좌 소개 </td>
+    <td colspan="2"> 섹션 00. 강좌 소개 </td>
+</tr>
+<tr bgcolor="skybule">
+    <td>01강 프로젝트 생성</td>
+    <td> <img src="https://img.shields.io/badge/-21/04/08-DFFD26" /> </td>
+</tr>
+<tr>
+    <td colspan="2"> 섹션 01. JPA 소개 </td>
 </tr>
 <tr>
     <td>01강 프로젝트 생성</td>
-    <td><img src="https://img.shields.io/badge/-21/04/08-DFFD26" /></td>
+    <td> - </td>
 </tr>
 <tr>
-    <td>01강 프로젝트 생성</td>
-    <td><img src="https://img.shields.io/badge/-21/04/08-DFFD26" /></td>
+    <td colspan="2"> 섹션 02. JPA 소개 </td>
 </tr>
+<tr>
+    <td colspan="2"> 섹션 03. 영속성 관리 - 내부 동작 방식 </td>
+</tr>
+<tr>
+    <td colspan="2"> 섹션 04. 엔티티 매핑 </td>
+</tr>
+<tr>
+    <td colspan="2"> 섹션 05. 연관관계 매핑 기초 </td>
+</tr>
+<tr>
+    <td colspan="2"> 섹션 06. 다양한 연관관계 매핑 </td>
+</tr>
+<tr>
+    <td colspan="2"> 섹션 07. 고급 매핑 </td>
+</tr>
+<tr>
+    <td colspan="2"> 섹션 08. 프록시와 연관관계 관리 </td>
+</tr>
+<tr>
+    <td colspan="2"> 섹션 09. 값 타입 </td>
+</tr>
+<tr>
+    <td colspan="2"> 섹션 10. 객체지향 쿼리 언어1 - 기본 문법 </td>
+</tr>
+<tr>
+    <td colspan="2"> 섹션 11. 객체지향 쿼리 언어2 - 중급 문법 </td>
+</tr>
+
 </table>
 
-| 강의 | 학습일 |
-|------|-------------|
-|  | ![Date](https://img.shields.io/badge/-21/04/08-DFFD26) |
-| 02강 라이브러리 살펴보기 |     |
 

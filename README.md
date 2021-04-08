@@ -1,9 +1,10 @@
 <p align="center">
   <img src="./img/1000dev-event.png?raw=true" style="border:1px; solid #eaeaea;" width="70%"/>
 </p>
+
 <p align="center">
 
-용감한 친구들에서 운영하는 [Dev Event](https://github.com/brave-people/Dev-Event)저장소가 4월 7일 1000스타를 넘었습니다. <br />
+용감한 친구들에서 운영하는 <a href="https://github.com/brave-people/Dev-Event">Dev Event</a>저장소가 4월 7일 1000스타를 넘었습니다. <br />
 이용해 주시는분들, PR을 통해 행사를 알려주신 분들 감사합니다.
 
 </p>

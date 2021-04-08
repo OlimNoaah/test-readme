@@ -27,31 +27,31 @@
     <th colspan="2"> 섹션 00. 강좌 소개 </th>
 </tr>
 <tr>
-    <td>01강 프로젝트 생성</td><td><img src="https://img.shields.io/badge/-21/04/08-DFFD26" /></td>
+    <td> 01강. 프로젝트 생성</td><td><img src="https://img.shields.io/badge/-21/04/08-DFFD26" /></td>
 </tr>
 <tr>
     <th colspan="2"> 섹션 01. JPA 소개 </th>
 </tr>
 <tr>
-    <tr><td> 00강 SQL 중심적인 개발의 문제점 </td><td> - </td></tr>
-    <tr><td> 00강 JPA 소개 </td><td> - </td></tr>
+    <tr><td> 02강. SQL 중심적인 개발의 문제점 </td><td> - </td></tr>
+    <tr><td> 03강. JPA 소개 </td><td> - </td></tr>
 </tr>
 <tr>
     <th colspan="2"> 섹션 02. JPA 시작하기 </th>
 </tr>
 <tr>
-    <tr><td> Hello JPA - 프로젝트 생성 </td><td> - </td></tr>
-    <tr><td> Hello JPA - 애플리케이션 개발 </td><td> - </td></tr>
+    <tr><td> 03강. Hello JPA - 프로젝트 생성 </td><td> - </td></tr>
+    <tr><td> 04강. Hello JPA - 애플리케이션 개발 </td><td> - </td></tr>
 </tr>
 <tr>
     <th colspan="2"> 섹션 03. 영속성 관리 - 내부 동작 방식 </th>
 </tr>
 <tr>
-    <tr><td> 영속성 컨텍스트 1 </td><td> - </td></tr>
-    <tr><td> 영속성 컨텍스트 2 </td><td> - </td></tr>
-    <tr><td> 플러시 </td><td> - </td></tr>
-    <tr><td> 준영속성 상태 </td><td> - </td></tr>
-    <tr><td> 정리 </td><td> - </td></tr>
+    <tr><td> 05강. 영속성 컨텍스트 1 </td><td> - </td></tr>
+    <tr><td> 06강. 영속성 컨텍스트 2 </td><td> - </td></tr>
+    <tr><td> 07강. 플러시 </td><td> - </td></tr>
+    <tr><td> 08강. 준영속성 상태 </td><td> - </td></tr>
+    <tr><td> 09강. 정리 </td><td> - </td></tr>
 </tr>
 <tr>
     <th colspan="2"> 섹션 04. 엔티티 매핑 </th>

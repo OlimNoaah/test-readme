@@ -37,31 +37,31 @@
 <tr><td> 프로젝트 생성 </td><td> - </td></tr>
 </tr>
 <tr>
-    <td colspan="2"> 섹션 03. 영속성 관리 - 내부 동작 방식 </td>
+    <th colspan="2"> 섹션 03. 영속성 관리 - 내부 동작 방식 </th>
 </tr>
 <tr>
-    <td colspan="2"> 섹션 04. 엔티티 매핑 </td>
+    <th colspan="2"> 섹션 04. 엔티티 매핑 </th>
 </tr>
 <tr>
-    <td colspan="2"> 섹션 05. 연관관계 매핑 기초 </td>
+    <th colspan="2"> 섹션 05. 연관관계 매핑 기초 </th>
 </tr>
 <tr>
-    <td colspan="2"> 섹션 06. 다양한 연관관계 매핑 </td>
+    <th colspan="2"> 섹션 06. 다양한 연관관계 매핑 </th>
 </tr>
 <tr>
-    <td colspan="2"> 섹션 07. 고급 매핑 </td>
+    <th colspan="2"> 섹션 07. 고급 매핑 </th>
 </tr>
 <tr>
-    <td colspan="2"> 섹션 08. 프록시와 연관관계 관리 </td>
+    <th colspan="2"> 섹션 08. 프록시와 연관관계 관리 </th>
 </tr>
 <tr>
-    <td colspan="2"> 섹션 09. 값 타입 </td>
+    <th colspan="2"> 섹션 09. 값 타입 </th>
 </tr>
 <tr>
-    <td colspan="2"> 섹션 10. 객체지향 쿼리 언어1 - 기본 문법 </td>
+    <th colspan="2"> 섹션 10. 객체지향 쿼리 언어1 - 기본 문법 </th>
 </tr>
 <tr>
-    <td colspan="2"> 섹션 11. 객체지향 쿼리 언어2 - 중급 문법 </td>
+    <th colspan="2"> 섹션 11. 객체지향 쿼리 언어2 - 중급 문법 </th>
 </tr>
 
 </table>

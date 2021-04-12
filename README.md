@@ -1,113 +1,440 @@
-<div align=center>
-<img src="https://github.com/brave-people/brave-tech-interview/blob/main/_raw/google-flat.png?raw=true" />
-
-# Brave Tech Interview
-
-[![author](https://img.shields.io/badge/author-covenant-brightgreen.svg?style=flat-square)](https://covenant.tistory.com/)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/brave-people/Dev-Event/pulls)
-![Last commit](https://img.shields.io/github/last-commit/brave-people/Dev-Event?style=flat-square)
-
-핵심을 질문하다. 그리고 용감하게 대답하다. <br />
-현직자가 국내 IT기업부터 실리콘벨리 기술면접 문제를 해설해드립니다.
-
-</div>
-
-<br />
-<br />
-
-## 📣 공지: 코딩테스트 완벽 정복 로드맵 공개!
-
-<br />
-<div align=center>
-<img src="https://github.com/KoEonYack/Tistory-Coveant/blob/master/Article/Note/%EC%BD%94%EB%94%A9%ED%85%8C%EC%8A%A4%ED%8A%B8_%EC%8B%9C%EC%9E%91%EC%9D%84%EC%9C%84%ED%95%9C_%EB%B0%B1%EC%A4%80%EB%AC%B8%EC%A0%9C_%EC%B6%94%EC%B2%9C/img/map_simple.png?raw=true" align="center" style="display: block; margin: 0px auto; display: block; height: auto; border:1px solid #eaeaea; padding: 0px;" width="" >
-<br />
-
-<center> <a href="https://covenant.tistory.com/235"> 로드맵 보러가기! </a> </center>
+# 프로그래밍 언어
 
 <br />
 
-취준을 위한 코딩테스트 공부가 막막하다면? <br />
-Brave Tech Interview Maintainer인 Covenat의 코딩테스트 완벽 정복 로드맵을 참고하세요!
+----------------------------------------
 
-<br />
-</div>
-
-------------------------
+### 동기, 비동기에 대해 설명하고 장단점을 각각 설명 해보세요.
 
 <details>
-   <summary> <b>공지.</b> 🙏 감사합니다. </summary>
+   <summary> 예비 답안 보기 (👈 Click)</summary>
 
-<div align=center>
-  <img src="https://github.com/brave-people/brave-tech-interview/blob/main/_raw/uv.png?raw=true" width="70%"/>
-<br />
-Github Traffic (Y축 녹색: Views, Y축 파랑색: UV(Unique Visitors) <br />
-<br />
-빠른시간 많은 분들이 방문 및 스타를 눌러주셨습니다. 감사합니다. <br />
-Brave Tech Interview는 매주 국내 IT기업 면접문제 및 실리콘 벨리 문제와 해설을 업데이트 중입니다. <br />
-PR 및 리뷰 환영합니다 :)
-
-</div>
-</details>
-
-------------------------
-
-<details>
-   <summary> <b>FAQ.</b> 실제 면접문제인가요?  </summary>
-<br />
-<div align=center>
-  <img src="https://github.com/brave-people/brave-tech-interview/blob/main/_raw/trello.png?raw=true" />
-</div>
 <br />
 
-- 연습 문제도 있고, 실리콘밸리 문제의 경우 국내 실정에 맞게 변형된 문제도 있습니다. 다만 기출문제가 아닌 경우 (연습) 태그를 달 예정입니다. 특별한 태그가 없다면 실제 면접문제입니다.
-- 대기업 IT 면접 문제를 모아놓은 작년 초 생활코딩 페이스북 페이지에 소개된 Trello에서 많이 참고하였습니다.
-- 블라인드 & 잡플래닛 면접 후기 & 블로그 합격 수기에서 문제를 참고하였습니다.
-- 최근에는 프로그래머스 테크피드에 올라오는 면접 후기 글을 많이 참고합니다.
-- 실리콘밸리 문제의 경우 Reddit, LeetCode, Tech Interview Book을 참고하였습니다.
+- 동기 : call하고 응답이 올 때까지 기다렸다가 다음 로직을 실행한다.
+  - 장점 : 안전성이 보장된다. 순서가 보장된다.
+  - 단점 : 느리다.
+- 비동기 : call하고 응답이 오지 않아도 다음 로직을 실행한다.
+  - 장점 : 빠르다
+  - 단점 : 처리 하기가 까다롭다. 순서가 보장이 되지 않는다.
 
 </details>
 
-------------------------
+----------------------------------------
 
-<details>
-   <summary> <b>FAQ.</b> 왜 현직자분들이 maintainer인 기술면접 저장소을 만들어가시나요? </summary>
 <br />
 
-- 🧓 지식을 함께 공유하며 함께 성장하고 싶어서 참여합니다.
-- 🧒 중요한 개념을 정확하게 글로 표현하고 싶어서 참여합니다.
-- 👱 기술면접의 경우 밑천이 드러나는 핵심 질문이 많습니다. 이런 질문에 답을 해보면서 기술을 표면적으로만 알고있는지 점검하기 위함입니다.
+----------------------------------------
 
-> 시작은 용감한친구들에서 시작했지만 PR, Issue는 누구에게나 열려있습니다!
+### HashMap 동작 방식에 대해서 설명하세요.
+
+<details>
+   <summary> 예비 답안 보기 (👈 Click)</summary>
+
+<br />
+
+HashMap이란 객체를 Map에 넣는 것이다. 
+
+`key-value쌍` 하나만 넣는 것이 가장 기본적이며, __배열의 한 요소를 `bucket` 이라고 한다.__ (자바에서는, 키와 값의 타입은  `클래스  ` 및 `인터페이스` 타입만 가능하다. `기본 타입`  은 사용할 수 없음.)
+
+또한, HashMap에서의 key는 unique해야합니다. (key는 중복 불가, value는 중복 가능))
+
+
+<div align=center>
+  <img src="../_raw/hashmap-1.png">
+
+</div>
+
+`key-value쌍` 이 들어가는 위치는, `key` 의 `Hash값 (HashCode)` 이며, 이로 인해 데이터를 탐색하는데 `O(1)` 로 가능하다. 
+
+이 때, 동일하지 않은 두 객체가 같은 위치에 들어가려고 하는 경우를 `Collision` 이라고 하는데,  `Collision` 은 Map의 성능에 큰 영향을 미치므로, 어떤 `Hash 함수` 를 사용하는 가에 따라서 더 나은 Map이 될 수 있다. 
+
+<br />
+
+이 때, Map에 더 들어갈 공간이 없을때 다음 두 가지 방법을 선택합니다.
+
+1. 리스트로 넣는다.
+2. size를 늘린다.
+
+size를 늘리는 방식에 대해서 살펴보겠다. `Load factor` 는 Map의 `capacity` 를 몇 %로 할지를 정하는 값이다. 가령, Map의 사이즈가 4이고, load factor가 0.75라고 해보자.
+
+```java
+Map<String, String> map = new HashMap<>(4, 0.75f);
+```
+
+주의) 반복문 돌릴 때, Iterator 바로 못 쓰고, `keySet()` 하고 써야함.
+
+그러면, Map의 공간은 다음과 같이 동작한다.
+
+<div align=center>
+  <img src="../_raw/hashmap-2.png">
+
+</div>
+
+### 파생질문. HashMap의 `HashCode()`, `equals()` 에 대해서 설명하세요.
+
+1. hashCode()
+   : 객체 고유의 해시코드를 반환한다.
+   : 두 객체가 같은 객체인지 확인할 때 사용한다.
+
+2. equals()
+   : `==` 와 같은 결과를 반환한다.
+   : 두 객체의 내용이 같은지 확인할 때 사용한다.
+
+<div align=center>
+  <img src="../_raw/hashmap-3.png">
+</div>
+
+
+참고) instanceof 사용
+
+```java
+a instanceof b
+```
+
+=> a는 b로 형 변환이 가능한지
+=> return : true / false
+
+<br />
+
+----------------------------------------
+
+#### 파생질문. HashTable과 HashMap에 대해서 설명하세요.
+
+- 공통점
+  -  `key-value 쌍` 으로 데이터를 저장한다는 면에서는 동일하다.
+- 차이점
+   - HashTable: 멀티 스레드 환경에서 안전(thread safe)하게 객체를 추가, 삭제할 수 있다. 
+   -  HashMap: 빠른 대신에 동기화의 문제가 있으며 이를 해결하기 위한 두 가지 방법이 있다.
+      - `ConcurrentHashMap` 사용
+      - `Collections.synchronizedMap` 사용
+
+```java
+Map m = Collections.synchronizedMap(new HashMap(...));
+```
 
 </details>
 
-------------------------
+----------------------------------------
+
+<br />
+
+----------------------------------------
+
+### HashMap 동작 방식에 대해서 설명하세요.
+
+<details>
+   <summary> 예비 답안 보기 (👈 Click)</summary>
+
+<br />
+
+HashMap이란 객체를 Map에 넣는 것이다. 
+
+`key-value쌍` 하나만 넣는 것이 가장 기본적이며, __배열의 한 요소를 `bucket` 이라고 한다.__ (자바에서는, 키와 값의 타입은  `클래스  ` 및 `인터페이스` 타입만 가능하다. `기본 타입`  은 사용할 수 없음.)
+
+또한, HashMap에서의 key는 unique해야합니다. (key는 중복 불가, value는 중복 가능))
+
+
+<div align=center>
+  <img src="../_raw/hashmap-1.png">
+
+</div>
+
+`key-value쌍` 이 들어가는 위치는, `key` 의 `Hash값 (HashCode)` 이며, 이로 인해 데이터를 탐색하는데 `O(1)` 로 가능하다. 
+
+이 때, 동일하지 않은 두 객체가 같은 위치에 들어가려고 하는 경우를 `Collision` 이라고 하는데,  `Collision` 은 Map의 성능에 큰 영향을 미치므로, 어떤 `Hash 함수` 를 사용하는 가에 따라서 더 나은 Map이 될 수 있다. 
+
+<br />
+
+이 때, Map에 더 들어갈 공간이 없을때 다음 두 가지 방법을 선택한다.
+
+1. 리스트로 넣는다.
+2. size를 늘린다.
+
+size를 늘리는 방식에 대해서 살펴보겠다. `Load factor` 는 Map의 `capacity` 를 몇 %로 할지를 정하는 값이다. 가령, Map의 사이즈가 4이고, load factor가 0.75라고 해보자.
+
+```java
+Map<String, String> map = new HashMap<>(4, 0.75f);
+```
+
+주의) 반복문 돌릴 때, Iterator 바로 못 쓰고, `keySet()` 하고 써야함.
+
+그러면, Map의 공간은 다음과 같이 동작한다.
+
+<div align=center>
+  <img src="../_raw/hashmap-2.png">
+
+</div>
+
+### 파생질문. HashMap의 `HashCode()`, `equals()` 에 대해서 설명하세요.
+
+1. hashCode()
+   : 객체 고유의 해시코드를 반환한다.
+   : 두 객체가 같은 객체인지 확인할 때 사용한다.
+
+2. equals()
+   : `==` 와 같은 결과를 반환한다.
+   : 두 객체의 내용이 같은지 확인할 때 사용한다.
+
+<div align=center>
+  <img src="../_raw/hashmap-3.png">
+</div>
+
+
+참고) instanceof 사용
+
+```java
+a instanceof b
+```
+
+- a는 b로 형 변환이 가능한지
+- 반환값: true or false
+
+<br />
+
+----------------------------------------
+
+### 파생질문. HashTable과 HashMap에 대해서 설명하세요.
+
+<br />
+
+- 공통점
+  -  `key-value 쌍` 으로 데이터를 저장한다는 면에서는 동일하다.
+- 차이점
+   - HashTable: 멀티 스레드 환경에서 안전(thread safe)하게 객체를 추가, 삭제할 수 있다. 
+   -  HashMap: 빠른 대신에 동기화의 문제가 있으며 이를 해결하기 위한 두 가지 방법이 있다.
+      - `ConcurrentHashMap` 사용
+      - `Collections.synchronizedMap` 사용
+
+   ```java
+   Map m = Collections.synchronizedMap(new HashMap(...));
+   ```
+
+</details>
+
+----------------------------------------
+
+<br />
+
+
+----------------------------------------
+
+### Array vs List vs Vector 차이점
+
+<details>
+   <summary> 예비 답안 보기 (👈 Click)</summary>
+
+<br />
+
+- [array vs list](https://wayhome25.github.io/cs/2017/04/17/cs-18-1/)
+- [list vs vector](https://theemeraldtablet.tistory.com/entry/list%EC%99%80-vector-%EC%B0%A8%EC%9D%B4%EC%A0%90) 
+
+</details>
+
+----------------------------------------
+
+<br />
+
+----------------------------------------
+
+### P NP 문제에대해서 설명하세요
+
+- [설명](https://ratsgo.github.io/data%20structure&algorithm/2017/11/30/NP/)
+
+----------------------------------------
+
+<br />
+
+----------------------------------------
+
+### ArrayList와 LinkedList를 설명하세요.
+
+<details>
+   <summary> 예비 답안 보기 (👈 Click)</summary>
+
+<br />
+
+- ArrayList와 LinkedList에 공통적으로 List라는 단어가 있다. 즉 선형자료구조라는 공통점이 있다.
+- __Array__ List의 이름대로 Array(배열) 입니다.  __Linked__ List는 이름대로 Linked(doubly linked list)입니다. 그렇기에 조회, 삽입, 삭제에 대한 시간복잡도는 배열, 링크드 리스트의 시간복잡도를 그대로 따릅니다.
+
+| ArrayList | LinkedList |
+|---|---|
+| dynamic array를 이용하여 element 저장  | doubly linked list를 이용하여 element 저장  |
+| dynamic array이기에 값을 저장하지 않더라도 일부분 메모리를 고정적으로 할당한 상태이다. | element의 앞 뒤 노드의 주소를 저장하는 오버헤드가 필요하다. |
+| Manipulation(삽입, 삭제) 연산은 느리다. element가 삽입 삭제 연산은 영향받는 element를 이동해야한다. (bit shifting 필요)  | Manipulation(삽입, 삭제) 연산은 `ArrayList` 비해 빠르다. 더블 링크드 리스트로 구현되기에 bit shifting는 필요하지 않다. |
+|  `List` 인터페이스를 구현하였기에 list 메소드를 사용할 수 있다.  |  `List`, `Deque` 인터페이스를 구현하였기에 list, queue 메소드를 사용할 수 있다. |
+| element 접근이 빈번하다면 `ArrayList`가 좋은 선택이다. 인덱스 번호만 안다면 `O(1)`에 접근 가능하다. |  element 삽입 삭제가 빈번하다면 `LinkedList`가 좋은 선택이다. |
+
+</details>
+
+----------------------------------------
 
 <br />
 <br />
 
-## PART1. 용감한 질문
-### [1. 알고리즘](./contents/algorithm.md)
-### [2. 프로그래밍언어](./contents/language.md)
-### [3. 객체지향](./contents/oop.md)
-### [4. 데이터베이스](./contents/database.md)
-### [5. 네트워크](./contents/network.md)
-### [6. 운영체제](./contents/os.md)
-### [7. 보안](./contents/security.md)
-### [8. 소프트웨어공학](./contents/software_engineering.md)
+----------------------------------------
 
+### Java vs Python 에 대해서 설명 해보세요.
+
+<details>
+   <summary> 예비 답안 보기 (👈 Click)</summary>
 <br />
 
-## PART 2. 용감한 당신을 위한 선물
-### [1. 면접 전 체크리스트](./contents/before30mins.md)
-### [2. 코딩테스트 후기](./contents/codingTest.md)
-### [3. 머리 식히기 위한 글](./contents/source.md)
 
+|        | Java                                                         | Python                                                       |
+| ------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 메모리 | JVM에서 Garbage Collection을 수행하며,<br />대상은 heap영역. | [ Python Garbage Collection ]<br /><br />추가설명 필요.      |
+| 실행   | [작동 방식]<br /><br />1) `컴파일러` : 모든 소스코드(.java) => 바이트코드(.class) <br />2) `JVM` : 운영체제에 맞는 기계어로 변환 <br /><br />=> 컴파일 시간이 소요되지만, 실행 속도는 빠름. | [작동 방식]<br /><br />1) `Interpreter` : 한 줄씩 해석하여 실행<br /><br />=> 실행 단계에서 해석되기 때문에, 실행 속도는 느림.<br />(변수 타입을 명시하지 않기 때문에, 검사하여 값을 사용해야 함.) |
+| 자료형 | 정적유형 (타입선언 O)                                        | 동적유형 (타입선언 X)                                        |
+| 스레딩 | 스레드 생성 및 제어와 관련된 <br />라이브러리 API를 제공하고 있기 때문에, <br />운영체제에 상관없이 멀티 스레드를 구현할 수 있음. | 인터프리터 언어이기 때문에, 싱글 스레드 이며,<br />별도 모듈을 이용 해야함. |
+
+cf) <a href="https://soooprmx.com/archives/11330" target='_blank'>언어를 스크립트 언어, 인터프리 언어로 구분하는 것이 옳은 방법일까?</a>
+
+</details>
+
+----------------------------------------
+
+<br />
+<br />
+
+### interface와 abstract에 대해서 설명하세요.
+
+```
+
+```
+
+<br />
+<br />
+
+### 쓰레드세이프란?
+
+```
+
+```
+
+<br />
+<br />
+
+
+### Garbage Collection이란, 동작 방식에 대해서 설명하세요.
+
+```
+
+```
+
+<br />
+<br />
+
+### 함수형 언어에대해서 설명하고 함수형 언어를 사용했을 때 장점을 설명하세요
+
+- 추가질문: 메모리의 어느 영역에 저장되나요?
+
+<br />
+<br />
+
+### Garbage Collection이란?
+
+```
+
+```
+
+<br />
+<br />
+
+
+### Memory Leak의 대처방법
+
+```
+
+```
+
+<br />
+<br />
+
+
+### 스크립트 언어의 특징
+
+#컴파일 필요없다 #리버싱에 취약
+
+```
+
+```
+
+<br />
+<br />
+
+
+
+### [Java] 추상클래스와 인터페이스와의 차이
+
+```
+
+```
+
+<br />
+<br />
+
+
+### [C++] STL map이 어떻게 구현되어있는가? 
+
+```
+
+```
+
+<br />
+<br />
+
+### 메모리 동기화를 사용해본 적이 있는가? 
+
+- 꼬리질문(부작용? 정책 데이터에 수시로 접근이 이루어지는 상황에 락을 걸지 않고 정책을 수정할 수 있는 방법은?)
+
+<br />
+<br />
+
+
+### 다형성이란? 
+
+```
+
+```
+
+<br />
+<br />
+
+### 주소를 검색할때 사용하는 자료구조
+
+```
+
+```
+
+<br />
+<br />
+
+
+
+
+
+### 객체지향언어가 절차지향언어와 다르게 가지는 장점은 무엇인가요?
+
+```
+
+```
+
+<br />
+<br />
+
+
+### 언제 Singleton패턴을 쓰면 유용한지 설명하세요. 
+
+```
+
+```
 
 <br />
 <br />
 <div align=center>
-<hr />
-  <h3> 용감한 친구들 with 남송리 삼번지 </h3>
-<hr />
+  <hr />
+    <h3> 용감한 친구들 with 남송리 삼번지 </h3>
+  <hr />
 </div>
+   

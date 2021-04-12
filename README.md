@@ -31,6 +31,9 @@ Brave Tech Interview Maintainer인 Covenat의 코딩테스트 완벽 정복 로�
 </div>
 <br />
 <br />
+
+------------------------
+
 <details>
    <summary> <b>공지.</b> 🙏 감사합니다. </summary>
 
@@ -45,6 +48,9 @@ PR 및 리뷰 환영합니다 :)
 
 </div>
 </details>
+
+------------------------
+
 <details>
    <summary> <b>FAQ.</b> 실제 면접문제인가요?  </summary>
 <br />

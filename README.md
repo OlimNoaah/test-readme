@@ -24,7 +24,7 @@
 
 <center> <a href="https://covenant.tistory.com/235"> 로드맵 보러가기! </a> </center>
 
-<br /><br />
+<br />
 
 취준을 위한 코딩테스트 공부가 막막하다면? <br />
 Brave Tech Interview Maintainer인 Covenat의 코딩테스트 완벽 정복 로드맵을 참고하세요!

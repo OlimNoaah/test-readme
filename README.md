@@ -30,7 +30,6 @@ Brave Tech Interview Maintainer인 Covenat의 코딩테스트 완벽 정복 로�
 <br />
 </div>
 <br />
-<br />
 
 ------------------------
 

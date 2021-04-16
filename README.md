@@ -23,8 +23,8 @@
     <th colspan="2"> 섹션 00. 강좌 소개 </th>
 </tr>
 <tr>
-    <td> 1) 강의소개 </td><td> - </td>
-    <td> 2) 실전 프로젝트 예제 미리보기 </td><td> - </td>
+    <tr><td> 1) 강의소개 </td><td> - </td></tr>
+    <tr><td> 2) 실전 프로젝트 예제 미리보기 </td><td> - </td></tr>
 </tr>
 <tr>
     <th colspan="2"> 섹션 01. 스프링 시큐리티 기본 API 및 Filter 이해 </th>

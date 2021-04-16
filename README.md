@@ -1,107 +1,130 @@
-# 싱싱한 FE 기술인터뷰 후기
-
-> 모두 2021년 3월에 진행한 인터뷰들입니다😆
-
-<br />
-<br />
-
-1. J사(이사 스타트업)
-- 코딩테스트 X
-- 문제리스트가 따로 존재하는듯. 한 30-40개 정도 되는 문제를 퀴즈처럼 내고 한시간동안 답만 하면 된다.
-- 기술 질문 only. 난이도 하
-
-<br />
-<br />
-
-2. W사(요식 스타트업)
-- 코딩테스트 O. 그렇게 어렵지 않았다. 프로그래머스 레벨 2정도
-- W사 자기소개서 중 읽은 책 3권에 대해 소개하는 문항이 있어 그 부분에 대한 질문이 있었다
-- 다른 것보다 지원동기에 대해 꼬리꼬리꼬리 질문하신게 기억 남는다.
-- 경력 질문 반, 기술 질문 반. 난이도 중
-
-<br />
-<br />
-
-3. D사(중고거래 플랫폼)
-- 1차에서 간단한 기술 인터뷰(30분 정도 소요)를 보고 (퀴즈 형식) 2차에서 심화된 기술 인터뷰를 본다. 4분께서 많이 질문 해주시는데 리액트 실무 경험이 꼭 필요해보인다.
-- 한 사람이 한 프로젝트를 맡아서 할 줄 알아야하는걸 원하는 것 같았다
-- 경력 질문 1/3, 기술 질문 2/3. 난이도 중상
-
-<br />
-<br />
-
-4. Y사(숙박 스타트업)
-- 코딩테스트 O. 살짝 어려운 편이다. 프로그래머스 레벨 3 초반정도..?
-- 인터뷰에서 내가 내뱉은 말의 바닥의 바닥까지 알아야한다. 물론 면접관이 말하는 단어도 바닥까지 알아야한다.
-- 인터뷰 후 내가 본 코테에 대해서 개선할 점 + 설명 해야함. 나는 사실 당시 냈던 코드가 최선이라 생각해서 특별하게 생각나는 점이 없었다.
-- 경력 질문 1/3, 기술 질문 2/3. 난이도 상
-
-<br />
-<br />
-
-5. R사(인공지능 스타트업)
-- 코딩테스트 없이 라이브코딩을 진행한다
-- 나는 라이브코딩을 정말 못하는 편이라 문제를 풀지 못했다
-- 라이브 코딩 후에는 경력에 대한 질문 뿐이라 어렵지 않았다
-- 경력 질문 only. 난이도 중하
-
-<br />
-<br />
-
-6. F사(금융 스타트업)
-- 코딩테스트 X
-- 프레젠테이션이 나오는데 거기 나오는 단어를 설명하면 이미지가 있는 장으로 넘어간다. 그러면 또 해당 이미지를 설명하면 된다.
-- 지원자가 어떤 기술들을 써봤는지, 어떤걸 개발해보았는지 이야기를 주고 받는다
-- 경력 질문 반, 기술 질문 반. 난이도 중
-
-<br />
-<br />
-
-7. E사(커머스)
-- 원래 코딩테스트가 있지만 올해는 기술인터뷰때 10분 PT를 진행하는걸로 대체한다는 안내를 받았다.
-- PT진행 후 질문-대답하고 기술에 대한 질문을 한다. 자바스크립트에 대해 꽤 깊고 꽤 넓은 질문들을 한다. await, async 상태에 대해서는 한번도 생각해보지 못했었다.
-- 경력 질문 1/3, 기술 질문 2/3. 난이도 중상
-
-<br />
-<br />
-
-8. I사(커머스)
-- 코딩테스트 O. 여기 있는 기업들 중에서는 가장 난이도가 높았다. 프로그래머스 레벨 3정도로 사실 나는 이 때쯤 코테를 오랜만에 풀어서 한 반정도의 점수를 받았는데 통과했다.
-- 1차 인터뷰 30분 봤는데 다음날 합격 전화 왔다. 웬만하면 여기까지 붙는 것 같다
-- 코테에 비해 인터뷰는 정말 쉬워서 따로 준비 안해도 될정도다. (정말로)
-- 2차 인터뷰에도 기술 인터뷰를 봐서 추가 내용을 적자면, 2차 때 살짝 심화된 기술 인터뷰와 약간의 컬쳐핏 인터뷰를 본다. (비율로는 반반정도)
-
-<br />
-<br />
-
-9. W사(커머스)
-- 코딩테스트 X
-- 연락이 빨리 온다
-- 여기도 인터뷰가 정말 쉽다. 준비 안해도 된다.
-- 라이브러리를 만들어 본 적 있는지에 대한 질문을 받았다. 그래서 위메프 내에서 라이브러리를 만들어 쓰는가 싶었는데 그건 아니였다.
-- 자바스크립트 보다는 Vue, React 자체에 대한 질문들을 받았다. 라이프사이클이나 Vue3정도..?
-- 기술 질문 only
-
-<br />
-<br />
-
-10. S사 (커머스)
-- 코딩테스트 O. 프로그래머스 레벨 1 초반 정도로 여기 있는 기업들 중에서는 가장 쉬웠다.
-- 서류와 동시에 코딩테스트를 본다. 그러고 한 일주일 뒤에 연락이 왔다.
-- 가장 처음에 지원동기를 물어보시고 지마켓과 쿠팡도 사람 뽑는다고 덧붙여 주셨다. 내가 봤던 코테를 화면 없이 기억을 더듬어 설명해야 하는데, 사실 한 테스트를 보고 이주쯤 지나서 기억에서 잊었더니 진짜 내가 푼게 맞는가 사실 검증을 하셨다. 여러분은 꼭 어디 적어두시길..!
-- 크로스브라우징, 기술을 직접 써보았는지를 중점으로 보는 것 같았다.
-- 최근에 본 아티클에 대한 질문을 받았고 대답했는데 기억이 깜박깜박해서 잘 대답하지는 못했다.
-- 경력 질문 1/2, 기술 질문 1/2
-
-<br />
-
-8-10번 기업들을 제외하고 공통적으로 받았던 질문에는 클로저, 이벤트루프가 있었다.
-
-<br />
-<br />
 <div align=center>
-  <hr />
-    <h3> 용감한 친구들 with 남송리 삼번지 </h3>
-  <hr />
+<h1> 스프링 시큐리티 - 기본편 </h1>
 </div>
-   
+<div align="center">
+<a href="https://www.inflearn.com/course/%EC%BD%94%EC%96%B4-%EC%8A%A4%ED%94%84%EB%A7%81-%EC%8B%9C%ED%81%90%EB%A6%AC%ED%8B%B0"> 인프런 강의 링크 </a>
+</div>
+
+<br />
+
+## 학습내용
+
+- 스프링 시큐리티 기본 API 사용법과 이와 관련된 Filter 이해
+- 스프링 시큐리티 내부 아키텍처와 동작 방식 이해
+- 실전 프로젝트를 통한 스프링 시큐리티 인증 프로세스 구현
+- 실전 프로젝트를 통한 스프링 시큐리티 인가 프로세스 구현 - DB 연동을 통해 권한 제어 시스템 구현
+
+<br />
+
+## 목차
+
+<table>
+<tr>
+    <th colspan="2"> 섹션 00. 강좌 소개 </th>
+</tr>
+<tr>
+    <td> 1) 강의소개 </td><td> - </td>
+    <td> 2) 실전 프로젝트 예제 미리보기 </td><td> - </td>
+</tr>
+<tr>
+    <th colspan="2"> 섹션 01. 스프링 시큐리티 기본 API 및 Filter 이해 </th>
+</tr>
+<tr>
+    <tr><td> 1) 프로젝트 구성 및 의존성 추가 </td><td> - </td></tr>
+    <tr><td> 2) 사용자 정의 보안 기능 구현 </td><td> - </td></tr>
+    <tr><td> 3) Form Login 인증 </td><td> - </td></tr>
+    <tr><td> 4) Form Login 인증 필터 : UsernamePasswordAuthenticationFilter </td><td> - </td></tr>
+    <tr><td> 5) Logout 처리, LogoutFilter </td><td> - </td></tr>
+    <tr><td> 6) Remember Me 인증 </td><td> - </td></tr>
+    <tr><td> 7) Remember Me 인증 필터 : RememberMeAuthenticationFilter </td><td> - </td></tr>
+    <tr><td> 8) 익명사용자 인증 필터 : AnonymousAuthenticationFilter </td><td> - </td></tr>
+    <tr><td> 9) 동시 세션 제어, 세션 고정 보호, 세션 정책 </td><td> - </td></tr>
+    <tr><td> 10) 세션 제어 필터 : SessionManagementFilter, ConcurrentSessionFilter </td><td> - </td></tr>
+    <tr><td> 11) 권한설정과 표현식 </td><td> - </td></tr>
+    <tr><td> 12) 예외 처리 및 요청 캐시 필터 : ExceptionTranslationFilter, RequestCacheAwareFilter </td><td> - </td></tr>
+    <tr><td> 13) 사이트 간 요청 위조 - CSRF, CsrfFilter </td><td> - </td></tr>
+</tr>
+<tr>
+    <th colspan="2"> 섹션 02. 스프링 시큐리티 주요 아키텍처 이해 </th>
+</tr>
+<tr>
+    <tr><td> 1) 위임 필터 및 필터 빈 초기화 - DelegatingProxyChain, FilterChainProxy </td><td> - </td></tr>
+    <tr><td> 2) 필터 초기화와 다중 보안 설정 </td><td> - </td></tr>
+    <tr><td> 3) 인증 개념 이해 - Authentication </td><td> - </td></tr>
+    <tr><td> 4) 인증 저장소 - SecurityContextHolder, SecurityContext </td><td> - </td></tr>
+    <tr><td> 5) 인증 저장소 필터 - SecurityContextPersistenceFilter </td><td> - </td></tr>
+    <tr><td> 6) 인증 흐름 이해 - Authentication Flow </td><td> - </td></tr>
+    <tr><td> 7) 인증 관리자 : AuthenticationManager </td><td> - </td></tr>
+    <tr><td> 8) 인증 처리자 - AuthenticationProvider </td><td> - </td></tr>
+    <tr><td> 9) 인가 개념 및 필터 이해 : Authorization, FilterSecurityInterceptor </td><td> - </td></tr>
+    <tr><td> 10) 인가 결정 심의자 - AccessDecisionManager, AccessDecisionVoter </td><td> - </td></tr>
+    <tr><td> 11) 스프링 시큐리티 필터 및 아키텍처 정리 </td><td> - </td></tr>
+</tr>
+<tr>
+    <th colspan="2"> 섹션 03. 실전프로젝트 -인증 프로세스 Form 인증 구현 </th>
+</tr>
+<tr>
+    <tr><td> 1) 실전 프로젝트 생성 </td><td> - </td></tr>
+    <tr><td> 2) 정적 자원 관리 - WebIgnore 설정 </td><td> - </td></tr>
+    <tr><td> 3) 사용자 DB 등록 및 PasswordEncoder </td><td> - </td></tr>
+    <tr><td> 4) DB 연동 인증 처리(1) : CustomUserDetailsService </td><td> - </td></tr>
+    <tr><td> 5) DB 연동 인증 처리(2) : CustomAuthenticationProvider </td><td> - </td></tr>
+    <tr><td> 6) 커스텀 로그인 페이지 생성하기 </td><td> - </td></tr>
+    <tr><td> 7) 로그아웃 및 인증에 따른 화면 보안 처리 </td><td> - </td></tr>
+    <tr><td> 8) 인증 부가 기능 - WebAuthenticationDetails, AuthenticationDetailsSource </td><td> - </td></tr>
+    <tr><td> 9) 인증 성공 핸들러 : CustomAuthenticationSuccessHandler </td><td> - </td></tr>
+    <tr><td> 10) 인증 실패 핸들러 : CustomAuthenticationFailureHandler </td><td> - </td></tr>
+    <tr><td> 11) 인증 거부 처리 - Access Denied </td><td> - </td></tr>
+</tr>
+<tr>
+    <th colspan="2"> 섹션 04. 실전프로젝트 - 인증 프로세스 Ajax 인증 구현 </th>
+</tr>
+<tr>
+    <tr><td> 1) 흐름 및 개요 </td><td> - </td></tr>
+    <tr><td> 2) 인증 필터 - AjaxAuthenticationFilter </td><td> - </td></tr>
+    <tr><td> 3) 인증 처리자 - AjaxAuthenticationProvider </td><td> - </td></tr>
+    <tr><td> 4) 인증 핸들러 - AjaxAuthenticationSuccessHandler, AjaxAuthenticationFailureHandler </td><td> - </td></tr>
+    <tr><td> 5) 인증 및 인가 예외 처리 - AjaxLoginUrlAuthenticationEntryPoint, AjaxAccessDeniedHandler </td><td> - </td></tr>
+    <tr><td> 6) Ajax Custom DSLs 구현하기 </td><td> - </td></tr>
+    <tr><td> 7) Ajax 로그인 구현 & CSRF 설정 </td><td> - </td></tr>
+</tr>
+<tr>
+    <th colspan="2"> 섹션 05. 실전프로젝트 - 인가 프로세스 DB 연동 웹 계층 구현</th>
+</tr>
+<tr>
+    <tr><td> 1) 스프링 시큐리티 인가 개요 </td><td> - </td></tr>
+    <tr><td> 2) 관리자 시스템 - 권한 도메인, 서비스, 리포지토리 구성 </td><td> - </td></tr>
+    <tr><td> 3) 웹 기반 인가처리 DB 연동 - 주요 아키텍처 이해 </td><td> - </td></tr>
+    <tr><td> 4) 웹 기반 인가처리 DB 연동 - FilterInvocationSecurityMetadataSource (1) </td><td> - </td></tr>
+    <tr><td> 5) 웹 기반 인가처리 DB 연동 - FilterInvocationSecurityMetadataSource (2) </td><td> - </td></tr>
+    <tr><td> 6) 웹 기반 인가처리 실시간 반영하기 </td><td> - </td></tr>
+    <tr><td> 7) 인가처리 허용 필터 - PermitAllFilter 구현 </td><td> - </td></tr>
+    <tr><td> 8) 계층 권한 적용하기- RoleHierarchy </td><td> - </td></tr>
+    <tr><td> 9) 아이피 접속 제한하기 - CustomIpAddressVoter </td><td> - </td></tr>
+</tr>
+<tr>
+    <th colspan="2"> 섹션 06. 실전프로젝트 - 인가 프로세스 DB 연동 서비스 계층 구현 </th>
+</tr>
+<tr>
+    <tr><td> 1) Method 방식 개요 </td><td> - </td></tr>
+    <tr><td> 2) 어노테이션 권한 설정 - @PreAuthorize, @PostAuthorize, @Secured, @RolesAllowed </td><td> - </td></tr>
+    <tr><td> 3) AOP Method 기반 DB 연동 - 주요 아키텍처 이해 </td><td> - </td></tr>
+    <tr><td> 4) AOP Method 기반 DB 연동 - MapBasedSecurityMetadataSource (1) </td><td> - </td></tr>
+    <tr><td> 5) AOP Method 기반 DB 연동 - MapBasedSecurityMetadataSource (2) </td><td> - </td></tr>
+    <tr><td> 6) AOP Method 기반 DB 연동 - MapBasedSecurityMetadataSource (3) </td><td> - </td></tr>
+    <tr><td> 7) AOP Method 기반 DB 연동 - ProtectPointcutPostProcessor </td><td> - </td></tr>
+</tr>
+<tr>
+    <th colspan="2"> 섹션 07. 번 외편 - 메소드 보안 실시간 DB 연동 구현 </th>
+</tr>
+<tr>
+    <tr><td> ProxyFactory 를 활용한 실시간 메소드 보안 구현 </td><td> - </td></tr>
+</tr>
+<tr>
+    <th colspan="2"> 섹션 08. 번 외편 - 강좌 마무리 </th>
+</tr>
+<tr>
+    <tr><td> 정리 </td><td> - </td></tr>
+</tr>
+</table>
+

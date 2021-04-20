@@ -1,130 +1,350 @@
+# 운영체제
+
+<br />
+
+-----------------------
+
+### 한컴오피스 '한글'을 클릭 후 빈 화면어 커서가 깜빡이고 있다. 이때 hello world를 작성하면 컴퓨터 내부에서 어떤일이 발생하는가?
+
+<details>
+   <summary> 예비 답안 보기 (👈 Click)</summary>
+<br />
+
+- 키보드에서 사용자 입력이 들어오면 키보드 컨트롤러가 인터럽트를 발생시켜 CPU에게 키가 입력되었다는 사실을 알려준다.
+- CPU는 현재 수행중이던 작업의 상태를 저장하고 인터럽트 요청을 처리하기 위해 OS내에 정의된 키보드 인터럽트 처리 루틴을 찾아간다.
+- 키보드 인터럽트 처리 루틴은 키보드로 부터 입력받은 내용을 메모리의 특정 부분에 저장해 해당 프로그램에게 키보드 입력이 들어왔음을 알리며 인터럽트 처리를 완료한다.
+- 인터럽트 처리가 끝나면 인터럽트가 발생하기 직전 상태를 복구시켜 중단되었던 작업을 재개한다.
+
+</details>
+
+-----------------------
+
+<br />
+
+-----------------------
+
+### Process와 Thread 차이점을 설명하세요.
+
+<details>
+   <summary> 예비 답안 보기 (👈 Click)</summary>
+<br />
+
+- 먼저 한가지 상황을 가정해보면 한 Server에서 같은 일을 수행하는 프로세스를 매번 fork 해서 만든다고 해보자. 이런 상황이 존재한다면 매번 동일한 코드를 복사하여 일을 수행하는 비효율적인 모습을 상상할 수 있다. fork를 하게 되면 PCB, 주소복사 등등 해줄 일이 많다. 그래서 등장한게 쓰레드인데 한 프로세스 내에서 독립적인 일을 수행해준다.
+- 쓰레드는 레지스터와 스택을 제외하고는 모두 공유하여 사용하게 된다. 이렇게 될 경우 한가지 쓰레드가 I/O를 수행할 때 다른 쓰레드는 다른일을 하는 식으로 일을 좀 더 효율적으로 수행할 수 있게 된다. 그리고 요즘같이 multi-processor 환경을 갖춘 상태에서는 쓰레드로 각 CPU에 일을 할당해서 수행해 줄 수 있게 된다.
+
+</details>
+
+-----------------------
+
+<br />
+
+-----------------------
+
+### Process와 Program 차이점을 설명하세요.
+
+<details>
+   <summary> 예비 답안 보기 (👈 Click)</summary>
+<br />
+
+- 실행 상태에 있는 것을 프로세스
+- 하드디스크 안에 있는 것을 프로그램
+
+</details>
+
+-----------------------
+
+<br />
+
+-----------------------
+
+### 인터럽트에 대해서 설명하세요
+
+<details>
+   <summary> 예비 답안 보기 (👈 Click)</summary>
+<br />
+
+Trap 은 S/W적으로 발생하는 인터럽트를 가리키는 명칭으로 알고있습니다. 예로 System Call, Segmentation fault 같은게 있습니다.
+인터럽트는 컨트롤 씨를 누를때 처럼 H/W에서 발생하는 것을 명칭 하는 것으로 알고 있습니다.
+
+인터럽트는 장치 내에서 예외상황이 발생하여 처리가 필요할 때 사용하는 것을 말합니다. interrupt vector에 그러한 인터럽트 신호가 오게 될 때 처리해야 하는 동작을 가리키는 주소를 적어놔 관리하게 됩니다. 무조건 우선적으로 처리되게 됩니다.
+
+
+__하드웨어 인터럽트__
+- 각종 하드웨어 장치들이 CPU에게 서비스를 받아야 하는 경우 발생.
+- 인터럽트 라인을 통해 CPU에게 전달
+
+__소프트웨어 인터럽트__
+- 프로그램이 잘못된 연산을 수행할 경우 이에 대한 적절한 처리를 위해 사용되는 예외 상황 처리
+- 자신이 작성하지 않은 코드를 운영체제로부터 서비스를 받기 위해 발생시키는 시스템콜(이를 트랩이라고 합니다.)
+
+</details>
+
+-----------------------
+
+<br />
+
+-----------------------
+
+### DMA 존재 이유에 대해서 설명하세요
+
+<details>
+   <summary> 예비 답안 보기 (👈 Click)</summary>
+<br />
+
+- 모든 메모리 접근 연산이 CPU에 의해서만 이루어질 경우 주변 장치가 메모리 접근을 원할 때마다 인터럽트를 통해 CPU 업무가 방해를 받게 되어 CPU의 사용의 효율성이 떨어지는 문제가 발생한다. 
+- DMA는 일종의 컨트롤러로서 CPU가 주변 장치들의 메모리 접근 요청에 의해 자주 인터럽트당하는 것을 막아주는 역할을 한다.
+- DMA를 사용하면 로컬 버퍼에서 메모리로 읽어오는 작업을 CPU가 담당하는 것이 아니라, DMA가 대행하므로서 CPU는 원래 하던 작업을 멈추고 인터럽트를 처리할 필요가 없어지는 것이다. 
+
+</details>
+
+-----------------------
+
+<br />
+
+-----------------------
+
+### 운영체제는 다중 유저가 하나의 컴퓨터의 자원을 사용할 때 자원의 '보호'를 합니다. 어떠한 보호를 하는지 설명하고 시나리오를 설명하세요
+
+<details>
+   <summary> 예비 답안 보기 (👈 Click)</summary>
+<br />
+
+크게 세 부분으로 나눌 수 있습니다.
+
+__[1] 입출력장치 보호__
+- A가 프린터에 인쇄를 요청하여 프린터가 A의 작업을 수행 중일 때 B가 프린터 요청을 하면 A의 작업 이후에 B의  작업을 수행해야합니다.
+- 이와 관계된특권 명령(in, out) 명령은 에플리케이션에서 하는 것이 아닌 운영체제가 수행합니다. 
+
+__[2] 메모리 보호__
+- A가 실행한 프로세스는 B가 실행한 프로세스의 메모리를 읽거나 쓰지 못하도록 막습니다.
+- CPU와 메모리 사이에 MMU(Memory Management Unit)두어서  base, limit 레지스터 값을 읽어서 해당 메모리 부분을 넘지 못하도록 합니다. 
+
+__[3] CPU 보호__
+- while ( n = 1) 과 같이 실수 혹은 고의로  하나의 프로세스가 CPU시간을 독점하는 일을 방지해야합니다.
+- 일정 주기로 CPU에게 타이머가 인터럽트를 걸도록 회로를 설계합니다. 인터럽트를 걸면 CPU는 지금 하는 일을 멈추고 인터럽트 서비스 루틴으로 넘어갑니다. 이 코드에는 CPU 시간이 다른 모든 프로세스에게 골고루 가는지, 한 놈에게 집중되는지 체크합니다.
+
+</details>
+
+-----------------------
+
+<br />
+
+-----------------------
+
+### synchronized에 대해 아는 바를 전부 이야기하세요.
+
+<details>
+   <summary> 예비 답안 보기 (👈 Click)</summary>
+<br />
+
+Topic
+- 멀티스레딩 상황의 제어를 위해 synchronized를 적극 활용.
+- 어떤 멀티스레드 상황이었는지, 왜 synchronized를 썼는지, synchronized가 mutex를 어떻게 보장하는지
+- 내부적으로 어떻게 구현했는지, 다른 방법은 없었는지, 다른 방법과 synchronized를 비교했을 때의 장단점은 무엇인지, 
+- 특정 상황을 제시한 뒤 이 경우라면 어떻게 적용시킬 수 있을 것인지
+
+</details>
+
+-----------------------
+
+<br />
+
+-----------------------
+
+### 함수호출과 시스템 콜의 차이에 대해서 설명하세요.
+
+<details>
+   <summary> 예비 답안 보기 (👈 Click)</summary>
+<br />
+
+- 함수호출 : 자신이 작성한 함수 혹은 라이브러리에 저장된 함수를 호출하는 것
+- 시스템 콜 : 운영체제에 정의된 함수를 호출하는 것
+
+</details>
+
+-----------------------
+
+<br />
+
+-----------------------
+
+### 인터럽트와 시스템 콜의 차이에 대해서 설명하세요.
+
+<details>
+   <summary> 읽기자료 보기 (👈 Click)</summary>
+<br />
+
+- [Leetcode](https://leetcode.com/discuss/interview-question/operating-system/124838/Interrupt-Vs-System-Call)
+- [Topcoder](https://accounts.topcoder.com/member?retUrl=https:%2F%2Fwww.topcoder.com%2Fsettings%2Fprofile&utm_source=community-app-main)
+
+</details>
+
+-----------------------
+
+<br />
+
+-----------------------
+
+### 스레드와 멀티스레드에 대해서 설명하세요.
+
+<details>
+   <summary> 예비답안 보기 (👈 Click)</summary>
+<br />
+
+> 스레드와 멀티스레드 주제는 면접에서 정말 중요한 주제입니다. L사의 경우 얼마나 써봤는지 꼬리 질문으로 등장한 전력이 있습니다. 요약 글로는 충분하지 않을 것입니다. C수준이 아니더라도 Java, Python 언어 레벨에서 돌려보면서 살펴볼법한 중요한 주제입니다. 자세하게 알고싶다면 [Covenant. 파이썬 코드로 보는 멀티스레드](https://covenant.tistory.com/231)를 참고하세요!
+
+- 스레드
+   - 프로세스 내에 실행 흐름 단위입니다.
+   - 쓰레드는 프로세스에 할당된 메모리, CPU 등의 자원을 사용합니다.
+   - Stack만 별도의 메모리를 할당하며 Code, Data, Heap은 쓰레드간 공유합니다.
+   - 한 스레드의 결과가 다른 스레드에 영향 끼칩니다. 크롬 하나의 탭에 문제가 생기면 없으면 크롬 자체를 다시 실행해야 하는 경우가 있습니다.
+   - 스레드의 경우 디버깅이 어렵기에 동기화 문제는 주의해서 구현해야합니다.
+
+- 멀티 스레드
+   - 한 개의 단일 어플리케이션(응용프로그램)은 여러 스레드로 구성 후 작업 처리해야합니다.
+   - 한글에서 싱글 스레드를 사용한다면 프린트를 하는 경우 문서 수정은 불가능할 것입니다.
+   - 프로세스를 생성하는 것은 고비용입니다. 스레드를 사용한다면 시스템 자원 소모 감소 및 처리량 증가시킬 수 있습니다.
+   - 스레드는 이미 공유하고 있기에 프로세스를 사용했다면 생길 통신 부담이 감소합니다.
+   - 멀티 스레드를 사용할 경우 디버깅이 어렵습니다. 자원 공유 문제(일명 교착상태)가 생깁니다.
+
+</details>
+
+-----------------------
+
+<br />
+
+-----------------------
+
+### Deadlock의 발생 조건과 Decklock을 깨기 위해서 어떻게 해야하나요?
+
+<details>
+   <summary> 예비답안 보기 (👈 Click)</summary>
+<br />
+
+#### 데드락이란? 
+- 둘 이상의 프로세스(스레드)가 공유 자원을 획득하지 못해 더 이상 실행할 수 없고 무한정 기다려야하는 상황을 말합니다.
+
+#### 데드락 발생 조건
+
+다음 네가지 조건을 모두 만족해야 Deadlock이 발생합니다.
+
+- 상호배제(Mutual exclusion)
+   - (1) 여러 스레드가 동시에 사용하지 못하고 (2) 개수가 제한적이라면 상호배재 조건입니다.
+   - 상호배제 상황 예시. 데이터베이스 연결, 세마포어
+- 잠금 & 대기(Lock & Wait)
+   - 스레드가 자원을 점유하면 작업을 마칠때까지 이미 점유한 자원을 내놓지는 것을 의미합니다.
+- 선점 불가(No Preemption)
+   - 스레드가 다른 스레드로부터 자원을 빼앗지 못하는 것을 의미합니다.
+   - 자원을 점유한 스레드가 자원을 내놓아야지 다른 스레드가 자원을 획득할 수 있습니다.
+- 순환 대기(Circular wait)
+   - 각 스레드가 필요한 자원이 서로 다른 스레드에 있는 상황입니다.
+   - 그래프로 그릴시 원형으로 보입니다.
+   - 죽음의 포옹(deadly embrace)라고 합니다.
+
+
+#### 데드락을 깨는 방법
+- 상호배제 피하는 법
+   - 동시에 사용해도 괜찮은 자원을 사용합니다.
+   - 자원의 수를 스레드 수 이상으로 늘립니다.
+   - 자원을 점유하기 전 필요한 자원이 모두 있는지 확인합니다.
+- 잠금 & 대기 피하는 법
+   - 대기 하지 않는 전략을 사용합니다.
+   - 자원을 점유하기 전에 필요한 자원이 있는지 확인하고 자원이 부족한 경우 가지고있는 자원을 모두 내놓습니다.
+   - 문제점
+      - 기아(Starvation): 한 스레드가 계속해서 필요한 자원을 점유하지 못한다. 점유하고자 하는 자원이 한 번에 획득하기 어려운 경우 이 상황이 두드러집니다.
+      - 라이브락(Livelcok): 여러 스레드가 동시에 접근하기에 자원을 획득했다가 내놓는 상황을 반복합니다.
+- 선점 불가 피하는 법
+   - 자원이 필요한 경우 다른 스레드의 자원을 가져오는 방법입니다.
+   - 자원이 필요한 스레드가 자원을 소유한 스레드에게 자원을 요청합니다.
+   - 자원을 소유한 스레드가 다른 자원을 기다리고 있다면 자신이 소유한 자원을 모두 풀어주고 처음부터 시작합니다.
+- 순환 대기 피하는 법
+   - 데드락 방지하는 흔한 전력입니다.
+   - 스레드에게 순서대로 자원을 할당하는 방식입니다.
+   - 혹은 자원들에 순서를 준 뒤에 각 스레드들이 자원을 요청할 때 우선도가 증가하는 순서로 요청하게 하는 것입니다. 요청 자원보다 우선도가 큰 자원을 전부 해제한 경우에만 자원 요청을 허가하는 방식입니다.
+   - 문제점
+      - 자원의 할당 순서와 사용 순서가 다를 수 있습니다.
+      - 자원에 순서를 할당하기 어렵습니다.
+
+
+</details>
+
+-----------------------
+
+### Virtual Memory에 대해서 설명하시고 사용했을 때 장점에 대해서 설명하세요.
+
+> 답안 준비중입니다.
+
+-----------------------
+
+<br />
+
+-----------------------
+
+### Page Fault를 줄이는 방법에 대해서 설명하세요
+
+> 답안 준비중입니다.
+
+<br />
+
+-----------------------
+
+### OS에서 프로세스는 CPU와 메모리 사이에 MMU(Memory Management Unit)를 두어서 다른 프로세스에 접근할하지 못합니다. 그러나 GDB와 같은 디버거의 경우 다른 프로세스에 접근하여 절대적 메모리 주소와 값을 읽어올 수 있습니다. 어떻게 가능한지 동작 방식에 대해서 설명하세요.
+
+> 답안 준비중입니다.
+
+-----------------------
+
+<br />
+
+### 이중모드의 특징과 장점에 대해 설명하세요
+
+> 답안 준비중입니다.
+
+-----------------------
+
+<br />
+
+-----------------------
+
+### 임계구역 문제가 무엇이고 어떻게 해결하는지 설명하시오
+
+> 답안 준비중입니다.
+
+-----------------------
+
+<br />
+
+### System Call에 대해서 설명하세요
+
+> 답안 준비중입니다.
+
+-----------------------
+
+<br />
+
+-----------------------
+
+### 64비트와 32비트 차이는 무엇인가요? 
+
+> 답안 준비중입니다.
+
+-----------------------
+
+<br />
+
+-----------------------
+
+### 마우스로 한글 바로가기를 클릭했을 때 컴퓨터에서 일어나는 모든 일에 대해서 설명하세요.
+
+`Points: Interrupt, Process Scheduling, Disk Scheduling, Swapping, Thread`
+
+> 답안 준비중입니다.
+
+<br />
+<br />
 <div align=center>
-<h1> 스프링 시큐리티 - 기본편 </h1>
+  <hr />
+    <h3> 용감한 친구들 with 남송리 삼번지 </h3>
+  <hr />
 </div>
-<div align="center">
-<a href="https://www.inflearn.com/course/%EC%BD%94%EC%96%B4-%EC%8A%A4%ED%94%84%EB%A7%81-%EC%8B%9C%ED%81%90%EB%A6%AC%ED%8B%B0"> 인프런 강의 링크 </a>
-</div>
-
-<br />
-
-## 학습내용
-
-- 스프링 시큐리티 기본 API 사용법과 이와 관련된 Filter 이해
-- 스프링 시큐리티 내부 아키텍처와 동작 방식 이해
-- 실전 프로젝트를 통한 스프링 시큐리티 인증 프로세스 구현
-- 실전 프로젝트를 통한 스프링 시큐리티 인가 프로세스 구현 - DB 연동을 통해 권한 제어 시스템 구현
-
-<br />
-
-## 목차
-
-<table>
-<tr>
-    <th colspan="2"> 섹션 00. 강좌 소개 </th>
-</tr>
-<tr>
-    <tr><td> 1) 강의소개 </td><td> - </td></tr>
-    <tr><td> 2) 실전 프로젝트 예제 미리보기 </td><td> - </td></tr>
-</tr>
-<tr>
-    <th colspan="2"> 섹션 01. 스프링 시큐리티 기본 API 및 Filter 이해 </th>
-</tr>
-<tr>
-    <tr><td> 1) 프로젝트 구성 및 의존성 추가 </td><td> - </td></tr>
-    <tr><td> 2) 사용자 정의 보안 기능 구현 </td><td> - </td></tr>
-    <tr><td> 3) Form Login 인증 </td><td> - </td></tr>
-    <tr><td> 4) Form Login 인증 필터 : UsernamePasswordAuthenticationFilter </td><td> - </td></tr>
-    <tr><td> 5) Logout 처리, LogoutFilter </td><td> - </td></tr>
-    <tr><td> 6) Remember Me 인증 </td><td> - </td></tr>
-    <tr><td> 7) Remember Me 인증 필터 : RememberMeAuthenticationFilter </td><td> - </td></tr>
-    <tr><td> 8) 익명사용자 인증 필터 : AnonymousAuthenticationFilter </td><td> - </td></tr>
-    <tr><td> 9) 동시 세션 제어, 세션 고정 보호, 세션 정책 </td><td> - </td></tr>
-    <tr><td> 10) 세션 제어 필터 : SessionManagementFilter, ConcurrentSessionFilter </td><td> - </td></tr>
-    <tr><td> 11) 권한설정과 표현식 </td><td> - </td></tr>
-    <tr><td> 12) 예외 처리 및 요청 캐시 필터 : ExceptionTranslationFilter, RequestCacheAwareFilter </td><td> - </td></tr>
-    <tr><td> 13) 사이트 간 요청 위조 - CSRF, CsrfFilter </td><td> - </td></tr>
-</tr>
-<tr>
-    <th colspan="2"> 섹션 02. 스프링 시큐리티 주요 아키텍처 이해 </th>
-</tr>
-<tr>
-    <tr><td> 1) 위임 필터 및 필터 빈 초기화 - DelegatingProxyChain, FilterChainProxy </td><td> - </td></tr>
-    <tr><td> 2) 필터 초기화와 다중 보안 설정 </td><td> - </td></tr>
-    <tr><td> 3) 인증 개념 이해 - Authentication </td><td> - </td></tr>
-    <tr><td> 4) 인증 저장소 - SecurityContextHolder, SecurityContext </td><td> - </td></tr>
-    <tr><td> 5) 인증 저장소 필터 - SecurityContextPersistenceFilter </td><td> - </td></tr>
-    <tr><td> 6) 인증 흐름 이해 - Authentication Flow </td><td> - </td></tr>
-    <tr><td> 7) 인증 관리자 : AuthenticationManager </td><td> - </td></tr>
-    <tr><td> 8) 인증 처리자 - AuthenticationProvider </td><td> - </td></tr>
-    <tr><td> 9) 인가 개념 및 필터 이해 : Authorization, FilterSecurityInterceptor </td><td> - </td></tr>
-    <tr><td> 10) 인가 결정 심의자 - AccessDecisionManager, AccessDecisionVoter </td><td> - </td></tr>
-    <tr><td> 11) 스프링 시큐리티 필터 및 아키텍처 정리 </td><td> - </td></tr>
-</tr>
-<tr>
-    <th colspan="2"> 섹션 03. 실전프로젝트 -인증 프로세스 Form 인증 구현 </th>
-</tr>
-<tr>
-    <tr><td> 1) 실전 프로젝트 생성 </td><td> - </td></tr>
-    <tr><td> 2) 정적 자원 관리 - WebIgnore 설정 </td><td> - </td></tr>
-    <tr><td> 3) 사용자 DB 등록 및 PasswordEncoder </td><td> - </td></tr>
-    <tr><td> 4) DB 연동 인증 처리(1) : CustomUserDetailsService </td><td> - </td></tr>
-    <tr><td> 5) DB 연동 인증 처리(2) : CustomAuthenticationProvider </td><td> - </td></tr>
-    <tr><td> 6) 커스텀 로그인 페이지 생성하기 </td><td> - </td></tr>
-    <tr><td> 7) 로그아웃 및 인증에 따른 화면 보안 처리 </td><td> - </td></tr>
-    <tr><td> 8) 인증 부가 기능 - WebAuthenticationDetails, AuthenticationDetailsSource </td><td> - </td></tr>
-    <tr><td> 9) 인증 성공 핸들러 : CustomAuthenticationSuccessHandler </td><td> - </td></tr>
-    <tr><td> 10) 인증 실패 핸들러 : CustomAuthenticationFailureHandler </td><td> - </td></tr>
-    <tr><td> 11) 인증 거부 처리 - Access Denied </td><td> - </td></tr>
-</tr>
-<tr>
-    <th colspan="2"> 섹션 04. 실전프로젝트 - 인증 프로세스 Ajax 인증 구현 </th>
-</tr>
-<tr>
-    <tr><td> 1) 흐름 및 개요 </td><td> - </td></tr>
-    <tr><td> 2) 인증 필터 - AjaxAuthenticationFilter </td><td> - </td></tr>
-    <tr><td> 3) 인증 처리자 - AjaxAuthenticationProvider </td><td> - </td></tr>
-    <tr><td> 4) 인증 핸들러 - AjaxAuthenticationSuccessHandler, AjaxAuthenticationFailureHandler </td><td> - </td></tr>
-    <tr><td> 5) 인증 및 인가 예외 처리 - AjaxLoginUrlAuthenticationEntryPoint, AjaxAccessDeniedHandler </td><td> - </td></tr>
-    <tr><td> 6) Ajax Custom DSLs 구현하기 </td><td> - </td></tr>
-    <tr><td> 7) Ajax 로그인 구현 & CSRF 설정 </td><td> - </td></tr>
-</tr>
-<tr>
-    <th colspan="2"> 섹션 05. 실전프로젝트 - 인가 프로세스 DB 연동 웹 계층 구현</th>
-</tr>
-<tr>
-    <tr><td> 1) 스프링 시큐리티 인가 개요 </td><td> - </td></tr>
-    <tr><td> 2) 관리자 시스템 - 권한 도메인, 서비스, 리포지토리 구성 </td><td> - </td></tr>
-    <tr><td> 3) 웹 기반 인가처리 DB 연동 - 주요 아키텍처 이해 </td><td> - </td></tr>
-    <tr><td> 4) 웹 기반 인가처리 DB 연동 - FilterInvocationSecurityMetadataSource (1) </td><td> - </td></tr>
-    <tr><td> 5) 웹 기반 인가처리 DB 연동 - FilterInvocationSecurityMetadataSource (2) </td><td> - </td></tr>
-    <tr><td> 6) 웹 기반 인가처리 실시간 반영하기 </td><td> - </td></tr>
-    <tr><td> 7) 인가처리 허용 필터 - PermitAllFilter 구현 </td><td> - </td></tr>
-    <tr><td> 8) 계층 권한 적용하기- RoleHierarchy </td><td> - </td></tr>
-    <tr><td> 9) 아이피 접속 제한하기 - CustomIpAddressVoter </td><td> - </td></tr>
-</tr>
-<tr>
-    <th colspan="2"> 섹션 06. 실전프로젝트 - 인가 프로세스 DB 연동 서비스 계층 구현 </th>
-</tr>
-<tr>
-    <tr><td> 1) Method 방식 개요 </td><td> - </td></tr>
-    <tr><td> 2) 어노테이션 권한 설정 - @PreAuthorize, @PostAuthorize, @Secured, @RolesAllowed </td><td> - </td></tr>
-    <tr><td> 3) AOP Method 기반 DB 연동 - 주요 아키텍처 이해 </td><td> - </td></tr>
-    <tr><td> 4) AOP Method 기반 DB 연동 - MapBasedSecurityMetadataSource (1) </td><td> - </td></tr>
-    <tr><td> 5) AOP Method 기반 DB 연동 - MapBasedSecurityMetadataSource (2) </td><td> - </td></tr>
-    <tr><td> 6) AOP Method 기반 DB 연동 - MapBasedSecurityMetadataSource (3) </td><td> - </td></tr>
-    <tr><td> 7) AOP Method 기반 DB 연동 - ProtectPointcutPostProcessor </td><td> - </td></tr>
-</tr>
-<tr>
-    <th colspan="2"> 섹션 07. 번 외편 - 메소드 보안 실시간 DB 연동 구현 </th>
-</tr>
-<tr>
-    <tr><td> ProxyFactory 를 활용한 실시간 메소드 보안 구현 </td><td> - </td></tr>
-</tr>
-<tr>
-    <th colspan="2"> 섹션 08. 번 외편 - 강좌 마무리 </th>
-</tr>
-<tr>
-    <tr><td> 정리 </td><td> - </td></tr>
-</tr>
-</table>
-
+   

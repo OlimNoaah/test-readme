@@ -1,368 +1,124 @@
-# 운영체제
-
-<br />
-
------------------------
-
-### 한컴오피스 '한글'을 클릭 후 빈 화면어 커서가 깜빡이고 있다. 이때 hello world를 작성하면 컴퓨터 내부에서 어떤일이 발생하는가?
-
-<details>
-   <summary> 예비 답안 보기 (👈 Click)</summary>
-<br />
-
-- 키보드에서 사용자 입력이 들어오면 키보드 컨트롤러가 인터럽트를 발생시켜 CPU에게 키가 입력되었다는 사실을 알려준다.
-- CPU는 현재 수행중이던 작업의 상태를 저장하고 인터럽트 요청을 처리하기 위해 OS내에 정의된 키보드 인터럽트 처리 루틴을 찾아간다.
-- 키보드 인터럽트 처리 루틴은 키보드로 부터 입력받은 내용을 메모리의 특정 부분에 저장해 해당 프로그램에게 키보드 입력이 들어왔음을 알리며 인터럽트 처리를 완료한다.
-- 인터럽트 처리가 끝나면 인터럽트가 발생하기 직전 상태를 복구시켜 중단되었던 작업을 재개한다.
-
-</details>
-
------------------------
-
-<br />
-
------------------------
-
-### Process와 Thread 차이점을 설명하세요.
-
-<details>
-   <summary> 예비 답안 보기 (👈 Click)</summary>
-<br />
-
-- 먼저 한가지 상황을 가정해보면 한 Server에서 같은 일을 수행하는 프로세스를 매번 fork 해서 만든다고 해보자. 이런 상황이 존재한다면 매번 동일한 코드를 복사하여 일을 수행하는 비효율적인 모습을 상상할 수 있다. fork를 하게 되면 PCB, 주소복사 등등 해줄 일이 많다. 그래서 등장한게 쓰레드인데 한 프로세스 내에서 독립적인 일을 수행해준다.
-- 쓰레드는 레지스터와 스택을 제외하고는 모두 공유하여 사용하게 된다. 이렇게 될 경우 한가지 쓰레드가 I/O를 수행할 때 다른 쓰레드는 다른일을 하는 식으로 일을 좀 더 효율적으로 수행할 수 있게 된다. 그리고 요즘같이 multi-processor 환경을 갖춘 상태에서는 쓰레드로 각 CPU에 일을 할당해서 수행해 줄 수 있게 된다.
-
-</details>
-
------------------------
-
-<br />
-
------------------------
-
-### Process와 Program 차이점을 설명하세요.
-
-<details>
-   <summary> 예비 답안 보기 (👈 Click)</summary>
-<br />
-
-- 실행 상태에 있는 것을 프로세스
-- 하드디스크 안에 있는 것을 프로그램
-
-</details>
-
------------------------
-
-<br />
-
------------------------
-
-### 인터럽트에 대해서 설명하세요
-
-<details>
-   <summary> 예비 답안 보기 (👈 Click)</summary>
-<br />
-
-Trap 은 S/W적으로 발생하는 인터럽트를 가리키는 명칭으로 알고있습니다. 예로 System Call, Segmentation fault 같은게 있습니다.
-인터럽트는 컨트롤 씨를 누를때 처럼 H/W에서 발생하는 것을 명칭 하는 것으로 알고 있습니다.
-
-인터럽트는 장치 내에서 예외상황이 발생하여 처리가 필요할 때 사용하는 것을 말합니다. interrupt vector에 그러한 인터럽트 신호가 오게 될 때 처리해야 하는 동작을 가리키는 주소를 적어놔 관리하게 됩니다. 무조건 우선적으로 처리되게 됩니다.
-
-
-__하드웨어 인터럽트__
-- 각종 하드웨어 장치들이 CPU에게 서비스를 받아야 하는 경우 발생.
-- 인터럽트 라인을 통해 CPU에게 전달
-
-__소프트웨어 인터럽트__
-- 프로그램이 잘못된 연산을 수행할 경우 이에 대한 적절한 처리를 위해 사용되는 예외 상황 처리
-- 자신이 작성하지 않은 코드를 운영체제로부터 서비스를 받기 위해 발생시키는 시스템콜(이를 트랩이라고 합니다.)
-
-</details>
-
------------------------
-
-<br />
-
------------------------
-
-### DMA 존재 이유에 대해서 설명하세요
-
-<details>
-   <summary> 예비 답안 보기 (👈 Click)</summary>
-<br />
-
-- 모든 메모리 접근 연산이 CPU에 의해서만 이루어질 경우 주변 장치가 메모리 접근을 원할 때마다 인터럽트를 통해 CPU 업무가 방해를 받게 되어 CPU의 사용의 효율성이 떨어지는 문제가 발생한다. 
-- DMA는 일종의 컨트롤러로서 CPU가 주변 장치들의 메모리 접근 요청에 의해 자주 인터럽트당하는 것을 막아주는 역할을 한다.
-- DMA를 사용하면 로컬 버퍼에서 메모리로 읽어오는 작업을 CPU가 담당하는 것이 아니라, DMA가 대행하므로서 CPU는 원래 하던 작업을 멈추고 인터럽트를 처리할 필요가 없어지는 것이다. 
-
-</details>
-
------------------------
-
-<br />
-
------------------------
-
-### 운영체제는 다중 유저가 하나의 컴퓨터의 자원을 사용할 때 자원의 '보호'를 합니다. 어떠한 보호를 하는지 설명하고 시나리오를 설명하세요
-
-<details>
-   <summary> 예비 답안 보기 (👈 Click)</summary>
-<br />
-
-크게 세 부분으로 나눌 수 있습니다.
-
-__[1] 입출력장치 보호__
-- A가 프린터에 인쇄를 요청하여 프린터가 A의 작업을 수행 중일 때 B가 프린터 요청을 하면 A의 작업 이후에 B의  작업을 수행해야합니다.
-- 이와 관계된특권 명령(in, out) 명령은 에플리케이션에서 하는 것이 아닌 운영체제가 수행합니다. 
-
-__[2] 메모리 보호__
-- A가 실행한 프로세스는 B가 실행한 프로세스의 메모리를 읽거나 쓰지 못하도록 막습니다.
-- CPU와 메모리 사이에 MMU(Memory Management Unit)두어서  base, limit 레지스터 값을 읽어서 해당 메모리 부분을 넘지 못하도록 합니다. 
-
-__[3] CPU 보호__
-- while ( n = 1) 과 같이 실수 혹은 고의로  하나의 프로세스가 CPU시간을 독점하는 일을 방지해야합니다.
-- 일정 주기로 CPU에게 타이머가 인터럽트를 걸도록 회로를 설계합니다. 인터럽트를 걸면 CPU는 지금 하는 일을 멈추고 인터럽트 서비스 루틴으로 넘어갑니다. 이 코드에는 CPU 시간이 다른 모든 프로세스에게 골고루 가는지, 한 놈에게 집중되는지 체크합니다.
-
-</details>
-
------------------------
-
-<br />
-
------------------------
-
-### synchronized에 대해 아는 바를 전부 이야기하세요.
-
-<details>
-   <summary> 예비 답안 보기 (👈 Click)</summary>
-<br />
-
-Topic
-- 멀티스레딩 상황의 제어를 위해 synchronized를 적극 활용.
-- 어떤 멀티스레드 상황이었는지, 왜 synchronized를 썼는지, synchronized가 mutex를 어떻게 보장하는지
-- 내부적으로 어떻게 구현했는지, 다른 방법은 없었는지, 다른 방법과 synchronized를 비교했을 때의 장단점은 무엇인지, 
-- 특정 상황을 제시한 뒤 이 경우라면 어떻게 적용시킬 수 있을 것인지
-
-</details>
-
------------------------
-
-<br />
-
------------------------
-
-### 함수호출과 시스템 콜의 차이에 대해서 설명하세요.
-
-<details>
-   <summary> 예비 답안 보기 (👈 Click)</summary>
-<br />
-
-- 함수호출 : 자신이 작성한 함수 혹은 라이브러리에 저장된 함수를 호출하는 것
-- 시스템 콜 : 운영체제에 정의된 함수를 호출하는 것
-
-</details>
-
------------------------
-
-<br />
-
------------------------
-
-### 인터럽트와 시스템 콜의 차이에 대해서 설명하세요.
-
-<details>
-   <summary> 읽기자료 보기 (👈 Click)</summary>
-<br />
-
-- [Leetcode](https://leetcode.com/discuss/interview-question/operating-system/124838/Interrupt-Vs-System-Call)
-- [Topcoder](https://accounts.topcoder.com/member?retUrl=https:%2F%2Fwww.topcoder.com%2Fsettings%2Fprofile&utm_source=community-app-main)
-
-</details>
-
------------------------
-
-<br />
-
------------------------
-
-### 스레드와 멀티스레드에 대해서 설명하세요.
-
-<details>
-   <summary> 예비답안 보기 (👈 Click)</summary>
-<br />
-
-> 스레드와 멀티스레드 주제는 면접에서 정말 중요한 주제입니다. L사의 경우 얼마나 써봤는지 꼬리 질문으로 등장한 전력이 있습니다. 요약 글로는 충분하지 않을 것입니다. C수준이 아니더라도 Java, Python 언어 레벨에서 돌려보면서 살펴볼법한 중요한 주제입니다. 자세하게 알고싶다면 [Covenant. 파이썬 코드로 보는 멀티스레드](https://covenant.tistory.com/231)를 참고하세요!
-
-- 스레드
-   - 프로세스 내에 실행 흐름 단위입니다.
-   - 쓰레드는 프로세스에 할당된 메모리, CPU 등의 자원을 사용합니다.
-   - Stack만 별도의 메모리를 할당하며 Code, Data, Heap은 쓰레드간 공유합니다.
-   - 한 스레드의 결과가 다른 스레드에 영향 끼칩니다. 크롬 하나의 탭에 문제가 생기면 없으면 크롬 자체를 다시 실행해야 하는 경우가 있습니다.
-   - 스레드의 경우 디버깅이 어렵기에 동기화 문제는 주의해서 구현해야합니다.
-
-- 멀티 스레드
-   - 한 개의 단일 어플리케이션(응용프로그램)은 여러 스레드로 구성 후 작업 처리해야합니다.
-   - 한글에서 싱글 스레드를 사용한다면 프린트를 하는 경우 문서 수정은 불가능할 것입니다.
-   - 프로세스를 생성하는 것은 고비용입니다. 스레드를 사용한다면 시스템 자원 소모 감소 및 처리량 증가시킬 수 있습니다.
-   - 스레드는 이미 공유하고 있기에 프로세스를 사용했다면 생길 통신 부담이 감소합니다.
-   - 멀티 스레드를 사용할 경우 디버깅이 어렵습니다. 자원 공유 문제(일명 교착상태)가 생깁니다.
-
-</details>
-
------------------------
-
-<br />
-
------------------------
-
-### Deadlock의 발생 조건과 Decklock을 깨기 위해서 어떻게 해야하나요?
-
-<details>
-   <summary> 예비답안 보기 (👈 Click)</summary>
-<br />
-
-#### 데드락이란? 
-- 둘 이상의 프로세스(스레드)가 공유 자원을 획득하지 못해 더 이상 실행할 수 없고 무한정 기다려야하는 상황을 말합니다.
-
-<br />
-
-#### 데드락 발생 조건
-
-다음 네가지 조건을 모두 만족해야 Deadlock이 발생합니다.
-
-- 상호배제(Mutual exclusion)
-   - (1) 여러 스레드가 동시에 사용하지 못하고 (2) 개수가 제한적이라면 상호배재 조건입니다.
-   - 상호배제 상황 예시. 데이터베이스 연결, 세마포어
-- 잠금 & 대기(Lock & Wait)
-   - 스레드가 자원을 점유하면 작업을 마칠때까지 이미 점유한 자원을 내놓지는 것을 의미합니다.
-- 선점 불가(No Preemption)
-   - 스레드가 다른 스레드로부터 자원을 빼앗지 못하는 것을 의미합니다.
-   - 자원을 점유한 스레드가 자원을 내놓아야지 다른 스레드가 자원을 획득할 수 있습니다.
-- 순환 대기(Circular wait)
-   - 각 스레드가 필요한 자원이 서로 다른 스레드에 있는 상황입니다.
-   - 그래프로 그릴시 원형으로 보입니다.
-   - 죽음의 포옹(deadly embrace)라고 합니다.
-
-<br />
-
-#### 데드락을 깨는 방법
-- 상호배제 피하는 법
-   - 동시에 사용해도 괜찮은 자원을 사용합니다.
-   - 자원의 수를 스레드 수 이상으로 늘립니다.
-   - 자원을 점유하기 전 필요한 자원이 모두 있는지 확인합니다.
-- 잠금 & 대기 피하는 법
-   - 대기 하지 않는 전략을 사용합니다.
-   - 자원을 점유하기 전에 필요한 자원이 있는지 확인하고 자원이 부족한 경우 가지고있는 자원을 모두 내놓습니다.
-   - 문제점
-      - 기아(Starvation): 한 스레드가 계속해서 필요한 자원을 점유하지 못한다. 점유하고자 하는 자원이 한 번에 획득하기 어려운 경우 이 상황이 두드러집니다.
-      - 라이브락(Livelcok): 여러 스레드가 동시에 접근하기에 자원을 획득했다가 내놓는 상황을 반복합니다.
-- 선점 불가 피하는 법
-   - 자원이 필요한 경우 다른 스레드의 자원을 가져오는 방법입니다.
-   - 자원이 필요한 스레드가 자원을 소유한 스레드에게 자원을 요청합니다.
-   - 자원을 소유한 스레드가 다른 자원을 기다리고 있다면 자신이 소유한 자원을 모두 풀어주고 처음부터 시작합니다.
-- 순환 대기 피하는 법
-   - 데드락 방지하는 흔한 전력입니다.
-   - 스레드에게 순서대로 자원을 할당하는 방식입니다.
-   - 혹은 자원들에 순서를 준 뒤에 각 스레드들이 자원을 요청할 때 우선도가 증가하는 순서로 요청하게 하는 것입니다. 요청 자원보다 우선도가 큰 자원을 전부 해제한 경우에만 자원 요청을 허가하는 방식입니다.
-   - 문제점
-      - 자원의 할당 순서와 사용 순서가 다를 수 있습니다.
-      - 자원에 순서를 할당하기 어렵습니다.
-
-<br />
-
-</details>
-
------------------------
-
-<br />
-
------------------------
-
-### Virtual Memory에 대해서 설명하시고 사용했을 때 장점에 대해서 설명하세요.
-
-> 답안 준비중입니다.
-
------------------------
-
-<br />
-
------------------------
-
-### Page Fault를 줄이는 방법에 대해서 설명하세요
-
-> 답안 준비중입니다.
-
------------------------
-
-<br />
-
------------------------
-
-### OS에서 프로세스는 CPU와 메모리 사이에 MMU(Memory Management Unit)를 두어서 다른 프로세스에 접근할하지 못합니다. 그러나 GDB와 같은 디버거의 경우 다른 프로세스에 접근하여 절대적 메모리 주소와 값을 읽어올 수 있습니다. 어떻게 가능한지 동작 방식에 대해서 설명하세요.
-
-> 답안 준비중입니다.
-
------------------------
-
-<br />
-
------------------------
-
-### 이중모드의 특징과 장점에 대해 설명하세요
-
-> 답안 준비중입니다.
-
------------------------
-
-<br />
-
------------------------
-
-### 임계구역 문제가 무엇이고 어떻게 해결하는지 설명하시오
-
-> 답안 준비중입니다.
-
------------------------
-
-<br />
-
------------------------
-
-### System Call에 대해서 설명하세요
-
-> 답안 준비중입니다.
-
------------------------
-
-<br />
-
------------------------
-
-### 64비트와 32비트 차이는 무엇인가요? 
-
-> 답안 준비중입니다.
-
------------------------
-
-<br />
-
------------------------
-
-### 마우스로 한글 바로가기를 클릭했을 때 컴퓨터에서 일어나는 모든 일에 대해서 설명하세요.
-
-`Points: Interrupt, Process Scheduling, Disk Scheduling, Swapping, Thread`
-
-> 답안 준비중입니다.
-
------------------------
-
-
-
-<br />
-<br />
 <div align=center>
-  <hr />
-    <h3> 용감한 친구들 with 남송리 삼번지 </h3>
-  <hr />
+<img src="https://github.com/brave-people/brave-tech-interview/blob/main/_raw/google-flat.png?raw=true" />
+
+<h1> Brave Career  </h1>
+
+[![maintainer](https://img.shields.io/badge/author-covenant-brightgreen.svg?style=flat-square)](https://github.com/osj3474)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/brave-people/Brave-Career/pulls)
+
+🚀 개발자 취업 공고를 가장 빠르게 만나보세요
+
 </div>
-   
+
+<br /><br /><br />
+
+> 카카오톡 오픈 채팅방 [SW 개발자 취업&이직 공고방 1](https://open.kakao.com/o/gFOyh7sc), [SW 개발자 취업&이직 공고방 2](https://open.kakao.com/o/gSIkvvHc)에 올라오는 채용 공고를 파이썬 스크립트 ([저장소 보러가기!](https://github.com/brave-people))로 정보를 자동 업데이트하여 매일 0시에 본 저장소 정보를 갱신합니다.
+
+<br /><br /><br />
+
+<div align=center>
+  <h2> Today : 04월 26일 (월) 🔥</h2>
+</div>
+<br />
+
+# ‼️ 마감 임박 공고
+|    | 공고                                                                                                                                                                                                      | 마감일        |
+|---:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------|
+|  0 | <a href='http://recruit.kepco.co.kr/' target='_blank'> 한국전력공사 1차연구직채용 석박사 모집 </a>                                                                                                                       | 2021-04-26 |
+|  1 | <a href='http://ibk.incruit.com/hire/viewhire.asp?projectid=106' target='_blank'> 2021년 상반기 IBK기업은행 신입행원 채용공고 </a>                                                                                      | 2021-04-26 |
+|  2 | <a href='https://careers.linecorp.com/ko/jobs/418' target='_blank'> 2021 LINE AD Platform 채용 연계형 인턴 (Server / Client / Machine Learning) </a>                                                           | 2021-04-26 |
+|  3 | <a href='https://www.jobkorea.co.kr/Recruit/GI_Read/34447051?Oem_Code=C1&PageGbn=ST' target='_blank'> 콘텐츠웨이브(SK 계열사) 빅데이터개발자, 데이터엔지니어 신입 채용 </a>                                                        | 2021-04-26 |
+|  4 | <a href='https://recruit.daou.co.kr/' target='_blank'> 다우기술 상반기공채 신입, 경력 채용 </a>                                                                                                                        | 2021-04-26 |
+|  5 | <a href='https://job.seoul.go.kr/www/custmr_cntr/ntce/WwwNotice.do?method=getWwwNotice&noticeCmmnSeNo=1&bbscttSn=13627' target='_blank'> 서울형 청년인턴 직무캠프 인턴십 참여자 모집 </a>                                  | 2021-04-26 |
+|  6 | <a href='https://nps.saramin.co.kr/service/nps/2046/applicant/apply/index.asp' target='_blank'> 국민연금공단 채용 </a>                                                                                          | 2021-04-27 |
+|  7 | <a href='https://recruit.mbc.co.kr:1004/apply_site/recruit/view' target='_blank'> MBC 정보콘텐츠부 정보보호팀 IT인프라 기획/관리 담당 모집 </a>                                                                               | 2021-04-27 |
+|  8 | <a href='http://h-career.com/?utm_source=sns&utm_medium=cpc&utm_campaign=sns_cpc&fbclid=IwAR3koIuI-5w-fQ-bw2uKI-8b1-TYfZZ9qO2bj7QkWxjuT_fGFgNZNlExcKw' target='_blank'> 현대자동차 연구개발본부 전 부문 경력 인재 모집 </a> | 2021-04-28 |
+|  9 | <a href='https://ih2021.saramin.co.kr/_service/zlight/apply_site/apply/recruit_default.asp' target='_blank'> 인천도시공사 전산 채용 </a>                                                                          | 2021-04-28 |
+| 10 | <a href='http://recruit.kepco.co.kr/' target='_blank'> 한국전력공사 상반기 대졸채용 ICT </a>                                                                                                                         | 2021-04-29 |
+
+<br /><br /><br />
+
+# 🚌 진행 중인 공고
+|    | 공고                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | 마감일        |
+|---:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------|
+|  0 | <a href='https://careers.kakaoenterprise.com/s/DHWXpR' target='_blank'> 카엔 [보안] 취약점 진단 인턴 영입 </a>                                                                                                                                                                                                                                                                                                                                                                                                                                                           | 2021-04-30 |
+|  1 | <a href='https://careers.11stcorp.com/jobs/detail/30003400' target='_blank'> 11번가 데이터 분석 서비스 개발 분야 모집 </a>                                                                                                                                                                                                                                                                                                                                                                                                                                                  | 2021-04-30 |
+|  2 | <a href='https://kftc.career.co.kr/jobs/jobs_view.asp?ID=1001' target='_blank'> 금융결제원 전산직 채용 </a>                                                                                                                                                                                                                                                                                                                                                                                                                                                           | 2021-04-30 |
+|  3 | <a href='https://recruit.navercorp.com/naver/job/detail/developer?annoId=20003277&classId=&jobId=&entTypeCd=&searchTxt=&searchSysComCd=' target='_blank'> 네이버랩스 [Platform Engineering] Front-end Engineer 채용 </a>                                                                                                                                                                                                                                                                                                                                           | 2021-04-30 |
+|  4 | <a href='https://recruit.navercorp.com/naver/job/detail/developer?annoId=20002849&classId=&jobId=&entTypeCd=&searchTxt=&searchSysComCd=' target='_blank'> 네이버랩스 [Platform Engineering] Server Engineer 채용 </a>                                                                                                                                                                                                                                                                                                                                              | 2021-04-30 |
+|  5 | <a href='http://www.dataintern.or.kr/' target='_blank'> 2021 공공 빅데이터 분석 청년인재 양성사업 및 공공빅데이터 청년인턴십 참가자 모집 </a>                                                                                                                                                                                                                                                                                                                                                                                                                                                | 2021-04-30 |
+|  6 | <a href='https://m.jobkorea.co.kr/Recruit/GI_Read/34449180?view_type=01' target='_blank'> 키움에셋플래너 IT팀 신입(정규직) 및 프리랜서 모집 </a>                                                                                                                                                                                                                                                                                                                                                                                                                                | 2021-04-30 |
+|  7 | <a href='https://recruit.navercorp.com/naver/job/detail/developer?annoId=20005728&classId=&jobId=&entTypeCd=&searchTxt=&searchSysComCd=' target='_blank'> 네이버웹툰 하계인턴십 채용연계형 </a>                                                                                                                                                                                                                                                                                                                                                                            | 2021-04-30 |
+|  8 | <a href='http://gamevilcom2us-recruit.com/' target='_blank'> 게임빌컴투스 상반기 경력직1년이상 세자리수 채용 </a>                                                                                                                                                                                                                                                                                                                                                                                                                                                                | 2021-04-30 |
+|  9 | <a href='https://www.careerhyundai.com:1003/_service/hyundaicard/apply_site/apply/recruit_default.asp?recruit_idx=1016&view_type=' target='_blank'> 현대카드 [Data Science실] Data Science팀 경력무관채용 </a>                                                                                                                                                                                                                                                                                                                                                          | 2021-04-30 |
+| 10 | <a href='https://www.notion.so/VROONG-5c5458e75f9142f8b37272d7d146dffc' target='_blank'> 메쉬코리아(부릉) 부문별 신입/경력 모집 </a>                                                                                                                                                                                                                                                                                                                                                                                                                                        | 2021-04-30 |
+| 11 | <a href='https://interpark.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=47201' target='_blank'> 인터파크 정규직 전환형 인턴채용 </a>                                                                                                                                                                                                                                                                                                                                                                                                                | 2021-05-02 |
+| 12 | <a href='https://recruit.lotte.co.kr/apply/announcement/detail/20182890?compcd=10002' target='_blank'> 2021년 상반기 롯데칠성 신입사원 채용 일반전형 데이터분석 (롯데그룹 중복가능) </a>                                                                                                                                                                                                                                                                                                                                                                                                   | 2021-05-02 |
+| 13 | <a href='https://recruit.miraeasset.com:1006/apply_site/recruit/view' target='_blank'> 미래에셋자산운용 it본부 인턴 , 경력채용 </a>                                                                                                                                                                                                                                                                                                                                                                                                                                         | 2021-05-02 |
+| 14 | <a href='https://navis-ams.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS1&jobnoticeSn=25490' target='_blank'> 나비스오토모티브시스템즈 [한국] SW개발 신입/경력 채용_2021년6월입사 </a>                                                                                                                                                                                                                                                                                                                                                                                        | 2021-05-02 |
+| 15 | <a href='https://dbgroup.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=54379' target='_blank'> [DB하이텍] IT(시스템개발) 신입사원 모집 </a>                                                                                                                                                                                                                                                                                                                                                                                                          | 2021-05-02 |
+| 16 | <a href='https://careers.kakao.com/2021-intern' target='_blank'> 카카오인턴 Service & Biz developers 등 </a>                                                                                                                                                                                                                                                                                                                                                                                                                                                      | 2021-05-03 |
+| 17 | <a href='https://programmers.co.kr/competitions/1142/2021-kakao-internship' target='_blank'> 카카오 인턴십 채용 </a>                                                                                                                                                                                                                                                                                                                                                                                                                                                | 2021-05-03 |
+| 18 | <a href='https://carrotins.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=54410' target='_blank'> Carrot손해보험 모바일 앱(IOS) 개발 담당자 채용(인턴) </a>                                                                                                                                                                                                                                                                                                                                                                                              | 2021-05-04 |
+| 19 | <a href='https://carrotins.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=54407' target='_blank'> Carrot손해보험 자동차보험IT 담당자 채용(인턴) </a>                                                                                                                                                                                                                                                                                                                                                                                                    | 2021-05-04 |
+| 20 | <a href='https://carrotins.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=54415' target='_blank'> Carrot손해보험 프론트엔드 개발자 채용(인턴) </a>                                                                                                                                                                                                                                                                                                                                                                                                      | 2021-05-04 |
+| 21 | <a href='https://woowabros.github.io/devrel/2021/04/20/woowa-techcamp_4th.html' target='_blank'> 우아한테크캠프 4기 모집 (풀스택) </a>                                                                                                                                                                                                                                                                                                                                                                                                                                   | 2021-05-06 |
+| 22 | <a href='https://www.ncruiting.com/m/index.html' target='_blank'> 엔씨소프트 여름인턴 모집 </a>                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | 2021-05-06 |
+| 23 | <a href='https://programmers.co.kr/competitions/1043?slug=2021-summer-coding&utm_campaign=competition1043_introduce&utm_medium=banner&utm_source=programmers' target='_blank'> 2021 Summer Coding - 여름방학 스타트업 인턴 프로그램 </a>                                                                                                                                                                                                                                                                                                                                  | 2021-05-07 |
+| 24 | <a href='https://recruit.lotte.co.kr/apply/announcement/detail/20186462?compcd=?id=bookmark10017' target='_blank'> 2021년 상반기 캐논코리아 신입사원 채용 </a>                                                                                                                                                                                                                                                                                                                                                                                                             | 2021-05-07 |
+| 25 | <a href='https://www.saramin.co.kr/zf_user/jobs/relay/pop-view?rec_idx=40051722' target='_blank'> 오피지지 2021 신입/경력 전직군 공개채용 </a>                                                                                                                                                                                                                                                                                                                                                                                                                             | 2021-05-07 |
+| 26 | <a href='https://krafton.recruiter.co.kr/app/jobnotice/list' target='_blank'> 크래프톤 4/26 대규모 채용 , 신입공채 </a>                                                                                                                                                                                                                                                                                                                                                                                                                                                  | 2021-05-09 |
+| 27 | <a href='https://dongwon2021.com/' target='_blank'> 동원그룹 인턴십채용 </a>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | 2021-05-10 |
+| 28 | <a href='https://recruit.truefriend.com/announcementView?_ev=JAdao%2BsAmbkPsTjLHSd0fNLyoglNFVmllrGz3YVNtpw0ZiYd47nvSFwckc5wbLkPi2AZPxDQjg4iTSkeVi4xN7c%2FjoA2U%2Be63QTgW%2BB8Tk9ywatLwUnZjyA%2BdZ%2FVoAkqH%2FH1wsU7%2FqLCXpeBIHi%2BUnnROjQYmgyw9dnkftKDuY62fsng%2F%2FIBHIDP2Q8j8Ac1fGhlmwsiuHhvC8e4isbNhdSPQk4gbzqC4%2FNckT3hExjcgjTYxvy47hmSlEAyXhXa2EF65wBpVETLmGZILItpMWm13iMiqcGQqmwVnWJo815jWyCVrCx5HQYqvjuWaJxut%2F8iXbholaofH%2B3H8X%2B95Q%3D%3D&_ec=uwj2LydYDiZrPJrAUeiSzYA%2BrCsjJwqh6ZoYqfVVdoo%3D' target='_blank'> 한국투자증권 IT, 디지털 직무 인턴 모집 </a> | 2021-05-12 |
+| 29 | <a href='https://career.nis.go.kr:4017/info/notice/view.html?noticeNum=2287' target='_blank'> 국가정보원 정기공채 </a>                                                                                                                                                                                                                                                                                                                                                                                                                                               | 2021-05-13 |
+| 30 | <a href='https://www.ssafy.com/ksp/jsp/swp/swpMain.jsp' target='_blank'> 삼성 청년 SW 아카데미(싸피) 6기 모집 </a>                                                                                                                                                                                                                                                                                                                                                                                                                                                       | 2021-05-14 |
+| 31 | <a href='https://fnf.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=55204' target='_blank'> F&F [신입] 디지털본부 경영정보팀 웹 개발 인턴 채용 </a>                                                                                                                                                                                                                                                                                                                                                                                                        | 2021-05-16 |
+| 32 | <a href='https://www.pwc.com/kr/ko/career/2021-specialist.html' target='_blank'> 삼일회계법인 Specialist 공채 </a>                                                                                                                                                                                                                                                                                                                                                                                                                                                  | 2021-05-19 |
+| 33 | <a href='https://www.hanjin.co.kr/kor/CMS/RecruitMgr/view.do?mCode=MN052&recruit_seq=18' target='_blank'> (주)한진 플랫폼(웹/앱) 운영·관리 채용 </a>                                                                                                                                                                                                                                                                                                                                                                                                                      | 2021-05-22 |
+
+<br /><br /><br />
+
+# 💫 마감된 공고
+|    | 공고                                                                                                                                                                                     | 마감일        |
+|---:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------|
+|  0 | ~~<a href='https://career.kyobo.co.kr/' target='_blank'> 교보생명보험 상반기 신입사원 채용 </a>~~                                                                                                     | 2021-04-21 |
+|  1 | ~~<a href='https://daelim-2021.com/' target='_blank'> 대림 신입사원 모집 </a>~~                                                                                                                | 2021-04-20 |
+|  2 | ~~<a href='https://www.saramin.co.kr/zf_user/jobs/view?rec_idx=40009484&view_type=etc' target='_blank'> 한국리서치 웹프로그래머 신입, 경력채용 </a>~~                                                   | 2021-04-19 |
+|  3 | ~~<a href='https://recruit.koreit.co.kr/Recruit/CareersView?Seq=20322' target='_blank'> 한국토지신탁 2021년 계약직 인턴 모집공고 </a>~~                                                                | 2021-04-18 |
+|  4 | ~~<a href='https://shinhan.recruiter.co.kr/app/jobnotice/list' target='_blank'> 2021 디지털/ICT 수시채용 </a>~~                                                                               | 2021-04-18 |
+|  5 | ~~<a href='http://eureka.ewha.ac.kr/eureka/ea/html/ea02/public3/invite.html' target='_blank'> 이화여대 전산 신입채용 </a>~~                                                                      | 2021-04-16 |
+|  6 | ~~<a href='https://recruit.navercorp.com/naver/job/detail/developer?annoId=20005623&classId=&jobId=&entTypeCd=&searchTxt=&searchSysComCd=' target='_blank'> 네이버 상반기 신입 공채 기술 직군 </a>~~ | 2021-04-12 |
+|  7 | ~~<a href='http://apply.samsung.co.kr/rec/apply/ComResumeServlet?cmd=pstMain' target='_blank'> 삼성전자 CEIM 부문 SW분야 경력모집 </a>~~                                                           | 2021-03-22 |
+
+<br /><br /><br />
+
+# 📡 수시 채용 공고
+|    | 공고                                                                                                                                                                                                                                        | 마감일        |
+|---:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------|
+|  0 | <a href='https://careers.google.com/jobs/results/95905561419096774-software-engineer-university-graduate/?distance=50&hl=en_US&jlo=en_US&location=Seoul,%20South%20Korea&q=&skills=Computer%20Programming' target='_blank'> 구글 SW 채용 </a> | 수시(채용시 마감) |
+|  1 | <a href='https://www.wanted.co.kr/wd/36202?referer_id=6596' target='_blank'> [아그레아블] 프론트엔드 개발자 채용 </a>                                                                                                                                    | 수시(채용시 마감) |
+|  2 | <a href='https://lunit.recruiter.co.kr/app/jobnotice/list' target='_blank'> Lunit 채용 </a>                                                                                                                                                 | 수시(채용시 마감) |
+|  3 | <a href='https://www.notion.so/abbffca46bc6434eb08ca3c3b2bce948' target='_blank'> 이스트소프트 원터치 개발자 채용 </a>                                                                                                                                  | 수시(채용시 마감) |
+|  4 | <a href='https://www.wanted.co.kr/wd/58035' target='_blank'> 아그레아블 프론트엔드(경력직) 채용 </a>                                                                                                                                                     | 수시(채용시 마감) |
+|  5 | <a href='https://www.wanted.co.kr/wd/36202?referer_id=6596' target='_blank'> 아그레아블 프론트엔드(신입) 채용 </a>                                                                                                                                      | 수시(채용시 마감) |
+|  6 | <a href='https://www.jobkorea.co.kr/Recruit/GI_Read/34464162?Oem_Code=1' target='_blank'> 지미디어 채용 </a>                                                                                                                                    | 수시(채용시 마감) |
+|  7 | <a href='https://www.catch.co.kr/NCS/RecruitInfoDetails/175399' target='_blank'> 퍼블리 프론트엔드 엔지니어 신입채용 </a>                                                                                                                                 | 수시(채용시 마감) |
+|  8 | <a href='https://jcetglobal.jobagent.co.kr/' target='_blank'> 스태츠칩코리아 채용 </a>                                                                                                                                                             | 수시(채용시 마감) |
+|  9 | <a href='https://career.nexon.com/user/recruit/notice/noticeList?joinCorp=NO' target='_blank'> 네오플 신규프로젝트 Overkill 신입/경력수시채용 </a>                                                                                                         | 수시(채용시 마감) |
+| 10 | <a href='https://www.bucketplace.co.kr/recruit/2021-04-19-backend-developer-%EC%B1%84%EC%9A%A9%EC%97%B0%EA%B3%84%ED%98%95-%EC%9D%B8%ED%84%B4/' target='_blank'> bucketplace- 오늘의집 백엔드 개발자 인턴 채용 </a>                                      | 수시(채용시 마감) |
+| 11 | <a href='https://www.bucketplace.co.kr/recruit/2021-04-23-software-engineer-%EC%9D%B8%ED%84%B4-6%EA%B0%9C%EC%9B%94/' target='_blank'> bucketplace- 오늘의집 소프트웨어 엔지니어 인턴 채용 </a>                                                             | 수시(채용시 마감) |
+
+<br /><br /><br />
+
+<div align=center>
+<hr />
+  <h3> 용감한 친구들 with 남송리 삼번지 </h3>
+<hr />
+</div>
+
+
+
+
+
+
+

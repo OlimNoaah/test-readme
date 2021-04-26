@@ -10,12 +10,13 @@
 
 </div>
 
-<br />
+<br /><br />
 
 > 카카오톡 오픈 채팅방 [SW 개발자 취업&이직 공고방 1](https://open.kakao.com/o/gFOyh7sc), [SW 개발자 취업&이직 공고방 2](https://open.kakao.com/o/gSIkvvHc)에 올라오는 채용 공고를 파이썬 스크립트 ([저장소 보러가기!](https://github.com/brave-people))로 정보를 자동 업데이트하여 매일 0시에 본 저장소 정보를 갱신합니다.
 
-> 테스트 단계이기에 개선사항이 많이 있습니다. 관심있는 분들의 PR을 기다리고있습니다  😄
+> Beta 단계이기에 개선사항이 많이 있습니다. 관심있는 분들의 PR을 기다리고있습니다  😄
 
+<br />
 <br />
 
 <div align=center>

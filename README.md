@@ -1,5 +1,5 @@
 <div align=center>
-<img src="https://github.com/brave-people/brave-tech-interview/blob/main/_raw/google-flat.png?raw=true" />
+<img src="./static/career.png?raw=true" />
 
 <h1> Brave Career  </h1>
 
@@ -10,11 +10,11 @@
 
 </div>
 
-<br /><br /><br />
+<br />
 
 > 카카오톡 오픈 채팅방 [SW 개발자 취업&이직 공고방 1](https://open.kakao.com/o/gFOyh7sc), [SW 개발자 취업&이직 공고방 2](https://open.kakao.com/o/gSIkvvHc)에 올라오는 채용 공고를 파이썬 스크립트 ([저장소 보러가기!](https://github.com/brave-people))로 정보를 자동 업데이트하여 매일 0시에 본 저장소 정보를 갱신합니다.
 
-<br /><br /><br />
+<br />
 
 <div align=center>
   <h2> Today : 04월 26일 (월) 🔥</h2>
@@ -115,10 +115,3 @@
   <h3> 용감한 친구들 with 남송리 삼번지 </h3>
 <hr />
 </div>
-
-
-
-
-
-
-

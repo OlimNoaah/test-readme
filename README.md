@@ -3,7 +3,7 @@
 
 <h1> Brave Career  </h1>
 
-[![maintainer](https://img.shields.io/badge/author-covenant-brightgreen.svg?style=flat-square)](https://github.com/osj3474)
+[![maintainer](https://img.shields.io/badge/author-osj3474-brightgreen.svg?style=flat-square)](https://github.com/osj3474)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/brave-people/Brave-Career/pulls)
 
 🚀 개발자 취업 공고를 가장 빠르게 만나보세요

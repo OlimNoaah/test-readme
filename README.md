@@ -1,5 +1,5 @@
 <div align=center>
-<img src="./static/career.png?raw=true" />
+<img src="https://user-images.githubusercontent.com/67247530/116883393-84d01780-ac60-11eb-9a80-3196dbba9289.png" />
 
 <h1> Brave Career  </h1>
 

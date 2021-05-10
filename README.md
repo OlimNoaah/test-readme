@@ -1,6 +1,7 @@
 <table>
 <thead>
-<tr> 
+<tr>
+   <td> - </td>
    <td> Error </td>
    <td> Exception </td>  
 </tr>

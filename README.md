@@ -9,7 +9,7 @@
 <tbody>
 <!-- <tr>
     <td colspan="2"> 
-      Throwable class의 subclass입니다.
+      
     </td>
 </tr> -->
 <tr>
@@ -17,6 +17,25 @@
       <th> 패키지 </th>
       <td> java.lang.error	 </td>
       <td> java.lang.exception </td>
+   </tr>
+      <th> 발생 시점 </th>
+      <td> 모든 예외는 Unchecked Type  </td>
+      <td> 
+        Checked Type, Unchecked Type으로 분류
+      </td>
+   <tr>
+      <th> 복구 </th>
+      <td> 에러는 복구가 불가능 </td>
+      <td> 
+         try cactch 블락을 이용하여 복구 가능
+      </td>
+   </tr>
+   <tr>
+      <th> 타입 </th>
+      <td> 모든 예외는 Unchecked Type  </td>
+      <td> 
+        Checked Type, Unchecked Type으로 분류
+      </td>
    </tr>
    <tr>
       <th> 예시 </th>
@@ -29,3 +48,8 @@
 </tr>
 </tbody>
 </table>
+
+
+- Checked Exception: 실행하기 전에 예측 가능한 SQLException, FileNotFoundException
+- Unchecked Exception: 어플리케이션 동작시 발생하는 ArrayIndexOutOfBoundException, NullPointerException
+

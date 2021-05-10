@@ -1,7 +1,3 @@
-<details>
-   <summary> 예비 답안 보기 (👈 Click)</summary>
-<br />
-
 <table>
 <thead>
 <tr> 
@@ -10,15 +6,24 @@
 </tr>
 </thead>
 <tbody>
-<tr>
+<!-- <tr>
     <td colspan="2"> 
       Throwable class의 subclass입니다.
     </td>
-</tr>
+</tr> -->
 <tr>
     <tr>
-      <td> 2) 실전 프로젝트 예제 미리보기 </td>
-      <td> 2) 실전 프로젝트 예제 미리보기 </td>
+      <th> 패키지 </th>
+      <td> java.lang.error	 </td>
+      <td> java.lang.exception </td>
+   </tr>
+   <tr>
+      <th> 예시 </th>
+      <td> OutOfMemory, StackOverFlow </td>
+      <td> 
+         Checked Exception: NoSuchMethod, ClassNotFound <br /> 
+         Unchecked Exception: NullPointer, IndexOutOfBounds
+      </td>
    </tr>
 </tr>
 </tbody>

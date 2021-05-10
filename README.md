@@ -1,7 +1,11 @@
+
+
+Error, Exception은 Throwable class의 subclass이지만 다음과 같은 차이가 있습니다.
+
 <table>
 <thead>
 <tr>
-   <td> - </td>
+   <td> ⠀ </td>
    <td> Error </td>
    <td> Exception </td>  
 </tr>

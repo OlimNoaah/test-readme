@@ -1,8 +1,9 @@
+### [Java] Exception, Error의 차이에 대해서 설명하세요.
 
 <details>
    <summary> 예비 답안 보기 (👈 Click)</summary>
 <br />
-
+<br />
 
 Error, Exception은 Throwable class의 subclass이지만 다음과 같은 차이가 있습니다.
 
@@ -54,6 +55,7 @@ Error, Exception은 Throwable class의 subclass이지만 다음과 같은 차이
 </tbody>
 </table>
 
+<br />
 
 - Checked Exception: 실행하기 전에 예측 가능한 SQLException, FileNotFoundException
 - Unchecked Exception: 어플리케이션 동작시 발생하는 ArrayIndexOutOfBoundException, NullPointerException

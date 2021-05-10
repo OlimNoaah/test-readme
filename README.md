@@ -1,9 +1,11 @@
-<details>
-   <summary> 예비 답안 보기 (👈 Click)</summary>
-<br />
-
 <table>
-<tr>  <td> Error </td><td> Exception </td>  </tr>
+<thead>
+<tr> 
+   <td> Error </td>
+   <td> Exception </td>  
+</tr>
+</thead>
+<tbody>
 <tr>
     <th colspan="2"> 
       Throwable class의 subclass입니다.
@@ -15,7 +17,5 @@
       <td> - </td>
    </tr>
 </tr>
+</tbody>
 </table>
-
-
-</details>

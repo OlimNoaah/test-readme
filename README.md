@@ -1,6 +1,12 @@
 
+<details>
+   <summary> 예비 답안 보기 (👈 Click)</summary>
+<br />
+
 
 Error, Exception은 Throwable class의 subclass이지만 다음과 같은 차이가 있습니다.
+
+<br />
 
 <table>
 <thead>
@@ -11,11 +17,6 @@ Error, Exception은 Throwable class의 subclass이지만 다음과 같은 차이
 </tr>
 </thead>
 <tbody>
-<!-- <tr>
-    <td colspan="2"> 
-      
-    </td>
-</tr> -->
 <tr>
     <tr>
       <th> 패키지 </th>
@@ -23,9 +24,9 @@ Error, Exception은 Throwable class의 subclass이지만 다음과 같은 차이
       <td> java.lang.exception </td>
    </tr>
       <th> 발생 시점 </th>
-      <td> 모든 예외는 Unchecked Type  </td>
+      <td> 런타임에서 발생. 컴파일 시점에서 에러가 발생할지 알 수 없다.  </td>
       <td> 
-        Checked Type, Unchecked Type으로 분류
+       Checked Exception은 컴파일 시점에 알 수 있다. Unchecked Exception은 런타임에서만 알 수 있다.
       </td>
    <tr>
       <th> 복구 </th>
@@ -57,3 +58,4 @@ Error, Exception은 Throwable class의 subclass이지만 다음과 같은 차이
 - Checked Exception: 실행하기 전에 예측 가능한 SQLException, FileNotFoundException
 - Unchecked Exception: 어플리케이션 동작시 발생하는 ArrayIndexOutOfBoundException, NullPointerException
 
+</details>

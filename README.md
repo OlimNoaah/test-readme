@@ -1,5 +1,5 @@
 <div align="center">
-    <h1>[1기] 스프링 정복 새싹반 </h1>
+    <h1>[1기] 🌱 스프링 정복 새싹반 </h1>
 </div>
 
 <br />
@@ -50,8 +50,9 @@
 - 학습 도서에 대한 요약록
 - 스터디 주제별 구현 코드
 
----
+<hr />
 <p align="center">
     <img width="10%" alt="_2021-05-12__1 58 58" src="https://user-images.githubusercontent.com/25525648/117926239-69859c00-b333-11eb-88d1-3c59bd5cf166.png">
 </p>
+<hr />
 

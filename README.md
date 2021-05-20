@@ -6,7 +6,9 @@
 
 ## Index
 
-- [🚀 [로켓 학습] 스프링부트 CRUD REST API (JPA, MySQL, Gradle)](https://covenant.tistory.com/243) 글
- [Code. spring-boot-mysql](https://github.com/KoEonYack/Tistory-Covenant-Code/tree/main/spring-boot-mysql)
+- [🚀 [로켓 학습] 스프링부트 CRUD REST API (JPA, MySQL, Gradle)](https://covenant.tistory.com/243)
+    - [Code. spring-boot-mysql](https://github.com/KoEonYack/Tistory-Covenant-Code/tree/main/spring-boot-mysql)
 
 
+<br />
+<br />

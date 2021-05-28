@@ -70,8 +70,12 @@ def negation(A):
     print("No duplicates in given array")
 ```
 
-                            ![스크린샷 2021-05-28 오후 11 55 44](https://user-images.githubusercontent.com/67247530/120002922-38ce8380-c010-11eb-9082-a151b4e10a12.png)
+![스크린샷 2021-05-28 오후 11 55 44](https://user-images.githubusercontent.com/67247530/120002922-38ce8380-c010-11eb-9082-a151b4e10a12.png)
 
+- A = [3, 2, 1, 1, 4]를 예시로 보겠습니다. 
+- Step1. A[abs(A[i])]가 음수가 아니므로 A[A[i]]를 음수로 바꿉니다.
+- Step2. A[abs(A[i])]가 음수가 아니므로 A[A[i]]를 음수로 바꿉니다.
+- Step3. A[abs(A[i])]가 음수이므로 중복 원소가 배열에 존재합니다.
                             
 <br />
 </details>

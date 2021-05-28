@@ -70,6 +70,9 @@ def negation(A):
     print("No duplicates in given array")
 ```
 
+                            ![스크린샷 2021-05-28 오후 11 55 44](https://user-images.githubusercontent.com/67247530/120002922-38ce8380-c010-11eb-9082-a151b4e10a12.png)
+
+                            
 <br />
 </details>
 

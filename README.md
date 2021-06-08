@@ -1,108 +1,83 @@
------------------------
+<h1> ❤️🌱 스프링 정복 새싹반 </h1>
+<img src="./_raw/cover.jpg" />
 
-`완전탐색`, `꼬리물기 최적화`
-
-### 배열에 빠진 수를 찾으세요.
-
-<details>
-   <summary> 예비 답안 보기 (👈 Click)</summary>
-<br />
-
-### 문제
-
-> 서로 다른 [1, n]범위의 n-1개의 숫자가 들어있는 리스트가 주어집니다. 주어진 배열에 빠진 수를 찾으세요.
-
-- 유사 문제: [LeetCode. Missing Number](https://leetcode.com/problems/missing-number/), [백준 1920. 수 찾기](https://www.acmicpc.net/problem/1920)
-
-<br />
-
-> 본 문제에 대한 상세 해설은 [covenant.tistory.com/245](https://covenant.tistory.com/245)에서 볼 수 있습니다.
-
-<br />
-
-### 풀이 1. 완전탐색
-> 시간복잡도: O(n^2) 공간복잡도: O(1)
-```python
-def find_missing_number_bruteforce(A):
-    N = len(A)
-
-    for cur in range(1, N+1):
-        flag = False
-        for a in A:
-            if cur == a:
-                flag = True; break
-
-        if flag is False:
-            print("Missing number is " + str(cur))
-            break
-```
-
-<br />
-
-
-### 풀이 2. 정렬
-> 시간복잡도: O(nlogn) 공간복잡도: O(1)
-
-```python
-def find_missing_number_sort(A):
-    A.sort()
-    for cur in range(1, len(A)+1):
-        if cur not in A:
-            print("Missing number is " + str(cur))
-            break
-```
-
-<br />
-
-
-### 풀이 3. 해슁
-> 시간복잡도: O(n) 공간복잡도: O(n)
-
-```python
-def find_missing_number_hashing(A):
-    A = set(A)
-
-    for cur in range(1, len(A)+1):
-        if cur not in A:
-            print("Missing number is " + str(cur))
-            break
-```
-
-<br />
-
-### 풀이 4. 총합 공식(summation formula)
-> 시간복잡도: O(n) 공간복잡도: O(1)
-
-```python
-def find_missing_number_summation_formula(A):
-    N = len(A)
-
-    total_sum = (N + 1) * N // 2
-    curr_sum = sum(A)
-
-    if total_sum - curr_sum != 0:
-        print("Missing number is " + str(abs(total_sum - curr_sum)))
-```
-
-<br />
-
-### 풀이 5. XOR
-> 시간복잡도: O(n) 공간복잡도: O(1)
-
-```python
-def find_missing_number_xor(A):
-    N = len(A)
-    X1 = A[0]
-    X2 = 1
-
-    for i in range(0, N):
-        X1 = X1 ^ A[i]
-    for cur in range(1, N+2):
-        X2 = X2 ^ cur
-
-    print("Missing number is " + str(X1 ^ X2))
-```
+> 11번가 새싹 개발자들이 나무가 되어가는 이야기
 
 <br />
 <br />
-</details>
+
+## 🐾 발자취
+
+<table>
+    <thead>
+        <tr>
+            <th> No. </th>
+            <th> 일시 </th>
+            <th> 주제 </th>
+            <th> 발표자료 </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td> 1 </td>
+            <td> 05. 18(화) </td>
+            <td> 사전 모임 </td>
+            <td> - </td>
+        </tr>
+        <tr>
+            <td> 2 </td>
+            <td> 05. 26(수) </td>
+            <td> 1. 객체 지향 설계와 스프링	 </td>
+            <td> 
+                <a href="https://github.com/11st-corp/spring-study/blob/main/%EC%8A%A4%ED%94%84%EB%A7%81_%ED%95%B5%EC%8B%AC%EC%9B%90%EB%A6%AC_%EA%B8%B0%EB%B3%B8%ED%8E%B8/Section1.%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5%EC%84%A4%EA%B3%84%EC%99%80_%EC%8A%A4%ED%94%84%EB%A7%81/covenant/%EC%8A%A4%ED%94%84%EB%A7%81%EC%9D%B4_%EC%82%AC%EB%9E%91%ED%95%9C_SOLID.pdf"> covenat: 스프링이 사랑한 SOLID </a><br />
+                <a href="https://github.com/11st-corp/spring-study/tree/main/%EC%8A%A4%ED%94%84%EB%A7%81_%ED%95%B5%EC%8B%AC%EC%9B%90%EB%A6%AC_%EA%B8%B0%EB%B3%B8%ED%8E%B8/Section1.%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5%EC%84%A4%EA%B3%84%EC%99%80_%EC%8A%A4%ED%94%84%EB%A7%81/daeun"> daeun: Spring boot starter 분석 </a><br />
+                <a href="https://github.com/11st-corp/spring-study/tree/main/%EC%8A%A4%ED%94%84%EB%A7%81_%ED%95%B5%EC%8B%AC%EC%9B%90%EB%A6%AC_%EA%B8%B0%EB%B3%B8%ED%8E%B8/Section1.%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5%EC%84%A4%EA%B3%84%EC%99%80_%EC%8A%A4%ED%94%84%EB%A7%81/munkyung"> munkyung: IoC에 대하여 </a><br />
+                <a href="https://github.com/11st-corp/spring-study/tree/main/%EC%8A%A4%ED%94%84%EB%A7%81_%ED%95%B5%EC%8B%AC%EC%9B%90%EB%A6%AC_%EA%B8%B0%EB%B3%B8%ED%8E%B8/Section1.%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5%EC%84%A4%EA%B3%84%EC%99%80_%EC%8A%A4%ED%94%84%EB%A7%81/%EC%9C%A4%EB%8F%99%ED%9D%AC"> 윤동희: IoC DI 컨테이너 </a><br />
+                <a href="https://github.com/11st-corp/spring-study/tree/main/%EC%8A%A4%ED%94%84%EB%A7%81_%ED%95%B5%EC%8B%AC%EC%9B%90%EB%A6%AC_%EA%B8%B0%EB%B3%B8%ED%8E%B8/Section1.%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5%EC%84%A4%EA%B3%84%EC%99%80_%EC%8A%A4%ED%94%84%EB%A7%81/%EC%B5%9C%EC%83%81%ED%98%84"> 최상현: J2EE,EJB,Spring, 객체지향 5원칙 </a>
+            </td>
+        </tr>
+        <tr>
+            <td> 3 </td>
+            <td> 06. 02(수) </td>
+            <td> 2. 예제 만들기 3. 객체 지향 원리 적용 </td>
+            <td>
+                <a href="https://github.com/11st-corp/spring-study/blob/main/%EC%8A%A4%ED%94%84%EB%A7%81_%ED%95%B5%EC%8B%AC%EC%9B%90%EB%A6%AC_%EA%B8%B0%EB%B3%B8%ED%8E%B8/Section2_3_%EC%8A%A4%ED%94%84%EB%A7%81_%ED%95%B5%EC%8B%AC_%EC%9B%90%EB%A6%AC_%EC%9D%B4%ED%95%B4/covenant/%EC%8A%A4%ED%94%84%EB%A7%81_%EC%83%88%EC%8B%B9%EB%B0%98_week2_%EC%95%84%EC%A3%BC%EC%9E%91%EC%9D%80_%EB%B9%88_%EC%9D%B4%EC%95%BC%EA%B8%B0.pdf"> coveant: 아주작은 Bean 이야기 </a><br />
+                <a href="https://github.com/11st-corp/spring-study/tree/main/%EC%8A%A4%ED%94%84%EB%A7%81_%ED%95%B5%EC%8B%AC%EC%9B%90%EB%A6%AC_%EA%B8%B0%EB%B3%B8%ED%8E%B8/Section2_3_%EC%8A%A4%ED%94%84%EB%A7%81_%ED%95%B5%EC%8B%AC_%EC%9B%90%EB%A6%AC_%EC%9D%B4%ED%95%B4/daeun"> daeun: Spring Bean Life Cycle </a><br />
+                <a href="https://github.com/11st-corp/spring-study/tree/main/%EC%8A%A4%ED%94%84%EB%A7%81_%ED%95%B5%EC%8B%AC%EC%9B%90%EB%A6%AC_%EA%B8%B0%EB%B3%B8%ED%8E%B8/Section2_3_%EC%8A%A4%ED%94%84%EB%A7%81_%ED%95%B5%EC%8B%AC_%EC%9B%90%EB%A6%AC_%EC%9D%B4%ED%95%B4/%EC%B5%9C%EC%83%81%ED%98%84"> 최상현: 스프링핵심원리 이해1,2 </a>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<br />
+
+## 주제
+
+> 💡 새로운 지식 학습의 뼈대가 되는 Spring의 기본 원리 이해를 목표로 합니다.
+
+- 스프링의 핵심 가치 및 원리 이해를 바탕으로 기본 개념확립
+- 자바 공부를 밑바탕으로 스프링 동작원리 파악
+- 코드를 통한 다양한 주제에 대한 구현
+
+<br />
+
+## 📚  학습 자료
+
+- __강의__
+    - [인프런. 스프링 핵심원리 - 기본편](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%ED%95%B5%EC%8B%AC-%EC%9B%90%EB%A6%AC-%EA%B8%B0%EB%B3%B8%ED%8E%B8#)
+    - [인프런. 스프링 MVC 1편 - 백엔드 웹 개발 핵심 기술](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-mvc-1#)
+- __책__
+    - [Yes24. 스프링 입문을 위한 자바 객체 지향의 원리와 이해](http://www.yes24.com/Product/Goods/17350624?OzSrank=1)
+    - [Yes24. 토비의 스프링 3.1 Vol. 1 스프링의 이해와 원리](http://www.yes24.com/Product/Goods/7516721?OzSrank=2)
+- __주제별 학습__
+    - Spring Webflux, Spring Cloud JWT, Spring Redis 등 다양한 주제에 대한 학습 코드 개발
+
+
+<br />
+<br />
+<hr />
+<p align="center">
+    <img width="7%" alt="" src="./_raw/11st_logo.png">
+</p>
+<hr />
+

@@ -24,6 +24,27 @@
             <td> JVM 구조 </td>
             <td>  - </td>
         </tr>
+        <tr>
+            <td> 3 </td>
+            <td> 클래스 로더 </td>
+            <td>  - </td>
+        </tr>
+        <tr>
+            <th colspan="3"> Section2. 바이트코드 조작 </th>
+        </tr>
+        <tr>
+            <td>  </td>
+            <td>  </td>
+            <td>  - </td>
+        </tr>
+        <tr>
+            <th colspan="3"> Section3. 리플렉션 </th>
+        </tr>
+        <tr>
+            <td>  </td>
+            <td>  </td>
+            <td> - </td>
+        </tr>   
     </tbody>
 </table>
 

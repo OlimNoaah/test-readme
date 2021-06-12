@@ -12,11 +12,16 @@
     </thead>
     <tbody>        
         <tr>
-            <th colspan="3"> JVM 이해하기 </th>
+            <th colspan="3"> Section1. JVM 이해하기 </th>
         </tr>
         <tr>
             <td> 1 </td>
             <td> 자바, JVM, JDK 그리고 JRE </td>
+            <td>  - </td>
+        </tr>
+        <tr>
+            <td> 2 </td>
+            <td> JVM 구조 </td>
             <td>  - </td>
         </tr>
     </tbody>

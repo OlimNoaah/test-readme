@@ -7,10 +7,11 @@
     </thead>
     <tbody>        
         <tr>
-            <th> Week 1 () </th>
+            <td> Week 1 (6/26) </td>
+            <td> - </td>
         </tr>
         <tr>
-            <td> 1 </td>
+            <td> Week 2 (6/26) </td>
             <td> - </td>
         </tr>
     </tbody>

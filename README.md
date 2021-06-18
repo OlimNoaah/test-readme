@@ -2,7 +2,7 @@
 ■ [로켓학습] 스프링 기본편 스터디
 </h1>
 
-<img src="https://user-images.githubusercontent.com/67247530/122566466-87f15c80-d082-11eb-9ac2-eeb904b069cf.png" />
+<img src="https://user-images.githubusercontent.com/67247530/122566872-04843b00-d083-11eb-921f-37b7f70cde3a.png" />
 
 > 스프링 정복의 가장빠른 로켓에 탑승하세요!
 

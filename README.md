@@ -4,7 +4,7 @@
 
 <img src="https://user-images.githubusercontent.com/67247530/122567003-27aeea80-d083-11eb-85ca-98a35b5f4ed7.png" />
 
-> 스프링 정복의 가장빠른 로켓에 탑승하세요!
+> 스프링 정복의 가장빠른 로켓에 탑승하세요! 🚀 
 
 <br />
 

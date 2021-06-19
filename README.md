@@ -26,24 +26,18 @@
 <tr>
     <th colspan="2"> 섹션 0. 소개 </th>
 </tr>
-<tr>
     <tr>
         <td> 강의 소개 </td>
         <td> - </td>
     </tr>
-</tr>
 <tr>
     <th colspan="2"> 섹션 1. 웹 애플리케이션 이해 </th>
 </tr>
 <tr>
-    <tr>
         <td> 웹 서버, 웹 애플리케이션 서버 </td>
         <td> - </td>
-    </tr>
-    <tr>
         <td> 서블릿 </td>
         <td> - </td>
-    </tr>
     <tr>
         <td> 동시 요청 - 멀티 쓰레드 </td>
         <td> - </td>

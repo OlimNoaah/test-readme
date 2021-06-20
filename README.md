@@ -15,8 +15,8 @@
 <table>
   <tr>
     <td align="center"><a href="https://github.com/esesil"><img src="https://avatars.githubusercontent.com/u/72774479?v=4?s=100" width="100px;" alt=""/><br /><sub><b>esesil</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/jihyunhillpark"><img src="https://github.com/jihyunhillpark?s=100" width="100px;" alt=""/><br /><sub><b>jihyunPark</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/KoEonYack"><img src="https://avatars.githubusercontent.com/u/28642484?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Covenant/b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/jihyunhillpark"><img src="https://avatars.githubusercontent.com/u/29705409?v=4?s=100" width="100px;" alt=""/><br /><sub><b>jihyunPark</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/KoEonYack"><img src="https://avatars.githubusercontent.com/u/28642484?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Covenant</b></sub></a><br /></td>
     <td align="center"><a href="https://github.com/leesg619"><img src="https://avatars.githubusercontent.com/u/52132929?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Lee SeokGeun
 </b></sub></a><br /></td>
     <td align="center"><a href="https://landwhale2.github.io/"><img src="https://avatars3.githubusercontent.com/u/43875634?v=4?s=100" width="100px;" alt=""/><br /><sub><b>HyeokJin Kim</b></sub></a><br /></td>

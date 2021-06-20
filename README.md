@@ -1,345 +1,110 @@
-# inflearn-spring-mvc-part1
-≪ 스프링 MVC 1편 | 인프런 ≫
+<h1>
+■ [로켓학습] 스프링 핵심 원리 - 기본편
+</h1>
 
+<p align="center">
+    <img src="./_raw/rocket.jpg" />
+</p>
 
-<div align=center>
-<h1> 스프링 시큐리티 - 기본편 </h1>
-</div>
-<div align="center">
-<a href="https://www.inflearn.com/course/%EC%BD%94%EC%96%B4-%EC%8A%A4%ED%94%84%EB%A7%81-%EC%8B%9C%ED%81%90%EB%A6%AC%ED%8B%B0"> 인프런 강의 링크 </a>
-</div>
-
-<br />
-
-## 학습내용
-
-- 스프링 시큐리티 기본 API 사용법과 이와 관련된 Filter 이해
-- 스프링 시큐리티 내부 아키텍처와 동작 방식 이해
-- 실전 프로젝트를 통한 스프링 시큐리티 인증 프로세스 구현
-- 실전 프로젝트를 통한 스프링 시큐리티 인가 프로세스 구현 - DB 연동을 통해 권한 제어 시스템 구현
+> 스프링 정복의 가장 빠른 로켓에 탑승하세요! 🚀 
 
 <br />
-
-## 목차
 
 <table>
-<tr>
-    <th colspan="2"> 섹션 0. 소개 </th>
-</tr>
-    <tr>
-        <td> 강의 소개 </td>
-        <td> - </td>
-    </tr>
-<tr>
-    <th colspan="2"> 섹션 1. 웹 애플리케이션 이해 </th>
-</tr>
-<tr>
-    <tr>
-        <td> 웹 서버, 웹 애플리케이션 서버 </td>
-        <td> - </td>
-    </tr>
-    <tr>
-        <td> 서블릿 </td>
-        <td> - </td>
-    </tr>
-    <tr>
-        <td> 동시 요청 - 멀티 쓰레드 </td>
-        <td> - </td>
-    </tr>
-    <tr>
-        <td> HTML, HTTP API, CSR, SSR </td>
-        <td> - </td>
-    </tr>
-    <tr>
-        <td> 자바 백엔드 웹 기술 역사 </td>
-        <td> - </td>
-    </tr>
-</tr>
-<tr>
-    <th colspan="2"> 섹션 2. 서블릿 </th>
-</tr>
-<tr>
-    <tr>
-        <td> 프로젝트 생성 </td>
-        <td> - </td>
-    </tr>
-    <tr>
-        <td> Hello 서블릿 </td>
-        <td> - </td>
-    </tr>
-    <tr>
-        <td> HttpServletRequest - 개요 </td>
-        <td> - </td>
-    </tr>
-    <tr>
-        <td> HttpServletRequest - 기본 사용법 </td>
-        <td> - </td>
-    </tr>
-    <tr>
-        <td> HTTP 요청 데이터 - 개요 </td>
-        <td> - </td>
-    </tr>
-    <tr>
-        <td> HTTP 요청 데이터 - GET 쿼리 파라미터 </td>
-        <td> - </td>
-    </tr>
-    <tr>
-        <td> HTTP 요청 데이터 - POST HTML Form </td>
-        <td> - </td>
-    </tr>
-    <tr>
-        <td> HTTP 요청 데이터 - API 메시지 바디 - 단순 텍스트 </td>
-        <td> - </td>
-    </tr>
-    <tr>
-        <td> HTTP 요청 데이터 - API 메시지 바디 - JSON </td>
-        <td> - </td>
-    </tr>
-    <tr>
-        <td> HttpServletResponse - 기본 사용법 </td>
-        <td> - </td>
-    </tr>
-    <tr>
-        <td> HTTP 응답 데이터 - 단순 텍스트, HTML </td>
-        <td> - </td>
-    </tr>
-    <tr>
-        <td> HTTP 응답 데이터 - API JSON </td>
-        <td> - </td>
-    </tr>
-    <tr>
-        <td> 정리 </td>
-        <td> - </td>
-    </tr>
-</tr>
-<tr>
-    <th colspan="2"> 섹션 3. 서블릿, JSP, MVC 패턴 </th>
-</tr>
-<tr>
-    <tr>
-        <td> 회원 관리 웹 애플리케이션 요구사항 </td>
-        <td> - </td>
-    </tr>
-    <tr>
-        <td> 서블릿으로 회원 관리 웹 애플리케이션 만들기 </td>
-        <td> - </td>
-    </tr>
-    <tr>
-        <td> JSP로 회원 관리 웹 애플리케이션 만들기 </td>
-        <td> - </td>
-    </tr>
-    <tr>
-        <td> MVC 패턴 - 개요 </td>
-        <td> - </td>
-    </tr>
-    <tr>
-        <td> MVC 패턴 - 적용 </td>
-        <td> - </td>
-    </tr>
-    <tr>
-        <td> MVC 패턴 - 한계 </td>
-        <td> - </td>
-    </tr>
-    <tr>
-        <td> 정리 </td>
-        <td> - </td>
-    </tr>
-</tr>
-<tr>
-    <th colspan="2"> 섹션 4. MVC 프레임워크 만들기 </th>
-</tr>
-<tr>
-    <tr>
-        <td> 프론트 컨트롤러 패턴 소개 </td>
-        <td> - </td>
-    </tr>
-    <tr>
-        <td> 프론트 컨트롤러 도입 - v1 </td>
-        <td> - </td>
-    </tr>
-    <tr>
-        <td> View 분리 - v2 </td>
-        <td> - </td>
-    </tr>
-    <tr>
-        <td> Model 추가 - v3 </td>
-        <td> - </td>
-    </tr>
-    <tr>
-        <td> 단순하고 실용적인 컨트롤러 - v4 </td>
-        <td> - </td>
-    </tr>
-    <tr>
-        <td> 유연한 컨트롤러1 - v5 </td>
-        <td> - </td>
-    </tr>
-    <tr>
-        <td> 유연한 컨트롤러2 - v5 </td>
-        <td> - </td>
-    </tr>
-    <tr>
-        <td> 정리 </td>
-        <td> - </td>
-    </tr>
-</tr>
-<tr>
-    <th colspan="2"> 섹션 5. 스프링 MVC - 구조 이해 </th>
-</tr>
-<tr>
-    <tr>
-        <td> 스프링 MVC 전체 구조 </td>
-        <td> - </td>
-    </tr>
-    <tr>
-        <td> 핸들러 매핑과 핸들러 어댑터 </td>
-        <td> - </td>
-    </tr>
-    <tr>
-        <td> 뷰 리졸버 </td>
-        <td> - </td>
-    </tr>
-    <tr>
-        <td> 스프링 MVC - 시작하기 </td>
-        <td> - </td>
-    </tr>
-    <tr>
-        <td> 스프링 MVC - 컨트롤러 통합 </td>
-        <td> - </td>
-    </tr>
-    <tr>
-        <td> 스프링 MVC - 실용적인 방식 </td>
-        <td> - </td>
-    </tr>
-    <tr>
-        <td> 정리 </td>
-        <td> - </td>
-    </tr>
-</tr>
-<tr>
-    <th colspan="2"> 섹션 6. 스프링 MVC - 기본 기능 </th>
-</tr>
-<tr>
-    <tr>
-        <td> 프로젝트 생성 </td>
-        <td> - </td>
-    </tr>
-    <tr>
-        <td> 로깅 간단히 알아보기 </td>
-        <td> - </td>
-    </tr>
-    <tr>
-        <td> 요청 매핑 </td>
-        <td> - </td>
-    </tr>
-    <tr>
-        <td> 요청 매핑 - API 예시 </td>
-        <td> - </td>
-    </tr>
-    <tr>
-        <td> HTTP 요청 - 기본, 헤더 조회 </td>
-        <td> - </td>
-    </tr>
-    <tr>
-        <td> HTTP 요청 파라미터 - 쿼리 파라미터, HTML Form </td>
-        <td> - </td>
-    </tr>
-    <tr>
-        <td> HTTP 요청 파라미터 - @RequestParam </td>
-        <td> - </td>
-    </tr>
-    <tr>
-        <td> HTTP 요청 파라미터 - @ModelAttribute </td>
-        <td> - </td>
-    </tr>
-    <tr>
-        <td> HTTP 요청 메시지 - 단순 텍스트 </td>
-        <td> - </td>
-    </tr>
-    <tr>
-        <td> HTTP 요청 메시지 - JSON </td>
-        <td> - </td>
-    </tr>
-    <tr>
-        <td> 응답 - 정적 리소스, 뷰 템플릿 </td>
-        <td> - </td>
-    </tr>
-    <tr>
-        <td> HTTP 응답 - HTTP API, 메시지 바디에 직접 입력 </td>
-        <td> - </td>
-    </tr>
-    <tr>
-        <td> HTTP 메시지 컨버터 </td>
-        <td> - </td>
-    </tr>
-    <tr>
-        <td> 요청 매핑 헨들러 어뎁터 구조 </td>
-        <td> - </td>
-    </tr>
-    <tr>
-        <td> 정리 </td>
-        <td> - </td>
-    </tr>
-</tr>
-<tr>
-    <th colspan="2"> 섹션 7. 스프링 MVC - 웹 페이지 만들기 </th>
-</tr>
-<tr>
-    <tr>
-        <td> 프로젝트 생성 </td>
-        <td> - </td>
-    </tr>
-    <tr>
-        <td> 요구사항 분석 </td>
-        <td> - </td>
-    </tr>
-    <tr>
-        <td> 상품 도메인 개발 </td>
-        <td> - </td>
-    </tr>
-    <tr>
-        <td> 상품 서비스 HTML </td>
-        <td> - </td>
-    </tr>
-    <tr>
-        <td> 상품 목록 - 타임리프 </td>
-        <td> - </td>
-    </tr>
-    <tr>
-        <td> 상품 상세 </td>
-        <td> - </td>
-    </tr>
-    <tr>
-        <td> 상품 등록 폼 </td>
-        <td> - </td>
-    </tr>
-    <tr>
-        <td> 상품 등록 처리 - @ModelAttribute </td>
-        <td> - </td>
-    </tr>
-    <tr>
-        <td> 상품 수정 </td>
-        <td> - </td>
-    </tr>
-    <tr>
-        <td> PRG Post/Redirect/Get </td>
-        <td> - </td>
-    </tr>
-    <tr>
-        <td> RedirectAttributes </td>
-        <td> - </td>
-    </tr>
-    <tr>
-        <td> 정리 </td>
-        <td> - </td>
-    </tr>
-</tr>
-<tr>
-    <th colspan="2"> 섹션 8. 다음으로 </th>
-</tr>
-<tr>
-    <tr>
-        <td> 다음으로 </td>
-        <td> - </td>
-    </tr>
+  <tr>
+    <td align="center"><a href="https://landwhale2.github.io/"><img src="https://avatars3.githubusercontent.com/u/43875634?v=4?s=100" width="100px;" alt=""/><br /><sub><b>HyeokJin Kim</b></sub></a><br /></td>
+        <td align="center"><a href="https://landwhale2.github.io/"><img src="https://avatars3.githubusercontent.com/u/43875634?v=4?s=100" width="100px;" alt=""/><br /><sub><b>HyeokJin Kim</b></sub></a><br /></td>
+            <td align="center"><a href="https://landwhale2.github.io/"><img src="https://avatars3.githubusercontent.com/u/43875634?v=4?s=100" width="100px;" alt=""/><br /><sub><b>HyeokJin Kim</b></sub></a><br /></td>
+                <td align="center"><a href="https://landwhale2.github.io/"><img src="https://avatars3.githubusercontent.com/u/43875634?v=4?s=100" width="100px;" alt=""/><br /><sub><b>HyeokJin Kim</b></sub></a><br /></td>
+    
 </tr>
 </table>
+
+<br />
+
+
+## 📅 일정
+
+<table>
+    <thead>
+        <tr>
+            <th> 일시 </th>
+            <th> 주제 </th>
+        </tr>
+    </thead>
+    <tbody>        
+        <tr>
+            <td> Week1 (6/26 10:30) </td>
+            <td> 
+                섹션 1. 객체 지향 설계와 스프링 <br />
+                섹션 2. 스프링 핵심 원리 이해1 - 예제 만들기
+            </td>
+        </tr>
+        <tr>
+            <td> Week2 (7/03 10:30) </td>
+            <td> 
+                섹션 3. 스프링 핵심 원리 이해2 - 객체 지향 원리 적용 <br />
+                섹션 4. 스프링 컨테이너와 스프링 빈 
+            </td>
+        </tr>
+        <tr>
+            <td> Week3 (7/10 10:30) </td>
+            <td> 
+                섹션 5. 싱글톤 컨테이너 <br />
+                섹션 6. 컴포넌트 스캔
+            </td>
+        </tr>
+        <tr>
+            <td> Week4 (7/17 10:30) </td>
+            <td> 
+                섹션 7. 의존관계 자동 주입 <br />
+            </td>
+        </tr>
+        <tr>
+            <td> Week5 (7/24 10:30) </td>
+            <td> 
+                섹션 8. 빈 생명주기 콜백 <br /> 
+                섹션 9. 빈 스코프
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+> 스터디 일정은 조정될 수 있습니다.
+
+<br />
+
+## 📣 스터디 안내
+
+- 스터디 당일 사다리 타기로 발표 순서 정합니다.
+- 사전에 스터디 발표할 사람을 정하지 않는 이유는 스터디 참여 인원은 강의를 수강하고 언제든 발표할 준비를 해야 합니다. 자신의 발표 때만 스터디 준비를 해오는 일을 막기 위함입니다.
+- 열심히 준비했는데 아쉽게 발표를 못 했다면 알려주세요! 다음주에 이전에 못한 발표 기회를 드리겠습니다!
+- 원칙적으로 화상 카메라를 켜고 스터디 참여하는 것을 권장합니다.
+    - 표정을 통해서 서로의 이해 상태를 파악할 수 있습니다.
+    - 좁은 IT 생태계에 얼굴을 알면 좋을 것이기에! (언제 어떻게 함께 일하게 될지 몰라요!) 😉
+    - 부끄러우면 마스크를 써도 됩니다.
+- 개인적인 사유로 스터디를 지속할 수 없다면 빠르게 알려주세요! 
+
+<br />
+
+## ✏️ 스터디 준비 방식
+
+A, B 타입 중에서 원하는 방식으로 준비하시면 됩니다. 
+
+- __Type A.__ 강의 요약, 이해 안 되는 점을 PPT(or Notion, Markdown 등등 자유롭게) 정리하여 발표 (강의를 따라가기 어렵다면 질문만 준비해도 됩니다!)
+- __Type B.__ 강의 주제에 대해서 심화 & 파생개념을 공부해보고 발표
+
+개인 발표시간은 최소 10분 ~ 최대 25분 범위 내로 준비해주세요!
+
+
+<br />
+<br />
+
+<!-- Bottom -->
+<hr />
+
+<div align=center>
+    <h3> 로켓학습 | 스프링 정복반 </h3>
+</div>
+
+<hr />

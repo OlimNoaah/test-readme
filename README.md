@@ -10,18 +10,20 @@
 
 <br />
 
+## 참가 맴버
+
 <table>
   <tr>
     <td align="center"><a href="https://landwhale2.github.io/"><img src="https://avatars3.githubusercontent.com/u/43875634?v=4?s=100" width="100px;" alt=""/><br /><sub><b>HyeokJin Kim</b></sub></a><br /></td>
-        <td align="center"><a href="https://landwhale2.github.io/"><img src="https://avatars3.githubusercontent.com/u/43875634?v=4?s=100" width="100px;" alt=""/><br /><sub><b>HyeokJin Kim</b></sub></a><br /></td>
-            <td align="center"><a href="https://landwhale2.github.io/"><img src="https://avatars3.githubusercontent.com/u/43875634?v=4?s=100" width="100px;" alt=""/><br /><sub><b>HyeokJin Kim</b></sub></a><br /></td>
-                <td align="center"><a href="https://landwhale2.github.io/"><img src="https://avatars3.githubusercontent.com/u/43875634?v=4?s=100" width="100px;" alt=""/><br /><sub><b>HyeokJin Kim</b></sub></a><br /></td>
-    
+    <td align="center"><a href="https://landwhale2.github.io/"><img src="https://avatars3.githubusercontent.com/u/43875634?v=4?s=100" width="100px;" alt=""/><br /><sub><b>HyeokJin Kim</b></sub></a><br /></td>
+    <td align="center"><a href="https://landwhale2.github.io/"><img src="https://avatars3.githubusercontent.com/u/43875634?v=4?s=100" width="100px;" alt=""/><br /><sub><b>HyeokJin Kim</b></sub></a><br /></td>
+    <td align="center"><a href="https://landwhale2.github.io/"><img src="https://avatars3.githubusercontent.com/u/43875634?v=4?s=100" width="100px;" alt=""/><br /><sub><b>HyeokJin Kim</b></sub></a><br /></td>
+    <td align="center"><a href="https://landwhale2.github.io/"><img src="https://avatars3.githubusercontent.com/u/43875634?v=4?s=100" width="100px;" alt=""/><br /><sub><b>HyeokJin Kim</b></sub></a><br /></td>
+    <td align="center"><a href="https://landwhale2.github.io/"><img src="https://avatars3.githubusercontent.com/u/43875634?v=4?s=100" width="100px;" alt=""/><br /><sub><b>HyeokJin Kim</b></sub></a><br /></td>
 </tr>
 </table>
 
 <br />
-
 
 ## 📅 일정
 

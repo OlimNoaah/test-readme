@@ -526,6 +526,8 @@ public class SamsungSmartRemocon implements Remocon {
 <br />
 <br />
 
+----------------------------------------
+
 ### C++, Java에서 다중상속을 지원하지 않는 이유는 무엇인가요.
 
 <details>

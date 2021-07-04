@@ -189,6 +189,9 @@ Dev Event를 웨일 브라우저 확장앱으로 만나보세요!
 <a href="https://www.linkedin.com/in/covenant/">
 <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
 </a>
+<a href="https://covenant.tistory.com/">
+<img src="https://img.shields.io/badge/Blogger-FF5722?style=for-the-badge&logo=blogger&logoColor=white">
+</a>
 
 
 - 📄 [Riss. A Survey of Open-source Static Bug Checkers for Detecting Security Vulnerabilities in Python Web Applications](http://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=a6ad7eeb5b6e185ec85d2949c297615a)

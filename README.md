@@ -181,24 +181,19 @@ Dev Event를 웨일 브라우저 확장앱으로 만나보세요!
 
 <h3> 🏃   I'm Covenant!  </h3>
 
-[![Gmail Badge](https://img.shields.io/badge/-21300035@handong.edu-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:covenant.ko)](mailto:21300035@handong.edu) <a href="https://github.com/KoEonYack"> <a href="https://www.linkedin.com/in/%EC%96%B8%EC%95%BD-%EA%B3%A0-6823901b5/">
-<img src="https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=LinkedIn"/></a><a href="https://covenant.tistory.com/">
-<img src="https://img.shields.io/badge/Tistoy_Blog-black?style=flat&logo=Blogger"/></a> <a href="https://github.com/KoEonYack">
-<img src="https://img.shields.io/badge/Github-black?style=flat&logo=GitHub"/></a> 
-
 <a href="https://www.linkedin.com/in/covenant/">
 <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-<a href="https://covenant.tistory.com/">
-<img src="https://img.shields.io/badge/Blogger-FF5722?style=for-the-badge&logo=blogger&logoColor=white" />
 </a>
 <a href="https://covenant.tistory.com/">
 <img src="https://img.shields.io/badge/-Tech%20Blog-blue?style=for-the-badge" />
 </a>
 <a href="https://www.slideshare.net/ssuser8f4c99">
-<img src="https://img.shields.io/badge/-Slide%20Share-blueviolet?style=for-the-badge&logo=appveyor" />
+<img src="https://img.shields.io/badge/-Slide%20Share-blueviolet?style=for-the-badge" />
 </a>
 
+<details>
+  <summary>(👈 Open) </summary>
+<br />
 
 - 📄 [Riss. A Survey of Open-source Static Bug Checkers for Detecting Security Vulnerabilities in Python Web Applications](http://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=a6ad7eeb5b6e185ec85d2949c297615a)
 - 👨‍🎓  School of Computer Science at Handong Global University<br />
@@ -233,6 +228,8 @@ Dev Event를 웨일 브라우저 확장앱으로 만나보세요!
     <li> <b> 16. </b> <a href="https://cb.kmooc.kr/courses/5f35d87e459eb976f35341c3"> 20년 09월 - 20년 12월: K-MOOC 학점은행제 파이썬으로 배우는 기계학습 입문 20-2학기 강좌운영 TA </a> </li>
   </ul>
   </div>
+</details>
+
 </details>
 
 <!--

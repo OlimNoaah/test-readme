@@ -274,6 +274,8 @@ Dev Event를 웨일 브라우저 확장앱으로 만나보세요!
 
 </details>
 
+-------------
+
 <!--
 <p align="center">
 [![Tech Blog Badge](https://img.shields.io/badge/-Tech%20blog-black?style=flat-square&logo=github&link=https://ooeunz.tistory.com/)](http://covenant.tistory.com/)

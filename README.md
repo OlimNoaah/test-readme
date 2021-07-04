@@ -16,6 +16,9 @@
 
 ### ⏰Timeline
 
+<details>
+  <summary>(👈 Open) </summary>
+<br />
 
 <details>
   <summary>[21. 04. 07] Dev Event 1000+ 스타 </summary>
@@ -172,7 +175,10 @@ Dev Event를 웨일 브라우저 확장앱으로 만나보세요!
   <a href="https://store.whale.naver.com/detail/nifdgfjcbdoidcipoeolgfjafcjoljli"> 웨일 스토어 - 드라마바이블</a> 👈 바로가기!
 </p>
 
+
 --------
+
+</details>
 
 </details>
 

@@ -187,18 +187,6 @@ Dev Event를 웨일 브라우저 확장앱으로 만나보세요!
 
 <h3> 🏃   I'm Covenant!  </h3>
 
-<div align="center">
-<a href="https://www.linkedin.com/in/covenant/">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-<a href="https://covenant.tistory.com/">
-<img src="https://img.shields.io/badge/-Tech%20Blog-blue?style=for-the-badge" />
-</a>
-<a href="https://www.slideshare.net/ssuser8f4c99">
-<img src="https://img.shields.io/badge/-Slide%20Share-blueviolet?style=for-the-badge" />
-</a>
-</div>
-
 <details>
   <summary>(👈 Open) </summary>
 <br />
@@ -286,6 +274,18 @@ Dev Event를 웨일 브라우저 확장앱으로 만나보세요!
 </details>
 
 -------------
+
+<div align="center">
+<a href="https://www.linkedin.com/in/covenant/">
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+<a href="https://covenant.tistory.com/">
+<img src="https://img.shields.io/badge/-Tech%20Blog-blue?style=for-the-badge" />
+</a>
+<a href="https://www.slideshare.net/ssuser8f4c99">
+<img src="https://img.shields.io/badge/-Slide%20Share-blueviolet?style=for-the-badge" />
+</a>
+</div>
 
 <!--
 <p align="center">

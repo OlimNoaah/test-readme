@@ -1,295 +1,41 @@
-## Brave Tech Interview 1000+ 스타
+## Ch01 공략
 
-<p align="center">
-  <img src="./img/silicon_valley.jpg?raw=true" style="border:1px; solid #eaeaea;" width="70%"/>
-</p>
-
-<div align="center">
-
-용감한 친구들에서 운영하는 <a href="https://github.com/KoEonYack">Brave Tech Interview</a>저장소가 6월 25일 1000스타를 넘었습니다. <br />
-감사합니다.
-
-[Brave Tech Interview 1000스타 후기](https://covenant.tistory.com/247)
-</div>
-
-------------------
-
-### ⏰ Timeline
-
-<details>
-  <summary>(👈 Open) </summary>
 <br />
 
-<details>
-  <summary>[21. 04. 07] Dev Event 1000+ 스타 </summary>
+오브젝트라는 책을 읽을 때 조영호 저자님의 바로 전 책인 객체지향의 사실과 오해를 함께 보면 서술 의도를 잘 파악할 수 있스빈다. 이 책의 부재는 역할, 책임관점에서의 객체지향이라고 하고 이에 대해서 풀어나갑니다. 이 책의 제일 첫 부분 커피 공화국 예시를 통해서 책의 주제를, 그리고 객체지향에 대한 관점을 보여줍니다.
 
-## Dev Event 1000+ 스타 
-
-<p align="center">
-  <img src="./img/1000dev-event.png?raw=true" style="border:1px; solid #eaeaea;" width="70%"/>
-</p>
-
-<div align="center">
-
-용감한 친구들에서 운영하는 <a href="https://github.com/brave-people/Dev-Event">Dev Event</a>저장소가 4월 7일 1000스타를 넘었습니다. <br />
-이용해 주시는분들, PR을 통해 행사를 알려주신 분들 감사합니다.
-
-[Dev Evemt 1000스타 후기](https://covenant.tistory.com/232)
-</div>
-
-------------------
-
-</details>
-
-<details>
-  <summary>[21. 02. 19] 11st x FastCampus Beginning Course </summary>
-
-## 11st Beginning Course (01. 11 ~ 02. 16)
-
-<p align="center">
-  <img src="./img/11st-bootcamp-v2.png?raw=true" style="border:1px; solid #eaeaea;" width="70%"/>
-</p>
-<p align="center">
-  <br />
-  <a href="https://github.com/KoEonYack/11st-main-clone-vue"> Repo. 11sᴛʀᴇᴇᴛ 메인페이지 클론</a>  <br />
-  <a href="https://github.com/KoEonYack/introduce-myself-spring"> Repo. 안녕 나야 넌 누규니</a>  <br />
-  <a href="https://github.com/KoEonYack/java-baseball"> Repo. next-step: 숫자 야구게임  </a>
-</p>
-
--------------
-
-</details>
-<details>
-  <summary>[21. 01. 02] 11st </summary>
-
-## 11st
-
-<div align=center>
-
-![img](./img/11-logo-v2.png)
-
-Join 21. 01. 04 ~
-
------------
-
-  </div>
-</details>
-
-<details>
-  <summary>[20. 12. 21] Dev Event Web + Whale App(Beta) 공개 </summary>
-
-## 🎈 Dev Event Web + Whale App(Beta) 공개~
-
-<div align=center>
-
-![img](./img/dev-event-whale-2.png)
-
-Dev Event를 웨일 브라우저 확장앱으로 만나보세요!
-
-[Whale Store Link](https://store.whale.naver.com/detail/peoakdpkgaaddnccepdmgnjghelkdein)
-
--------------
-
-![img](./img/dev-event-web.png)
-
-[Dev event 바로가기](https://brave-people.github.io/Dev-Event-Client/)
-
-"용감한 친구들"의 프로젝트 Dev event의 Web 버전이 공개되었습니다! <br />
-멋진 프로젝트를 발전시켜준 [@Woohwahwa](https://github.com/Woohwahwa) 감사합니다!
-
-👀[용감한 친구들 맴버 보러가기](https://brave-people.github.io/BRAVE-Member/)👀
-
------------
-
-</div>
-
-</details>
-
-<details>
-  <summary>[20. 11. 29] "용감한 친구들" 용감이를 소개합니다. </summary>
-
-  ## " 용감한 친구들 " 용감이를 소개합니다. 
-
-  <div align=center>
-
-  ![img](./img/brave-member2.png)
-
-  [용감한 친구들 맴버 페이지](https://github.com/brave-people/BRAVE-Member)
-
-  "용감한 친구들"은 20년 07월 HGU(남송리 삼번지) 출신 개발자들의 모임으로 시작했습니다. <br />
-  현재 [데브 이벤트](https://github.com/brave-people/Dev-Event)를 관리중이며 데브이벤트 Client, Server를 개발중에 있습니다.
-
------------
-
-</div>
-
-</details>
-
-<details>
-  <summary>[20. 11. 21] Dev Event 150+ 스타 달성</summary>
-
-  ## 🎉 Dev Event 150+ 스타 달성
-
-  <div align=center>
-
-  ![img](./img/dev-event-150-v3.png)
-
-  [Dev Event](https://github.com/brave-people/Dev-Event)가 150스타를 달성했습니다. <br />
-  방문, PR 그리고 스타 눌러주신 분들 감사합니다. 🙏
-
---------------
-
-  </div>
-</details>
-
-
-<details>
-  <summary>[20. 09. 30] 2020 컨트리뷰톤 가비아 후원상</summary>
-
-  ## 2020 컨트리뷰톤 가비아 후원상
-
-  <div align=center>
-
-  ![img](./img/contributon.png)
-
-  NexClipper Open Source Edition으로 참가하여 가비아 후원상을 받았습니다. <br />
-  멘토님들, 함께하신 분들 감사합니다!
-
-  [Blog. 2020 컨트리뷰톤 교육 후기](https://covenant.tistory.com/199)
-
-  ------------
-
-  </div>
-</details>
-
-<details>
-  <summary>[20. 07. 31] 드라마 바이블 웨일브라우저 확장앱 출시
-  </summary>
-
-## 📣 드라마 바이블 웨일 확장앱 출시
-
-<p align="center">
-  <img src="https://github.com/whale-lab/drama-bible/blob/master/images/readme_cover.png?raw=true" width="60%"/>
-</p>
-<p align="center">
-  <a href="https://store.whale.naver.com/detail/nifdgfjcbdoidcipoeolgfjafcjoljli"> 웨일 스토어 - 드라마바이블</a> 👈 바로가기!
-</p>
-
-
---------
-
-</details>
-
-</details>
-
-
---------
-
-<h3> 🏃   I'm Covenant!  </h3>
-
-<details>
-  <summary>(👈 Open) </summary>
 <br />
 
-- 📄 [Riss. A Survey of Open-source Static Bug Checkers for Detecting Security Vulnerabilities in Python Web Applications](http://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=a6ad7eeb5b6e185ec85d2949c297615a)
-- 👨‍🎓  School of Computer Science at Handong Global University<br />
-- 👨‍💻  11st Server Developer <br />
-- 🦸‍♂️  Member of 용감한 친구들([@brave-people](https://github.com/brave-people)) <br />
-- 🦄  Open source maintainer
-  - [Dev Event](https://github.com/brave-people/Dev-Event): 아낌없이 개발자 행사를 알려드립니다. (⭐ 1400+)
-  - [Awesome Dev Contents](https://github.com/brave-people/Awesome-Dev-Contents): 멋진 개발 자료 여기서 찾아요. (⭐ 70+)
-  - [Brave Tech Interview](https://github.com/brave-people/brave-tech-interview): 국내 IT기업부터 실리콘벨리까지 기술면접 문제를 현직자가 해설해줍니다. (⭐ 1000+)
-- 🧚 Open source contribution
-  - [nhn / tui.editor. fix: typo](https://github.com/nhn/tui.editor/pull/1189)
-  - [Klevry / klevr](https://github.com/Klevry/klevr)
+손님이 캐시어에게 주문을 요청하고 캐시어는 주문을 받아서 바리스타에게 전달합니다. 여기서 역할과 책임 협력관계가 잘 드러나있습니다. 손님은 주문하는 역할, 캐시어는 주문을 받아 바리스타에게 전달하는 역할, 바리스타는 커피를 만들어 캐시어에게 전달하는 역할을 합니다. 서로 간에 메시지를 통해서 협력관계를 갖고있습니다.
 
-<details>
-  <summary> 2017~2020 TA History (👈  Click)</summary>
-  <ul>
-    <li> <b> 01. </b> 17년 08월 - 17년 12월: 한동대학교 파이썬 프로그래밍 17-2학기 Tutor </li>
-    <li> <b> 02. </b> 17년 12월 - 18년 01월: 한동대학교 C 프로그래밍 겨울계절학기 TA </li>
-    <li> <b> 03. </b> 18년 08월 - 18년 12월: 한동대학교 C 프로그래밍 18-2학기 TA </li>
-    <li> <b> 04. </b> 18년 12월 - 19년 01월: 한동대학교 C 프로그래밍 겨울계절학기 TA </li>
-    <li> <b> 05. </b> <a href="https://github.com/idebtor/JoyAI">18년 12월 - 19년 01월: 한동대학교 모두를 위한 인공지능의 활용 교재 제작</a> </li>
-    <li> <b> 06. </b> 18년 12월 - 19년 02월: 포항 오*고등학교 사회봉사 파이썬 강의 </li>
-    <li> <b> 07. </b> 19년 01월 - 19년 01월: 한동대학교 소프트웨어 입문 예비대학 TA </li>
-    <li> <b> 08. </b> 19년 03월 - 19년 06월: 한동대학교 소프트웨어 입문 19-1학기 TA </li>
-    <li> <b> 09. </b> 19년 03월 - 19년 06월: 한동대학교 모두를 위한 인공지능의 활용 19-1학기 TA </li>
-    <li> <b> 10. </b> 19년 08월 - 19년 12월: 한동대학교 모두를 위한 인공지능의 활용 19-2학기 TA </li>
-    <li> <b> 11. </b> 19년 08월 - 19년 12월: K-MOOC 파이썬으로 배우는 기계학습 입문 19-2학기 강좌운영 TA </li>
-    <li> <b> 12. </b> 19년 08월 - 19년 12월: 한동대학교 C프로그래밍 19-1학기 TA </li>
-    <li> <b> 13. </b> 20년 03월 - 20년 06월: 한동대학교 모두를 위한 인공지능의 활용 20-1학기 TA </li>
-    <li> <b> 14. </b> 20년 03월 - 20년 06월: 한동대학교 소프트웨어 입문 20-1학기 TA </li>
-    <li> <b> 15. </b> <a href="http://www.kmooc.kr/courses/course-v1:HGUk+HGU05+2020_T2/about"> 20년 03월 - 20년 06월: K-MOOC 파이썬으로 배우는 기계학습 입문 20-1학기 강좌운영 TA </a> </li>
-    <li> <b> 16. </b> <a href="https://cb.kmooc.kr/courses/5f35d87e459eb976f35341c3"> 20년 09월 - 20년 12월: K-MOOC 학점은행제 파이썬으로 배우는 기계학습 입문 20-2학기 강좌운영 TA </a> </li>
-  </ul>
-  </div>
-</details>
-
-</details>
-
-<!--
-📄 [Resume](https://koeonyack.github.io/resume/) 
--->
-
----------------
-
-<!-- 
-
-### 🧰 Languages and Tools
-
-<p align="center">
-<code>
-<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" alt="Python" height="30" style="vertical-align:top; margin:4px">
-<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/django/django.png" alt="django" height="30" style="vertical-align:top; margin:4px">
-<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" alt="Javascript" height="30" style="vertical-align:top; margin:4px">
-<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/go/go.png" alt="go" height="30" style="vertical-align:top; margin:4px">
-<img src="https://raw.githubusercontent.com/github/explore/51ecd5df4fcd5cd5377e6b2b00a330368b7b5f21/topics/gin/gin.png" alt="go" height="30" style="vertical-align:top; margin:4px">
-<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/docker/docker.png" alt="VS Code" height="30" style="vertical-align:top; margin:4px">
-<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" alt="VS Code" height="30" style="vertical-align:top; margin:4px">
-<a href="https://sourcerer.io/koeonyack"><img src="https://sourcerer.io/icons/logo-sharing.svg"height="32px" alt="Sourcerer"></a>
-  
-</code>
-</p>
--->
-
-### :octocat: My Github Stats
-
-<!--
-[![Covenant github stats](https://github-readme-stats.vercel.app/api?username=koeonyack&theme=vue&show_icons=true&hide=stars)](https://github.com/anuraghazra/github-readme-stats)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=koeonyack&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
--->
-
-<details>
-  <summary>(👈 Open) </summary>
 <br />
-<table id="stats"><tr><td valign="top" width="50%">
-<img src="https://github-readme-stats.vercel.app/api?username=koeonyack&show_icons=true&count_private=true&hide_border=true" align="left" style="width: 100%" />
-</td>
-<td valign="top" width="50%">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=koeonyack&hide_border=true&layout=compact" align="left" style="width: 100%" />
-</td></tr>
-</table>  
 
-</details>
+역할은 대체 가능성을 갖고 있습니다. 다른 손님이 오더라도 캐시어는 특정 손님만 주문받는 것이 아닌 카페를 방문하는 모든 손님의 주문을 받아야 할 것입니다.
 
--------------
+<br />
 
-<div align="center">
-<a href="https://www.linkedin.com/in/covenant/">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-<a href="https://covenant.tistory.com/">
-<img src="https://img.shields.io/badge/-Tech%20Blog-blue?style=for-the-badge" />
-</a>
-<a href="https://www.slideshare.net/ssuser8f4c99">
-<img src="https://img.shields.io/badge/-Slide%20Share-blueviolet?style=for-the-badge" />
-</a>
-</div>
+본 책 또한 마찬가지입니다. 조영호님은 이 책을 통해서 과거 토끼 책에서 예시로 넘어갔던 것과 다르게 실제 코드를 통해서 오브젝트를 잘 드러내고 싶을 것입니다. 특히 역할, 책임, 협력관계에 대해서 잘 전달하고 싶을 것입니다.
 
-<!--
-<p align="center">
-[![Tech Blog Badge](https://img.shields.io/badge/-Tech%20blog-black?style=flat-square&logo=github&link=https://ooeunz.tistory.com/)](http://covenant.tistory.com/)
-[![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=yuns994@gmail.com)](21300035@handong.edu)
-</p>
--->
+<br />
+
+이를 잘 드러내기 전 책의 서두에 패러다임에 관한 두 인용의 말로 시작합니다. 그 중에서 5p를 보면 '이런 공부를 통해서 과학도는 바로 그 확고한 모델로부터 그들 분야의 기초를 익혔던 사람들과 만나게 되므로, 이후에 계속적으로 그의 활동에서 기본개념에 대한 노골적인 의견 충돌이 빚어지는 일은 드물 것이다.' 라고 작성되어 있습니다.
+
+<br />
+
+이를 지금 책을 읽는 우리에게 바꾸어 표현해보자면 OOP 패러다임을 정확하게 모른다면 사람들과 충돌을 필할 수 없을것이라는 문맥을 유추해볼 수 있습니다.
+
+<br />
+
+OOP는 절대 만능이 아니며, OOP에 대한 다양한 비판이 있습니다. 저자는 이를 의식이라도 한 듯, OOP가 만능은 아니지만 실무과 동떨어진 것은 아니다라는 메시지를 주고있는데 이는 챕터 1을 시작하면서 이론이 먼저인지, 실무가 먼저인지 운을 띄우는데서 시작합니다. 실무가 우선이고 이후에 이론이 나왔다는 언급을 하면서 객체지향이 실무와 동떨어지지 않는, 예제 속에서만 의미있는 코드가 아니라는 것을 주장할 것이며 앞으로의 책의 전반에 걸쳐 나올 것입니다.
+
+<br />
+
+저자는 전통적인 패러다임 꺠는 서술 방식으로 챕터1을 구성하였습니다. 티켓판매 애플리케이션을 구현하면서 이거 구현해보자. 이런 일을 해야하는 클래스가 필요하니 이것을 만들어보자. 그리고 마지막에 enter 메서드까지 만듭니다. 그리고 뒤돌아보니 좋지않은 코드가 발생했습니다. 책을 따라가면서 전혀 의심없이 따라갔는데 뒤통수를 맞는 기분입니다. 이는 새로운 패러다임을 던지면 거부감이 들기에 기존의 패러다임을 따라간뒤에 모순적인 상황을 만들어 새로운 패러다임을 소개하는 방식입니다. 이런 서술방식은 새로운 패러다임이 거부감이 들지 않고 호기심을 유발하는 역활을 합니다.
+
+<br />
+
+개선 코드를 구현하는 그 자체는 본 챕터에서 크게 중요하지 않습니다. 개선하는 코드를 통해 알아야할 중요한 것은 역활, 책임 (더 나아가면 자율성, 응집도 등등)의 멋진 오브젝트 패러다임 안경을 쓰고 코드를 작성했을 때 OOP스러운 코드를 작성할 수 있다고 살짝 맛을 보는 시간입니다.
+
+<br />
+
+저자는 앞으로 남은 페이지에 걸쳐서 '오브젝트' 정복이라는 산을 등반하는 우리에게 길을 잃지 않도록 계단과 나침판을 제시할 것입니다.

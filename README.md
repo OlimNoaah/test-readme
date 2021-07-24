@@ -1,41 +1,134 @@
-## Ch01 공략
+<h1>
+■ [로켓학습] 스프링 핵심 원리 - 기본편
+</h1>
+
+<p align="center">
+    <img src="./_raw/rocket.jpg" />
+</p>
+
+> 스프링 정복의 가장 빠른 로켓에 탑승하세요! 🚀 
 
 <br />
 
-오브젝트라는 책을 읽을 때 조영호 저자님의 바로 전 책인 객체지향의 사실과 오해를 함께 보면 서술 의도를 잘 파악할 수 있스빈다. 이 책의 부재는 역할, 책임관점에서의 객체지향이라고 하고 이에 대해서 풀어나갑니다. 이 책의 제일 첫 부분 커피 공화국 예시를 통해서 책의 주제를, 그리고 객체지향에 대한 관점을 보여줍니다.
+## 😀 참가 맴버
+
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/KoEonYack"><img src="https://avatars.githubusercontent.com/u/28642484?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Covenant</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/esesil"><img src="https://avatars.githubusercontent.com/u/72774479?v=4?s=100" width="100px;" alt=""/><br /><sub><b>esesil</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/jihyunhillpark"><img src="https://avatars.githubusercontent.com/u/29705409?v=4?s=100" width="100px;" alt=""/><br /><sub><b>jihyunPark</b></sub></a><br /></td>
+    <!-- <td align="center"><a href="https://github.com/leesg619"><img src="https://avatars.githubusercontent.com/u/52132929?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Lee SeokGeun
+</b></sub></a><br /></td> -->
+    <td align="center"><a href="https://github.com/tongnamuu"><img src="https://avatars.githubusercontent.com/u/33937684?v=4?s=100" width="100px;" alt=""/><br /><sub><b>tongnamuu</b></sub></a><br /></td>
+    <!-- <td align="center"><a href="https://github.com/yu-jin-song"><img src="https://avatars.githubusercontent.com/u/74666378?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Yujin Song
+</b></sub></a><br /></td> -->
+</tr>
+</table>
 
 <br />
 
-손님이 캐시어에게 주문을 요청하고 캐시어는 주문을 받아서 바리스타에게 전달합니다. 여기서 역할과 책임 협력관계가 잘 드러나있습니다. 손님은 주문하는 역할, 캐시어는 주문을 받아 바리스타에게 전달하는 역할, 바리스타는 커피를 만들어 캐시어에게 전달하는 역할을 합니다. 서로 간에 메시지를 통해서 협력관계를 갖고있습니다.
+## 📅 일정
+
+<table>
+    <thead>
+        <tr>
+            <th> 일시 </th>
+            <th> 주제 </th>
+            <th> 스터디 자료 </th>
+        </tr>
+    </thead>
+    <tbody>        
+        <tr>
+            <td> Week1 (6/26 10:30) </td>
+            <td> 
+                섹션 1. 객체 지향 설계와 스프링 <br />
+                섹션 2. 스프링 핵심 원리 이해1 - 예제 만들기
+            </td>
+            <td> 
+            covenant: <a href="https://github.com/covenant-lab/rocket-study-spring-core-basic/blob/master/week1/covenant/%EB%A1%9C%EC%BC%93%EC%8A%A4%ED%84%B0%EB%94%94_OT.pdf">OT</a>, <a href="https://github.com/covenant-lab/rocket-study-spring-core-basic/blob/master/week1/covenant/week1_%EC%8A%A4%ED%94%84%EB%A7%81%EC%9D%B4_%EC%82%AC%EB%9E%91%ED%95%9C_SOLID.pdf">스프링이 사랑한 SOLID</a><br />
+            jihyunPark: <a href="https://jihyunhillpark.github.io/springframework/Spring-fundamental1/"> 스프링 기본 핵심원리 </a><br />
+            esesil: <a href="https://github.com/covenant-lab/rocket-study-spring-core-basic/blob/master/week1/esesil/week1_%ED%98%84%EC%8B%A4%EC%84%B8%EA%B3%84%EB%A5%BC%20%ED%86%B5%ED%95%9C%20%EA%B0%9D%EC%B2%B4%EC%9D%B4%ED%95%B4.pdf">현실세계를 통한 객체이해</a><br />
+            </td>
+        </tr>
+        <tr>
+            <td> Week2 (7/03 10:30) </td>
+            <td> 
+                섹션 3. 스프링 핵심 원리 이해2 - 객체 지향 원리 적용 <br />
+                섹션 4. 스프링 컨테이너와 스프링 빈 
+            </td>
+            <td> 
+                coveant: <a href="https://github.com/covenant-lab/rocket-study-spring-core-basic/blob/master/week2/covenant/week2_%EC%95%84%EC%A3%BC%EC%9E%91%EC%9D%80_%EB%B9%88_%EC%9D%B4%EC%95%BC%EA%B8%B0_1.pdf">[PART 1]</a>, <a href="https://github.com/covenant-lab/rocket-study-spring-core-basic/blob/master/week2/covenant/week2_%EC%95%84%EC%A3%BC%EC%9E%91%EC%9D%80_%EB%B9%88_%EC%9D%B4%EC%95%BC%EA%B8%B0_2.pdf">[PART 2]</a><br />
+                esesil: <a href="https://github.com/covenant-lab/rocket-study-spring-core-basic/blob/master/week2/esesil/week2_%EB%B9%88%20%ED%83%90%EA%B5%AC%ED%95%98%EA%B8%B0.pdf">bean 탐구하기</a><br />
+                jihyunPark: <a href="https://jihyunhillpark.github.io/springframework/spring-fundamental3-copy/"> [PART 1] </a>, <a href="https://jihyunhillpark.github.io/springframework/spring-fundamental4/"> [PART 2] </a><br />
+            </td>
+        </tr>
+        <tr>
+            <td> Week3 (7/10 10:30) </td>
+            <td> 
+                섹션 5. 싱글톤 컨테이너 <br />
+                섹션 6. 컴포넌트 스캔
+            </td>
+            <td> 
+            esesil: <a href="https://github.com/covenant-lab/rocket-study-spring-core-basic/blob/master/week3/esesil/week3_Custom-Annotation%20%EC%9E%91%EC%84%B1%EB%B2%95.pdf">Custom Annotation 작성법</a><br />
+            </td>
+        </tr>
+        <tr>
+            <td> Week4 (7/17 10:30) </td>
+            <td> 
+                섹션 7. 의존관계 자동 주입 <br />
+            </td>
+            <td> 
+            -
+            </td>
+        </tr>
+        <tr>
+            <td> Week5 (7/24 10:30) </td>
+            <td> 
+                섹션 8. 빈 생명주기 콜백 <br /> 
+                섹션 9. 빈 스코프
+            </td>
+            <td> 
+            -
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+> 스터디 일정은 조정될 수 있습니다.
 
 <br />
 
-역할은 대체 가능성을 갖고 있습니다. 다른 손님이 오더라도 캐시어는 특정 손님만 주문받는 것이 아닌 카페를 방문하는 모든 손님의 주문을 받아야 할 것입니다.
+## 📣 스터디 안내
+
+- 스터디 당일 사다리 타기로 발표 순서 정합니다.
+- 사전에 스터디 발표할 사람을 정하지 않는 이유는 스터디 참여 인원은 강의를 수강하고 언제든 발표할 준비를 해야 합니다. 자신의 발표 때만 스터디 준비를 해오는 일을 막기 위함입니다.
+- 열심히 준비했는데 아쉽게 발표를 못 했다면 알려주세요! 다음주에 이전에 못한 발표 기회를 드리겠습니다!
+- 원칙적으로 화상 카메라를 켜고 스터디 참여하는 것을 권장합니다.
+    - 표정을 통해서 서로의 이해 상태를 파악할 수 있습니다.
+    - 좁은 IT 생태계에 얼굴을 알면 좋을 것이기에! (언제 어떻게 함께 일하게 될지 몰라요!) 😉
+    - 부끄러우면 마스크를 써도 됩니다.
+- 개인적인 사유로 스터디를 지속할 수 없다면 빠르게 알려주세요! 
 
 <br />
 
-본 책 또한 마찬가지입니다. 조영호님은 이 책을 통해서 과거 토끼 책에서 예시로 넘어갔던 것과 다르게 실제 코드를 통해서 오브젝트를 잘 드러내고 싶을 것입니다. 특히 역할, 책임, 협력관계에 대해서 잘 전달하고 싶을 것입니다.
+## ✏️ 스터디 준비 방식
+
+A, B 타입 중에서 원하는 방식으로 준비하시면 됩니다. 
+
+- __Type A.__ 강의 요약, 이해 안 되는 점을 PPT(or Notion, Markdown 등등 자유롭게) 정리하여 발표 (강의를 따라가기 어렵다면 질문만 준비해도 됩니다!)
+- __Type B.__ 강의 주제에 대해서 심화 & 파생개념을 공부해보고 발표
+
+개인 발표시간은 최소 10분 ~ 최대 25분 범위 내로 준비해주세요!
+
 
 <br />
-
-이를 잘 드러내기 전 책의 서두에 패러다임에 관한 두 인용의 말로 시작합니다. 그 중에서 5p를 보면 '이런 공부를 통해서 과학도는 바로 그 확고한 모델로부터 그들 분야의 기초를 익혔던 사람들과 만나게 되므로, 이후에 계속적으로 그의 활동에서 기본개념에 대한 노골적인 의견 충돌이 빚어지는 일은 드물 것이다.' 라고 작성되어 있습니다.
-
 <br />
 
-이를 지금 책을 읽는 우리에게 바꾸어 표현해보자면 OOP 패러다임을 정확하게 모른다면 사람들과 충돌을 필할 수 없을것이라는 문맥을 유추해볼 수 있습니다.
+<!-- Bottom -->
+<hr />
 
-<br />
+<div align=center>
+    <h3> 로켓학습 | 스프링 정복반 </h3>
+</div>
 
-OOP는 절대 만능이 아니며, OOP에 대한 다양한 비판이 있습니다. 저자는 이를 의식이라도 한 듯, OOP가 만능은 아니지만 실무과 동떨어진 것은 아니다라는 메시지를 주고있는데 이는 챕터 1을 시작하면서 이론이 먼저인지, 실무가 먼저인지 운을 띄우는데서 시작합니다. 실무가 우선이고 이후에 이론이 나왔다는 언급을 하면서 객체지향이 실무와 동떨어지지 않는, 예제 속에서만 의미있는 코드가 아니라는 것을 주장할 것이며 앞으로의 책의 전반에 걸쳐 나올 것입니다.
-
-<br />
-
-저자는 전통적인 패러다임 꺠는 서술 방식으로 챕터1을 구성하였습니다. 티켓판매 애플리케이션을 구현하면서 이거 구현해보자. 이런 일을 해야하는 클래스가 필요하니 이것을 만들어보자. 그리고 마지막에 enter 메서드까지 만듭니다. 그리고 뒤돌아보니 좋지않은 코드가 발생했습니다. 책을 따라가면서 전혀 의심없이 따라갔는데 뒤통수를 맞는 기분입니다. 이는 새로운 패러다임을 던지면 거부감이 들기에 기존의 패러다임을 따라간뒤에 모순적인 상황을 만들어 새로운 패러다임을 소개하는 방식입니다. 이런 서술방식은 새로운 패러다임이 거부감이 들지 않고 호기심을 유발하는 역활을 합니다.
-
-<br />
-
-개선 코드를 구현하는 그 자체는 본 챕터에서 크게 중요하지 않습니다. 개선하는 코드를 통해 알아야할 중요한 것은 역활, 책임 (더 나아가면 자율성, 응집도 등등)의 멋진 오브젝트 패러다임 안경을 쓰고 코드를 작성했을 때 OOP스러운 코드를 작성할 수 있다고 살짝 맛을 보는 시간입니다.
-
-<br />
-
-저자는 앞으로 남은 페이지에 걸쳐서 '오브젝트' 정복이라는 산을 등반하는 우리에게 길을 잃지 않도록 계단과 나침판을 제시할 것입니다.
+<hr />

@@ -17,9 +17,9 @@
     <td align="center"><a href="https://github.com/KoEonYack"><img src="https://avatars.githubusercontent.com/u/28642484?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Covenant</b></sub></a><br /></td>
     <td align="center"><a href="https://github.com/esesil"><img src="https://avatars.githubusercontent.com/u/72774479?v=4?s=100" width="100px;" alt=""/><br /><sub><b>esesil</b></sub></a><br /></td>
     <td align="center"><a href="https://github.com/jihyunhillpark"><img src="https://avatars.githubusercontent.com/u/29705409?v=4?s=100" width="100px;" alt=""/><br /><sub><b>jihyunPark</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/osj3474"><img src="https://avatars.githubusercontent.com/u/52132929?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sangjin Oh
+    <td align="center"><a href="https://github.com/osj3474"><img src="https://avatars.githubusercontent.com/u/42775225?v=4?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sangjin Oh
 </b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/tongnamuu"><img src="https://avatars.githubusercontent.com/u/42775225?v=4?s=100" width="100px;" alt=""/><br /><sub><b>tongnamuu</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/tongnamuu"><img src="https://avatars.githubusercontent.com/u/33937684?v=4?s=100" width="100px;" alt=""/><br /><sub><b>tongnamuu</b></sub></a><br /></td>
     <!-- <td align="center"><a href="https://github.com/yu-jin-song"><img src="https://avatars.githubusercontent.com/u/74666378?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Yujin Song
 </b></sub></a><br /></td> -->
 </tr>

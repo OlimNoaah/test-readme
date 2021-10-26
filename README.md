@@ -2,4 +2,4 @@
   <img src="https://contrib.rocks/image?repo=brave-people/dev-event" />
 </a>
 
-Made with [contributors-img](https://contrib.rocks).
+Made with [contrib.rocks](https://contrib.rocks).

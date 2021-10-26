@@ -6,20 +6,8 @@
 
 ![img](./static/title-v3-lg.png)
 
-<!-- [![author](https://img.shields.io/badge/author-covenant-brightgreen.svg?style=flat-square)](https://covenant.tistory.com/) -->
-
-<!-- [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/brave-people/Dev-Event/pulls)
-![Last commit](https://img.shields.io/github/last-commit/brave-people/Dev-Event?style=flat-square) -->
-
 </div>
 
-<div align=center>
-
-개발자 컨퍼런스 및 해커톤 일정을 알려드립니다.
-
-</div>
-
-<br />
 <br />
 <br />
 
@@ -310,6 +298,10 @@
   - 분류: `모각코`
   - 주최: GDG Campus Korea
   - 일시: 10. 30(토) ~ 11. 12(금)
+- __[PASCON 2021](https://www.dailysecu.com/form/register.html?form_id=1607476949)__
+  - 분류: `컨퍼런스`, `보안`
+  - 주최: PASCON
+  - 일시: 11. 11(목) 09:00 ~ 17:00
 - __[[해, 커리어] 채용 연계형 해커톤](https://www.wanted.co.kr/events/audition2021_register?referer_id=2)__
   - 분류: `커리어`, `해커톤`
   - 주최: wanted
@@ -317,7 +309,11 @@
 - __[DND 언택트 해커톤](https://docs.google.com/forms/d/e/1FAIpQLScTJ-UWmhQ8KueJPnHNgKmC-p3CgPDnxuWd80cyOkdGziXjXA/viewform?usp=send_form)__
   - 분류: `해커톤`
   - 주최: DND
-  - 주최: 10. 12(화) ~ 11. 14(일)
+  - 일시: 10. 12(화) ~ 11. 14(일)
+- __[Artificial Intelligence Diabetes Datathon 2021](https://aiddatathon.com/)__
+  - 분류: `해커톤`
+  - 주최: 과학기술정보통신부
+  - 접수: 10. 22(금) ~ 11. 16(화)
 - __[if kakao](https://if.kakao.com/)__
   - 분류: `컨퍼런스`
   - 주최: 카카오
@@ -342,6 +338,10 @@
   - 분류: `경진대회`, `데이터`
   - 주최: NH 투자증권
   - 일시: 08. 30(월) ~ 11. 26(금)
+- __[성공적인 창업 준비를 위해 스타트업이 알아야 할 AWS의 모든 것](https://www.megazone.com/application_form_startup_webinar-apply-211129_30)__
+  - 분류: `웨비나`, `클라우드`
+  - 주최: 메가존클라우드
+  - 일시: 11. 29(월) 14:00 ~ 11:30(화) 16:00
 
 <br />
 

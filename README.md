@@ -482,6 +482,15 @@
 > 저장소에 기여해주신 분들입니다. 모든 분께 감사드립니다 :) PR 환영합니다!
 
 <br />
+
+Speical Thanks to
+- [@leedoopal](https://github.com/leedoopal) - Dev Event Web Client
+- [@Limm-jk](https://github.com/Limm-jk) - Dev Event Subscribe
+- [@jisungbin](https://github.com/jisungbin) - Dev Event Android
+
+
+
+<br />
 <br />
 <hr />
 <div align=center>

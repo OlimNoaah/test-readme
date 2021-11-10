@@ -75,6 +75,8 @@
   <td valign="top" width="48%">
     <img src="https://user-images.githubusercontent.com/67247530/141124017-fe316df2-1084-449e-8774-327de4c2e936.png" align="left" style="width: 100%" />
   </td>
+</tr>
+<tr>
   <td valign="top" width="48%">
     <img src="https://user-images.githubusercontent.com/67247530/141124022-9d938445-ae9b-4b27-bb05-024f462d170c.png" align="left" style="width: 100%" />
   </td>

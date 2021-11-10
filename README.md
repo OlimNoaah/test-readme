@@ -11,6 +11,7 @@
 <br />
 <br />
 
+<!-- 
 ## 📣 Dev Event Mail
 
 <div align=center>
@@ -35,6 +36,7 @@
 </div>
 
 <br />
+
 
 <details>
   <summary>[21. 04. 11] DEV EVENT 1000+스타 감사합니다. </summary>
@@ -66,6 +68,7 @@
 
   </div>
 </details>
+-->
 
 <table>
 <tr>
@@ -82,7 +85,9 @@
 </tr>
 <tr>
   <td valign="top" width="48%">
-    <img src="https://user-images.githubusercontent.com/67247530/141124022-9d938445-ae9b-4b27-bb05-024f462d170c.png" align="left" style="width: 98%" />
+    <a href="https://github.com/brave-people/Dev-Event#contributors-">
+      <img src="https://user-images.githubusercontent.com/67247530/141124022-9d938445-ae9b-4b27-bb05-024f462d170c.png" align="left" style="width: 98%" />
+    </a>
   </td>
   <td valign="top" width="48%">
     <a href="#">
@@ -92,6 +97,7 @@
 </tr>
 </table>  
 
+> 배너 클릭시 연관 링크로 이동합니다.
 
 <br />
 

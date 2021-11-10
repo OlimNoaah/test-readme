@@ -70,7 +70,9 @@
 <table>
 <tr>
   <td valign="top" width="48%">
-    <img src="https://user-images.githubusercontent.com/67247530/141124007-6c339cde-daa1-4f0f-baa5-562570b82004.png" align="left" style="width: 98%" />
+    <a href="https://github.com/brave-people/Dev-Event-Subscribe-Script">
+      <img src="https://user-images.githubusercontent.com/67247530/141124007-6c339cde-daa1-4f0f-baa5-562570b82004.png" align="left" style="width: 98%" />
+    </a>
   </td>
   <td valign="top" width="48%">
     <img src="https://user-images.githubusercontent.com/67247530/141124017-fe316df2-1084-449e-8774-327de4c2e936.png" align="left" style="width: 98%" />

@@ -70,7 +70,7 @@
 <table>
 <tr>
   <td valign="top" width="48%">
-    <img src="https://user-images.githubusercontent.com/67247530/141124007-6c339cde-daa1-4f0f-baa5-562570b82004.png" align="left" style="width: 100%" />
+    <img src="https://user-images.githubusercontent.com/67247530/141124007-6c339cde-daa1-4f0f-baa5-562570b82004.png" align="left" style="width: 99%" />
   </td>
   <td valign="top" width="48%">
     <img src="https://user-images.githubusercontent.com/67247530/141124017-fe316df2-1084-449e-8774-327de4c2e936.png" align="left" style="width: 100%" />
@@ -81,7 +81,7 @@
     <img src="https://user-images.githubusercontent.com/67247530/141124022-9d938445-ae9b-4b27-bb05-024f462d170c.png" align="left" style="width: 100%" />
   </td>
   <td valign="top" width="48%">
-    <img src="https://user-images.githubusercontent.com/67247530/141124024-44d5e4b9-8d22-4d82-8e4b-f33a0ea597ca.png" align="left" style="width: 100%" />
+    <img src="https://user-images.githubusercontent.com/67247530/141124024-44d5e4b9-8d22-4d82-8e4b-f33a0ea597ca.png" align="left" style="width: 99%" />
   </td>
 </tr>
 </table>  

@@ -1,6 +1,6 @@
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-34-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-38-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <div align=center>
 
@@ -67,71 +67,46 @@
   </div>
 </details>
 
+<table id="stats">
+<tr>
+  <td valign="top" width="50%">
+    <img src="https://user-images.githubusercontent.com/67247530/141124007-6c339cde-daa1-4f0f-baa5-562570b82004.png" align="left" style="width: 100%" />
+  </td>
+  <td valign="top" width="50%">
+    <img src="https://user-images.githubusercontent.com/67247530/141124017-fe316df2-1084-449e-8774-327de4c2e936.png" align="left" style="width: 100%" />
+  </td>
+</tr>
+<tr>
+  <td valign="top" width="50%">
+    <img src="https://user-images.githubusercontent.com/67247530/141124022-9d938445-ae9b-4b27-bb05-024f462d170c.png" align="left" style="width: 100%" />
+  </td>
+  <td valign="top" width="50%">
+    <img src="https://user-images.githubusercontent.com/67247530/141124024-44d5e4b9-8d22-4d82-8e4b-f33a0ea597ca.png" align="left" style="width: 100%" />
+  </td>
+</tr>
+</table>  
+
+
 <br />
 
-## 지난 일정
+## 지난 행사
 
 > 좋은 행사 놓쳐서 후회하면 무엇하리.. 자주 확인하여 참석합시다 :)
 
-- 2020년: [08월](./2020/20_08.md), [09월](./2020/20_09.md), [10월](./2020/20_10.md), [11월](./2020/20_11.md), [12월](./2020/20_12.md)
-- 2021년: [01월](./2021/21_01.md), [02월](./2021/21_02.md), [03월](./2021/21_03.md), [04월](./2021/21_04.md), [05월](./2021/21_05.md), [06월](./2021/21_06.md), [07월](./2021/21_07.md), [08월](./2021/21_08.md), [09월](./2021/21_09.md), [10월](./2021/21_10.md)
-
-<br />
-
-## 지난 행사 다시보기
-
-- 개발자 행사 영상: [20년](./vod/2020_vod.md), [21년](./vod/2021_vod.md)
-- 행사 참여 후기: [바로가기](./review/review.md)
+- 2020년 행사: [08월](./2020/20_08.md), [09월](./2020/20_09.md), [10월](./2020/20_10.md), [11월](./2020/20_11.md), [12월](./2020/20_12.md)
+- 2021년 행사: [01월](./2021/21_01.md), [02월](./2021/21_02.md), [03월](./2021/21_03.md), [04월](./2021/21_04.md), [05월](./2021/21_05.md), [06월](./2021/21_06.md), [07월](./2021/21_07.md), [08월](./2021/21_08.md), [09월](./2021/21_09.md), [10월](./2021/21_10.md), [11월](./2021/21_11.md)
+- 행사 다시보기: [20년](./vod/2020_vod.md), [21년](./vod/2021_vod.md)
+- 참여 후기: [바로가기](./review/review.md)
 
 <br />
 
 ## 21년 11월
 
-- __[2021아이포럼: AI with HUMAN](http://onoff.inews24.com/2021/iforum/)__
-  - 분류: `컨퍼런스`, `AI`
-  - 주최: 아이뉴스
-  - 일시: 11. 02(화) 09:00 ~ 16:20
-
-- __[실내공간 3D 종합 AI 데이터 인공지능 해커톤](https://etedu.co.kr/shop/item.php?it_id=1633564150)__
-  - 분류: `해커톤`, `AI`
-  - 주최: 과학기술정보통신부
-  - 접수: 10. 13(수) ~ 11. 03(수)
-- __[우아한 테크코스 4기](https://techblog.woowahan.com/5977)__
-  - 분류: `교육`, `프론트엔트`, `백엔드`
-  - 주최: 우아한 형제들
-  - 접수: 10. 22(금) ~ 11. 03(수) 10:00
-- __[2021년 디자인시스템의 혁신, UXPin 한국 첫 웨비나!](https://us06web.zoom.us/webinar/register/WN_MLCooHsfTx-KNLOZtfSSkA)__
-  - 분류: `웨비나`
-  - 주최: 단군소프트
-  - 접수: 11. 04(목) 16:00 ~ 17:00
-- __[SK ICT Tech Summit 2021](https://skicttechsummit.com/index_pre.do)__
-  - 분류: `컨퍼런스`, `기술`
-  - 주최: SK
-  - 일시: 11. 03(수) ~ 11. 04(목)
-- __[제11회 소프트웨어 개발보안 컨퍼런스](http://www.swsecurecoding.kr/)__
-  - 분류: `컨퍼런스`, `개발보안`
-  - 주최: 행정안전부
-  - 일시: 11. 05(금) 10:30 ~ 16:00
-- __[KT AIVLE School](https://ktedu.kt.com/aivle/main.html)__
-  - 분류: `교육`
-  - 주최: KT
-  - 접수: 10. 25(월) ~ 11. 05(금)
-- __[Kotlin을 이용한 안드로이드 앱의 기초 구조](https://www.codelabs.kr/codelabs/146)__
-  - 분류: `교육`
-  - 주최: 양재동코드랩
-  - 일시: 11. 07(일)
-- __[BC카드 금융 빅데이터 플랫폼 활용 아이디어 공모전](https://www.bigdata-finance.kr/main.do)__
-  - 분류: `공모전`, `아이디어톤`
-  - 주최: BC카드
-  - 신청: 10. 01(금) ~ 11/07(일)
-- __[삼성 청년 SW 아카데미 7기 모집](https://www.ssafy.com/ksp/servlet/swp.board.controller.SwpBoardServlet?p_process=select-board-view&p_tabseq=226504&p_seq=60)__
-  - 분류: `교육`
-  - 주최: saffy
-  - 접수: 10.25(월) ~ 11.08(월) 17:00
 - __[LINE DEVELOPER DAY 2021](https://linedevday.linecorp.com/2021/ko/)__
   - 분류: `컨퍼런스`, `AI`, `Blockchain`, `Frontend`, `Infrastructure`, `iOS/Android`, `Machine Learning`, `온라인`
   - 주최: LINE
   - 일시: 11. 10(수) ~ 11. 11(목)
+
 - __[HMG DEVELOPER CONFERENCE](https://hmgdevcon.com/main/)__
   - 분류: `컨퍼런스`
   - 주최: 현대자동차그룹
@@ -144,14 +119,10 @@
   - 분류: `모각코`
   - 주최: GDG Campus Korea
   - 일시: 10. 30(토) ~ 11. 12(금)
-- __[Svelte 기초 및 실습 (1주차)](https://www.codelabs.kr/codelabs/148)__
-  - 분류: `교육`
-  - 주최: 양재동코드랩
-  - 일시: 11. 06(토) 10:00 ~ 17:00
-- __[Kotlin을 이용한 안드로이드 앱의 기초 구조 (1주차)](https://www.codelabs.kr/codelabs/146)__
-  - 분류: `교육`
-  - 주최: 양재동코드랩
-  - 일시: 11. 07(일) 10:00 ~ 17:00
+- __[2021 오픈소스 컨트리뷰션 아카데미](https://www.oss.kr/notice/show/ef29418a-d73c-4d83-88b0-e04f7fb24c93?page=1)__
+  - 분류: `오픈소스`, `해커톤`
+  - 주최: 과학기술정보통신부
+  - 일시: 11. 05(금) ~ 11. 12(금)
 - __[넉넉위크 - 개발자 커리어](https://mewing-almandine-c08.notion.site/a431630ae2044e5f975dfb9de2c75fd6)__
   - 분류: `커리어`
   - 주최: 청년다방
@@ -160,6 +131,10 @@
   - 분류: `경진대회`
   - 주최: DACON
   - 일시: 11. 01(월) ~ 11. 12(금)
+- __[Svelte 기초 및 실습 (2주차)](https://www.codelabs.kr/codelabs/148)__
+  - 분류: `교육`
+  - 주최: 양재동코드랩
+  - 일시: 11. 13(토) 10:00 ~ 17:00
 - __[[해, 커리어] 채용 연계형 해커톤](https://www.wanted.co.kr/events/audition2021_register?referer_id=2)__
   - 분류: `커리어`, `해커톤`
   - 주최: wanted
@@ -176,26 +151,34 @@
   - 분류: `교육`
   - 주최: 양재동코드랩
   - 일시: 11. 14(일) 10:00 ~ 17:00
-- __[Svelte 기초 및 실습 (2주차)](https://www.codelabs.kr/codelabs/148)__
-  - 분류: `교육`
-  - 주최: 양재동코드랩
-  - 일시: 11. 13(토) 10:00 ~ 17:00
-- __[Artificial Intelligence Diabetes Datathon 2021](https://www.meetup.com/ko-KR/OWASP-Seoul/events/280484529)__
+- __[깃허브 저자 네라쿠배 개발자의 커리어 이야기](https://okky.kr/article/1092082)__
+  - 분류: `세미나`, `유료`
+  - 주최: OKKY
+  - 접수: 11. 15(월) 17:00
+- __[Artificial Intelligence Diabetes Datathon 2021](https://aiddatathon.com/)__
   - 분류: `해커톤`
   - 주최: 과학기술정보통신부
   - 접수: 10. 22(금) ~ 11. 16(화)
-- __[OWASP Seoul Conference 2021](https://aiddatathon.com/)__
+- __[OWASP Seoul Conference 2021](https://www.meetup.com/ko-KR/OWASP-Seoul/events/280484529)__
   - 분류: `모임`, `보안`
   - 주최: OWASP Seoul Chapter
   - 일시: 11. 17(수) 19:00 ~ 21:00
+- __[별종 개발자들의 성장 이야기 ](https://www.wanted.co.kr/events/livetalk55)__
+  - 분류: `웨비나`, `프론트엔드`
+  - 주최: 원티드
+  - 일시: 11. 17(수) 19:00 ~ 21:00
+- __[야놀자 · 야놀자 클라우드 | LIVE 채용 설명회](https://www.wanted.co.kr/events/yanolja_recruit)__
+  - 분류: `채용`
+  - 주최: 야놀자
+  - 일시: 11. 16(화) ~ 11. 17(수) 19:30 ~ 20:40
+- __[당근 SRE 밋업 2회](https://festa.io/events/1912)__
+  - 분류: `웨비나`, `SRE`
+  - 주최: 당근마켓
+  - 일시: 11. 17(수) 19:00 ~ 22:00
 - __[if kakao](https://if.kakao.com/)__
   - 분류: `컨퍼런스`
   - 주최: 카카오
   - 일시: 11. 16(화) ~ 11. 18(목)
-- __[Samsung Software Developer Conference 2021](https://soscon.net/)__
-  - 분류: `컨퍼런스`
-  - 주최: 삼성전자
-  - 일시: 11. 18(목)
 - __[제2회 에코뱅크 기능 및 생물·생태 빅데이터 활용 경진대회](https://onoffmix.com/event/244540)__
   - 분류: `대회`, `빅데이터`
   - 주최: 국립생태원
@@ -204,6 +187,10 @@
   - 분류: `컨퍼런스`
   - 주최: 삼성
   - 일시: 11. 17(수) ~ 11. 18(목)
+- __[Gitlab Korea 밋업 - GitLab의 제품개발 프로세스](https://festa.io/events/1914)__
+  - 분류: `웨비나`
+  - 주최: GitLab Korea
+  - 일시: 11. 18(목) 19:00 ~ 21:00
 - __[라이징 캠프 3기](https://risingcamp.com)__
   - 분류: `교육`, `iOS`, `Android`, `Server`, `Web`
   - 주최: 컴공선배
@@ -212,6 +199,10 @@
   - 분류: `컨퍼런스`, `데이터`, `온라인`
   - 주최: Seoul R User Group & Tidyverse Korea
   - 일시: 11. 19(금) 10:00 ~ 17:00
+- __[월간 코드리뷰 ver_0.2 : 개발자의 소통코드 웨비나](https://taling.me/Event/monthly-codereview/ver_02)__
+  - 분류: `웨비나`
+  - 주최: 탈잉
+  - 일시: 11. 19(금) 19:00 ~ 23:00
 - __[WOOWACON(우아콘) 2021](https://woowacon.com/)__
   - 분류: `컨퍼런스`, `온라인`, `토크콘서트`
   - 주최: 우아한 형제들
@@ -220,18 +211,66 @@
   - 분류: `교육`
   - 주최: 양재동코드랩
   - 일시: 11. 20(토) 10:00 ~ 17:00
+- __[Open UP_AI오픈소스 실전 아카데미 - 4차](https://shocking-carp-8d9.notion.site/Open-UP_AI-aea2e1ca35ac4b48b6ea0ca12247802a)__
+  - 분류: `교육`, `무료`, `오픈소스`
+  - 주최: Open UP
+  - 일시: 11. 20(토) ~ 11. 21(일)
 - __[Kotlin을 이용한 안드로이드 앱의 기초 구조 (3주차)](https://www.codelabs.kr/codelabs/146)__
   - 분류: `교육`
   - 주최: 양재동코드랩
   - 일시: 11. 21(일) 10:00 ~ 17:00
+- __[LINE 프론트엔드 개발자와 함께하는 온라인 커리어 멘토링](https://feedback.line.me/enquete/public/14159-1HohnOFz)__
+  - 분류: `커리어`, `프론트엔드`
+  - 주최: 라인
+  - 일시: 11. 09(화) ~ 11. 21(일)
+- __[래블업 AI Conference lab | up > /conf](https://www.codelabs.kr/codelabs/146)__
+  - 분류: `컨퍼런스`, `AI`
+  - 주최: 래블업
+  - 일시: 11. 22(월) 14:00 ~ 17:30
+- __[GCP 입문을 위한 실무 중심 hands-on Labs day 웨비나](https://gc.hosting.kr/gcp_labsday_november-2021/)__
+  - 분류: `컨퍼런스`, `클라우드`
+  - 주최: 메가존
+  - 일시: 11. 22(월) 13:00 ~ 17:00
+- __[삼성SDS 컨퍼런스 Techtonic 2021](https://techtonic.samsungsds.com/techtonic)__
+  - 분류: `컨퍼런스`
+  - 주최: 삼성SDS
+  - 일시: 11. 23(화) ~ 11. 24(수)
+- __[대한민국 마이데이터 정책 컨퍼런스](https://docs.google.com/forms/d/e/1FAIpQLSeir5oWx66H6ycWmE5XIjIvNRD5SgzDeKNYda0WyEV8TBsfng/viewform?usp=sf_link)__
+  - 분류: `마이데이터`
+  - 주최: 4차산업혁명위원회
+  - 일시: 11. 25(목) 14:00 ~ 17:00
+- __[2021 차로위반영상데이터 활용 AI 해커톤](https://tvaihackathon.com/)__
+  - 분류: `해커톤`
+  - 주최: 과학기술정보통신부
+  - 모집: 10. 27(수) ~ 11. 25(목)
+- __[Heart Disease AI Datathon 2021](http://hdaidatathon.com/)__
+  - 분류: `해커톤`
+  - 주최: 과학기술정보통신부
+  - 모집: 10. 27(수) ~ 11. 25(목)
+- __[IT-CON with 디프만](https://festa.io/events/1929)__
+  - 분류: `유료`, `웨비나`
+  - 주최: 디프만
+  - 일시: 11. 25(목) 20:00 ~ 22:00
+- __[마이크로소프트와 함께 하는 온라인 잡 페어](https://forms.office.com/pages/responsepage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__SNom4ZUMUFER05HUEdNNU1CVVhGWEZYQzgwTUI0Uy4u)__
+  - 분류: `온라인`, `커리어`
+  - 주최: 마이크로소프트
+  - 일시: 11. 26(금) 14:00 ~ 17:20
 - __[2021년(제2회) NH투자증권 빅데이터 경진대회](https://dacon.io/competitions/official/235798/overview/description)__
   - 분류: `경진대회`, `데이터`
   - 주최: NH 투자증권
   - 일시: 08. 30(월) ~ 11. 26(금)
+- __[Naver Deview 2021](https://deview.kr/2021)__
+  - 분류: `컨퍼런스`, `온라인`
+  - 주최: 네이버
+  - 일시: 11. 24(수) ~ 11. 26(금)
 - __[Svelte 기초 및 실습 (4주차)](https://www.codelabs.kr/codelabs/148)__
   - 분류: `교육`
   - 주최: 양재동코드랩
   - 일시: 11. 27(토) 10:00 ~ 17:00
+- __[GDG Busan Devfest 2021 중소IT 기업의 개발/조직문화 Level Up!](https://festa.io/events/75b909e5-801c-49be-a318-833ccef3a907)__
+  - 분류: `모임`
+  - 주최: GDG Busan
+  - 일시: 11. 27(토) 14:00 ~ 16:00
 - __[Kotlin을 이용한 안드로이드 앱의 기초 구조 (4주차)](https://www.codelabs.kr/codelabs/146)__
   - 분류: `교육`
   - 주최: 양재동코드랩
@@ -240,6 +279,10 @@
   - 분류: `웨비나`, `클라우드`
   - 주최: 메가존클라우드
   - 일시: 11. 29(월) 14:00 ~ 11:30(화) 16:00
+- __[마켓컬리 개발자 Meet Up](https://docs.google.com/forms/d/e/1FAIpQLScjdSn26RJ8nQSxPy3rSy6dL_gwz0z4gJK26tUD2Kb0_Set3w/viewform)__
+  - 분류: `웨비나`
+  - 주최: 마켓컬리
+  - 일시: 11. 30(화) 19:00 ~ 20:00
 
 <br />
 
@@ -291,6 +334,10 @@
 | 디프만 | 디자이너와 프로그래머의 만남 | [depromeet.com](https://www.depromeet.com/) |
 | 프로그라피 | 세상에 필요한 IT서비스를 만드는 모임 | [공식 홈페이지](http://prography.org/), [facebook](https://www.facebook.com/thePrography/)|
 | CEOS | 신촌 연합 IT 창업 동아리 | [공식 홈페이지](https://www.ceos.or.kr/) |
+| Central MakeUs Challenge(CMC) | 수익형 앱 런칭 동아리 | [공식 홈페이지](https://makeus.in/) [instagram](https://www.instagram.com/makeus_challenge/) |
+| University MakeUs Challenge(UMC) | 대학교 연합 앱런칭 동아리 | [1기 모집 노션](https://makeus-challenge.notion.site/University-MakeUs-Challenge-UMC-3a1b2a30fdd94f428cdbd5f91bdf0a5c) |
+| UPF | 프로젝트 완성, 고도화를 위한 팀 부스팅 프로그램 | [Notion](https://unit.center/upf), [facebook](https://www.facebook.com/unit.center) |
+
 
 <br />
 
@@ -406,6 +453,12 @@
     <td align="center"><a href="https://jhk0530.medium.com/"><img src="https://avatars.githubusercontent.com/u/6457691?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jinhwan Kim</b></sub></a><br /><a href="https://github.com/brave-people/Dev-Event/commits?author=jhk0530" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/rockdam"><img src="https://avatars.githubusercontent.com/u/10398751?v=4?s=100" width="100px;" alt=""/><br /><sub><b>rockdam</b></sub></a><br /><a href="https://github.com/brave-people/Dev-Event/commits?author=rockdam" title="Code">💻</a></td>
     <td align="center"><a href="http://chop-sui.github.io"><img src="https://avatars.githubusercontent.com/u/55661741?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jeong Suh</b></sub></a><br /><a href="https://github.com/brave-people/Dev-Event/commits?author=chop-sui" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/shinplest"><img src="https://avatars.githubusercontent.com/u/24619485?v=4?s=100" width="100px;" alt=""/><br /><sub><b>JAIHYOUNG SHIN</b></sub></a><br /><a href="https://github.com/brave-people/Dev-Event/commits?author=shinplest" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/zettalyst"><img src="https://avatars.githubusercontent.com/u/71296846?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Zetta (hogyun.yu)</b></sub></a><br /><a href="https://github.com/brave-people/Dev-Event/commits?author=zettalyst" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/chengxxi"><img src="https://avatars.githubusercontent.com/u/71359467?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Seunghee Han</b></sub></a><br /><a href="https://github.com/brave-people/Dev-Event/commits?author=chengxxi" title="Code">💻</a></td>
+    <td align="center"><a href="http://ohsuz.dev"><img src="https://avatars.githubusercontent.com/u/59340911?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Suzie Oh</b></sub></a><br /><a href="https://github.com/brave-people/Dev-Event/commits?author=ohsuz" title="Code">💻</a></td>
   </tr>
 </table>
 

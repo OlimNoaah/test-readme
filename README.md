@@ -17,10 +17,9 @@
 <!-- <img src="./static/dev-event-new-web.png?raw=true"> -->
 <img src="https://user-images.githubusercontent.com/67247530/179222382-1c12e54d-fb11-4f1c-915d-58b7d65afebd.png">
 
-
+<br />
 <br />
 
-데브 이벤트의 웹 버전이 공개되었습니다! <br />
 👉 [데브 이벤트 웹 바로가기](https://dev-event.vercel.app/events)
 
 <br />

@@ -15,7 +15,7 @@
 
 <div align=center>
 <!-- <img src="./static/dev-event-new-web.png?raw=true"> -->
-<img src="https://user-images.githubusercontent.com/67247530/179222382-1c12e54d-fb11-4f1c-915d-58b7d65afebd.png">
+<img src="https://user-images.githubusercontent.com/67247530/179222701-9ca4728d-f1e0-4fd1-9b77-a29d88ddea21.png">
 
 <br />
 <br />

@@ -24,16 +24,16 @@
 
 <p align="center">
     <a href="https://dev-event.vercel.app/events">
-      <img src="./static/display_banner/web.png?raw=true" width="21%" />
+      <img src="https://github.com/brave-people/dev-event/blob/master/static/display_banner/web.png?raw=true" width="21%" />
     </a>
     <!-- <a href="https://play.google.com/store/apps/details?id=com.bravepeople.devevent.android.app">
       <img src="./static/display_banner/android.png?raw=true" width="21%" />
     </a> -->
     <a href="https://github.com/brave-people/Dev-Event-Subscribe">
-      <img src="./static/display_banner/email.png?raw=true" width="21%" />
+      <img src="https://github.com/brave-people/dev-event/blob/master/static/display_banner/email.png?raw=true" width="21%" />
     </a>
     <a href="https://github.com/brave-people/Dev-Event#contributors-">
-      <img src="./static/display_banner/contributors.png?raw=true" width="21%" />
+      <img src="https://github.com/brave-people/dev-event/blob/master/static/display_banner/contributors.png?raw=true" width="21%" />
     </a>
 </p>
 
@@ -48,7 +48,7 @@
 <img src="https://github.com/brave-people/dev-event/blob/master/static/focus_banner/241026_sk.jpg?raw=true">
 </a>
 
-> 클릭시 링크로 이동합니다.
+> 클릭시 행사로 이동합니다.
 
 <hr />
 <br />

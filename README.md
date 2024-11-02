@@ -16,23 +16,23 @@
 
 <p align="center">
     <a href="https://dev-event.vercel.app/events">
-      <img src="https://github.com/brave-people/dev-event/blob/master/static/display_banner/web.png?raw=true" width="16.8%" />
+      <img src="https://github.com/brave-people/dev-event/blob/master/static/display_banner/web.png?raw=true" width="16%" />
     </a>
     <a href="https://play.google.com/store/apps/details?id=com.bravepeople.devevent.android.app">
-      <img src="https://github.com/brave-people/Dev-Event/blob/master/static/display_banner/android.png?raw=true" width="16.8%" />
+      <img src="https://github.com/brave-people/Dev-Event/blob/master/static/display_banner/android.png?raw=true" width="16%" />
     </a>
         <a href="https://apps.apple.com/kr/app/%EB%8D%B0%EB%B8%8C%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EA%B0%9C%EB%B0%9C%EC%9E%90-%ED%96%89%EC%82%AC-%EC%A0%95%EB%B3%B4/id6502765233">
       <!-- <img src="https://github.com/brave-people/Dev-Event/tree/master/static/display_banner/iOS.png?raw=true" width="16.8%" /> -->
-      <img src="https://github.com/brave-people/Dev-Event/blob/master/static/display_banner/android.png?raw=true" width="16.8%" />
+      <img src="https://github.com/brave-people/Dev-Event/blob/master/static/display_banner/android.png?raw=true" width="16%" />
     </a>
     <a href="https://www.instagram.com/dev.event.official/">
-      <img src="https://github.com/brave-people/Dev-Event/blob/master/static/display_banner/instagram.png?raw=true" width="16.8%" />
+      <img src="https://github.com/brave-people/Dev-Event/blob/master/static/display_banner/instagram.png?raw=true" width="16%" />
     </a>
     <a href="https://github.com/brave-people/Dev-Event-Subscribe">
-      <img src="https://github.com/brave-people/dev-event/blob/master/static/display_banner/email.png?raw=true" width="16.8%" />
+      <img src="https://github.com/brave-people/dev-event/blob/master/static/display_banner/email.png?raw=true" width="16%" />
     </a>
     <a href="https://github.com/brave-people/Dev-Event#contributors-">
-      <img src="https://github.com/brave-people/dev-event/blob/master/static/display_banner/contributors.png?raw=true" width="16.8%" />
+      <img src="https://github.com/brave-people/dev-event/blob/master/static/display_banner/contributors.png?raw=true" width="16%" />
     </a>
 </p>
 

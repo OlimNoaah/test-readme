@@ -14,26 +14,25 @@
 <br />
 <br />
 
-<!-- 
-<p align="center">
-  <a href="https://play.google.com/store/apps/details?id=com.bravepeople.devevent.android.app">
-    <img src="./static/display_banner/event.png?raw=true" width="84%">
-  </a>
-</p>
--->
-
 <p align="center">
     <a href="https://dev-event.vercel.app/events">
-      <img src="https://github.com/brave-people/dev-event/blob/master/static/display_banner/web.png?raw=true" width="21%" />
+      <img src="https://github.com/brave-people/dev-event/blob/master/static/display_banner/web.png?raw=true" width="16.8%" />
     </a>
-    <!-- <a href="https://play.google.com/store/apps/details?id=com.bravepeople.devevent.android.app">
-      <img src="./static/display_banner/android.png?raw=true" width="21%" />
-    </a> -->
+    <a href="https://play.google.com/store/apps/details?id=com.bravepeople.devevent.android.app">
+      <img src="https://github.com/brave-people/Dev-Event/blob/master/static/display_banner/android.png?raw=true" width="16.8%" />
+    </a>
+        <a href="https://apps.apple.com/kr/app/%EB%8D%B0%EB%B8%8C%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EA%B0%9C%EB%B0%9C%EC%9E%90-%ED%96%89%EC%82%AC-%EC%A0%95%EB%B3%B4/id6502765233">
+      <!-- <img src="https://github.com/brave-people/Dev-Event/tree/master/static/display_banner/iOS.png?raw=true" width="16.8%" /> -->
+      <img src="https://github.com/brave-people/Dev-Event/blob/master/static/display_banner/android.png?raw=true" width="16.8%" />
+    </a>
+    <a href="https://www.instagram.com/dev.event.official/">
+      <img src="https://github.com/brave-people/Dev-Event/blob/master/static/display_banner/instagram.png?raw=true" width="16.8%" />
+    </a>
     <a href="https://github.com/brave-people/Dev-Event-Subscribe">
-      <img src="https://github.com/brave-people/dev-event/blob/master/static/display_banner/email.png?raw=true" width="21%" />
+      <img src="https://github.com/brave-people/dev-event/blob/master/static/display_banner/email.png?raw=true" width="16.8%" />
     </a>
     <a href="https://github.com/brave-people/Dev-Event#contributors-">
-      <img src="https://github.com/brave-people/dev-event/blob/master/static/display_banner/contributors.png?raw=true" width="21%" />
+      <img src="https://github.com/brave-people/dev-event/blob/master/static/display_banner/contributors.png?raw=true" width="16.8%" />
     </a>
 </p>
 
@@ -46,98 +45,15 @@
 ## 시선집중 👀
 
 <a href="https://skaisummit.com/">
-<img src="https://github.com/brave-people/dev-event/blob/master/static/focus_banner/241026_sk.jpg?raw=true">
+  <img src="https://github.com/brave-people/dev-event/blob/master/static/focus_banner/241026_sk.jpg?raw=true">
+</a>
+<a href="https://www.sdc-korea.com/?refer=github_dev_event">
+  <img src="https://github.com/brave-people/dev-event/blob/master/static/focus_banner/241101_samsung.jpg?raw=true">
 </a>
 
 > 클릭시 행사로 이동합니다.
 
 <hr />
-<br />
-
-
-## 24년 10월
-- __[KWDC24](https://kwdc.dev/2024/)__
-  - 분류: `오프라인(서울 광진구)`, `유료`, `기술일반`
-  - 주최: KWDC 준비위원회
-  - 일시: 10. 25(금)
-
-- __[2024 빅콘테스트 개최](https://festa.io/events/5963)__
-  - 분류: `오프라인`, `무료`, `AI`, `대회`
-  - 주최: 한국정보통신진흥협회
-  - 접수: 09. 09(월) ~ 10. 25(금)
-- __[Python PIP 배포 실습 및 Airflow 소개 Hands-On!](https://festa.io/events/6083)__
-  - 분류: `오프라인`, `무료`, `기술일반`
-  - 주최: Airflow 한국 사용자 모임
-  - 접수: 10. 10(목) ~ 10. 25(금)
-- __[백엔드 단위 테스팅코드 작성 방법](https://flatcampus.liveklass.com/classes/221355)__
-  - 분류: `온라인`, `무료`, `벡엔드`
-  - 주최: flatcampus
-  - 접수: 10. 17(목) ~ 10. 25(금) 23:59
-- __[코드로 관리하는 NHN Cloud with Terraform](https://www.nhncloud.com/kr/edu/attend/detail/7e539dca-a0ac-485f-90fc-b3c11add6b0e)__
-  - 분류: `오프라인(서울 강남)`, `무료`, `클라우드`
-  - 주최: NHN Cloud
-  - 접수: 10. 17(토) ~ 10. 27(일)
-- __[파이콘 한국 2024](https://2024.pycon.kr/)__
-  - 분류: `오프라인(수원 컨벤션센터)`, `유료`, `파이썬`
-  - 주최: 파이콘 한국 준비위원회
-  - 일시: 10. 26(토) ~ 10. 27(일)
-- __[해커스 프론트엔드 부트캠프 1기 모집](https://www.code-c.kr/post/activity/519742)__
-  - 분류: `오프라인(수원 컨벤션센터)`, `무료`, `프론트엔드`
-  - 주최: 해커스교육그룹
-  - 접수: 10. 21(월) ~ 10. 27(일)
-- __[프론트엔드 프로젝트 캠프 : React 과정](https://festa.io/events/6244)__
-  - 분류: `오프라인(서울 강서)`, `무료`, `프론트엔드`, `교육`
-  - 주최: 스나이퍼팩토리
-  - 접수: 10. 07(월) ~ 10. 27(일)
-- __[AI 시대에서 살아남는 육각형 인재가 되는 방법](https://fastcampus.co.kr/b2g_campcon)__
-  - 분류: `온라인`, `무료`, `AI`
-  - 주최: 패스트캠퍼스
-  - 접수: 10. 15(화) ~ 10. 28(일)
-- __[구름톤 딥다이브](https://deepdive.goorm.io/)__
-  - 분류: `온라인`, `무료`, `교육`
-  - 주최: 구름
-  - 일시: 10. 08(화) ~ 10. 31(목)
-- __[UNIVERSE 24](https://githubuniverse.com/)__
-  - 분류: `오프라인(미국 캘리포니아)`, `유료`, `기술일반`
-  - 주최: Github
-  - 접수: 07. 31(수) ~ 10. 30(수)
-- __[데브콘 대전 : 퇴근길 치맥 밋업](https://festa.io/events/uqsTiWouunreTDdFTiRxa8)__
-  - 분류: `오프라인(대구 유성구)`, `유료`, `모임`
-  - 주최: K-DEVCON
-  - 접수: 07. 31(수) ~ 10. 30(수)
-- __[2024 뉴스빅데이터 해커톤](https://newsbigdata.kr/)__
-  - 분류: `온라인`, `무료`, `대회`, `빅데이터`
-  - 주최: 한국언론진흥재단
-  - 접수: 10. 16(수) ~ 10. 30(수)
-- __[Agora RTE Korea 2024 : AI 스타트업의 실시간 소통 기술(RTE) 활용](https://event-us.kr/agoraio/event/92570)__
-  - 분류: `오프라인(서울 강남)`, `무료`, `AI`
-  - 주최: Agora
-  - 접수: 10. 25(금) ~ 10. 30(수) 09:00
-- __[제 8회 개방형 클라우드 플랫폼(K-PaaS) 기반 서비스 개발 아이디어 공모전](https://contest.k-paas.org/)__
-  - 분류: `온라인`, `무료`, `클라우드`
-  - 주최: K-PaaS
-  - 접수: 04. 01(월) ~ 10. 31(목)
-- __[Arm Tech Symposia 2024 Seoul](https://events.arm.com/TechSymposia/seoul-landing)__
-  - 분류: `오프라인(서울)`, `무료`, `기술일반`
-  - 주최: arm
-  - 접수: 09. 30(월) ~ 10. 31(목)
-- __[SK AI SUMMIT](https://skaisummit.com/)__
-  - 분류: `오프라인(서울 강남)`, `무료`, `AI`
-  - 주최: SK
-  - 접수: 10. 07(월) ~ 10. 31(목)
-- __[DatadogKRUG 2회 밋업](https://datadogkrug.vercel.app/events/2)__
-  - 분류: `오프라인(서울 서초)`, `유료`, `기술일반`
-  - 주최: DatadogKRUG
-  - 일시: 10. 31(목) 19:30 ~ 21:00
-- __[Arm Tech Symposia 2024 Seoul](https://events.arm.com/TechSymposia/seoul-landing)__
-  - 분류: `오프라인(서울 용산)`, `무료`, `기술일반`
-  - 주최: ARM
-  - 접수: 10. 18(금) ~ 10. 31(목)
-- __[UDC 2024](https://udc.dunamu.com/ticket/registration)__
-  - 분류: `오프라인(서울 중구)`, `온라인`, `유료`, `기술일반`
-  - 주최: 두나무
-  - 접수: 09. 02(월) ~ 10. 31(목)
-
 <br />
 
 ## 24년 11월
@@ -158,10 +74,18 @@
   - 분류: `오프라인(경기 성남)`, `무료`, `기술일반`
   - 주최: 아산 비영리스타트업
   - 접수: 10. 16(수) ~ 11. 04(월)
+- __[코드잇 오피스에서 모각코 어때요?](https://docs.google.com/forms/d/e/1FAIpQLSeE3UVhpzQuhGJAHtySh1qyrbF2KARCg_3R-p_lIokFXJKnwQ/viewform)__
+  - 분류: `오프라인(서울 중구)`, `무료`, `모임`
+  - 주최: 코드잇
+  - 접수: 10. 31(목) ~ 11. 04(월)
 - __[마일스콘: 개발자로서의 첫 걸음부터 지속가능한 개발자 삶의 이정표](https://festa.io/events/6120)__
   - 분류: `오프라인(경기 성남)`, `유료`, `커리어`
   - 주최: GDG on Campus Gachon
   - 접수: 10. 05(토) ~ 11. 05(화)
+- __[차년도 USG AI·데이터 문제해결 제조혁신 경진대회](https://aifactory.space/page/usg)__
+  - 분류: `온라인`, `무료`, `대회`, `데이터`
+  - 주최: 울산경남지역혁신플랫폼
+  - 접수: 10. 21(월) ~ 11. 05(화)
 - __[FriendliAI 첫 서울 밋업 & GAISA 두 번째 Homebrew AI 포럼](https://festa.io/events/6243)__
   - 분류: `오프라인(경기 강남)`, `무료`, `AI`
   - 주최: 프렌들리에이아이
@@ -190,6 +114,14 @@
   - 분류: `오프라인(서울 역삼)`, `무료`, `클라우드`
   - 주최: 솔트웨어
   - 접수: 10. 23(수) ~ 11. 11(월) 18:00
+- __[[포텐업] 데이터·AI & 게임 클라이언트 협업 트랙 1기](https://www.wanted.co.kr/events/potenup_01)__
+  - 분류: `오프라인(서울 송파)`, `무료`, `교육`, `AI`
+  - 주최: 원티드
+  - 접수: 10. 23(수) ~ 11. 11(월) 18:00
+- __[데이터부터 모델 평가까지, 비용 효율적인 한국어 생성형 AI 도입 전략](https://walla.my/v/RQNxXu1mzCyj8MjwEU4K)__
+  - 분류: `온라인`, `무료`, `AI`
+  - 주최: 원티드TEXTNET
+  - 접수: 11. 01(금) ~ 11. 11(월)
 - __[AWS 마이그레이션 점프업 세미나](https://okky.kr/articles/1516164?topic=it&page=1)__
   - 분류: `오프라인(서울 역삼)`, `무료`, `클라우드`
   - 주최: 솔트웨어
@@ -198,10 +130,26 @@
   - 분류: `오프라인(서울 서대문구)`, `유료`, `커리어`
   - 주최: 한빛앤
   - 접수: 10. 07(월) ~ 11. 13(수)
+- __[실리콘밸리의 한국인 2024](https://event-us.kr/startupall/event/93014)__
+  - 분류: `오프라인(서울 성동구)`, `유료`, `기술일반`
+  - 주최: 스타트업얼라이언스
+  - 접수: 10. 14(월) ~ 11. 13(수) 18:00
+- __[5-7년 차 미들레벨을 위한 | 프리온보딩 커리어 점프](https://www.wanted.co.kr/events/pre_jump_5)__
+  - 분류: `온라인`, `무료`, `커리어`
+  - 주최: 원티드
+  - 접수: 10. 30(수) ~ 11. 14(목)
+- __[코드잇 스프린트 투어](https://festa.io/events/6332)__
+  - 분류: `오프라인(서울 강남)`, `무료`, `모임`
+  - 주최: 코드잇
+  - 접수: 10. 14(월) ~ 11. 15(금)
 - __[Open Source Conference (오쏘콘)](https://festa.io/events/6160)__
   - 분류: `오프라인(인천 연수구)`, `유료`, `모임`
   - 주최: GDG Songdo
   - 접수: 10. 14(월) ~ 11. 15(금)
+- __[2024 빅콘테스트 참가기한 연장](https://www.bigcontest.or.kr)__
+  - 분류: `오프라인(서울 마포)`, `무료`, `빅데이터`
+  - 주최: 한국정보통신진흥협회
+  - 접수: 10. 28(월) ~ 11. 15(금)
 - __[코드잇 CEO와 함께하는 1:1 상담](https://codeit-sprint-consulting.oopy.io/)__
   - 분류: `온라인`, `무료`, `커리어`
   - 주최: 코드잇
@@ -214,10 +162,34 @@
   - 분류: `온라인`, `무료`, `AI`
   - 주최: 아이펠
   - 접수: 10. 21(월) ~ 11. 18(토)
+- __[AI를 쉽고 유쾌하게, 디지털 신기술 세미나](https://pkit.kr/edudetail?id=102057)__
+  - 분류: `오프라인(세종)`, `무료`, `AI`
+  - 주최: 세종테크노파크
+  - 접수: 10. 24(목) ~ 11. 21(월)
+- __[삼성 개발자 콘퍼런스 코리아 2024 (SDC24 Korea)](https://www.sdc-korea.com/?refer=github_dev_event)__
+  - 분류: `오프라인(서울 광진구)`, `무료`, `기술일반`
+  - 주최: 삼성전자
+  - 접수: 10. 21(월) ~ 11. 22(화)
+- __[2024 Off-QA 모임](https://festa.io/events/6334)__
+  - 분류: `오프라인(서울 역삼)`, `무료`, `기술일반`
+  - 주최: QA Korea Conference
+  - 접수: 11. 01(금) ~ 11. 22(화)
 - __[Let'Swift 2024](https://festa.io/events/5772)__
   - 분류: `오프라인(서울 광진구)`, `유료`, `iOS`
   - 주최: Let'Swift
   - 접수: 10. 21(월) ~ 11. 22(화)
+- __[[CJ올리브네트웍스] 클라우드 웨이브 4기 모집](https://dt.korchamhrd.net/bbs/bbsDetail.do?bbs_id=2268&rootMenuId=5065&menuId=5076&currentPage=1&customer_page_list=10&list_type=1&bbs_sno=219437)__
+  - 분류: `오프라인(인천 연수구)`, `유료`, `클라우드`
+  - 주최: CJ올리브네트웍스
+  - 접수: 10. 28(월) ~ 11. 24(목)
+- __[2024 블록체인 진흥주간 x 웹 3.0 컨퍼런스](https://event-us.kr/bcgwweb3conference/event/93899)__
+  - 분류: `오프라인(서울 용산)`, `무료`, `기술일반`
+  - 주최: 과학기술정보통신부
+  - 접수: 10. 29(화) ~ 11. 26(화) 23:30
+- __[한국 SAFe 커뮤니티 24년 11월 밋업](https://festa.io/events/6300)__
+  - 분류: `오프라인(서울 용산)`, `유료`, `기술일반`
+  - 주최: 한국 SAFe 커뮤니티
+  - 접수: 10. 29(화) ~ 11. 27(수)
 
 <br />
 
